@@ -7,79 +7,82 @@
     <title>Formulário de Cadastro</title>
   </head>
   <body>
-    <form>
-      <div>
-        <label for="name">Nome</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          placeholder="Digite seu nome aqui..."
-        />
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          placeholder="Digite seu email aqui..."
-        />
-      </div>
-      <div>
-        <label for="description">Descrição</label>
-        <textarea
-          id="description"
-          name="description"
-          cols="25"
-          rows="5"
-          placeholder="O que o motivou a participar do evento?"
-        ></textarea>
-      </div>
-      <div>
-        <label for="moduleselection">Módulo</label>
-        <select name="module" id="moduleselection">
-          <option value="">Escolher Módulo</option>
-          <option value="m1">M1</option>
-          <option value="m2">M2</option>
-          <option value="m3">M3</option>
-          <option value="m4">M4</option>
-          <option value="m5">M5</option>
-          <option value="m6">M6</option>
-        </select>
-      </div>
-      <div>
-        <label for="password">Senha</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          required
-          placeholder="Digite sua senha aqui..."
-        />
-      </div>
-      <div>
-        <label for="confirmpassword">Confirmar Senha</label>
-        <input
-          type="password"
-          id="confirmpassword"
-          name="confirmpassword"
-          required
-          placeholder="Confirme sua senha..."
-        />
-      </div>
-      <div>
-        Deseja receber novidades em seu email?
-        <label for="yes">Sim</label>
-        <input type="radio" id="yes" name="newsletter" value="true" />
-        <label for="no">Não</label>
-        <input type="radio" id="no" name="newsletter" value="false" />
-      </div>
-      <div>
-        <input type="submit" value="Enviar" />
-      </div>
-    </form>
+    <legend><strong>Formulário de Cadastro</strong></legend>
+    <fieldset>
+      <form>
+        <div>
+          <label for="name">Nome</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Digite seu nome aqui..."
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Digite seu email aqui..."
+          />
+        </div>
+        <div>
+          <label for="description">Descrição</label>
+          <textarea
+            id="description"
+            name="description"
+            cols="25"
+            rows="5"
+            placeholder="O que o motivou a participar do evento?"
+          ></textarea>
+        </div>
+        <div>
+          <label for="moduleselection">Módulo</label>
+          <select name="module" id="moduleselection">
+            <option value="">Escolher Módulo</option>
+            <option value="m1">M1</option>
+            <option value="m2">M2</option>
+            <option value="m3">M3</option>
+            <option value="m4">M4</option>
+            <option value="m5">M5</option>
+            <option value="m6">M6</option>
+          </select>
+        </div>
+        <div>
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Digite sua senha aqui..."
+          />
+        </div>
+        <div>
+          <label for="confirmpassword">Confirmar Senha</label>
+          <input
+            type="password"
+            id="confirmpassword"
+            name="confirmpassword"
+            required
+            placeholder="Confirme sua senha..."
+          />
+        </div>
+        <div>
+          Deseja receber novidades em seu email?
+          <label for="yes">Sim</label>
+          <input type="radio" id="yes" name="newsletter" value="true" />
+          <label for="no">Não</label>
+          <input type="radio" id="no" name="newsletter" value="false" />
+        </div>
+        <div>
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </fieldset>
   </body>
 </html>
