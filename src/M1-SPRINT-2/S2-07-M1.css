@@ -3,11 +3,11 @@
   font-family: "Poppins";
 }
 .title-main {
-    margin-top: 20px;
-    margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .text-center {
   text-align: center;
@@ -24,14 +24,15 @@ section {
   padding-right: 7px;
   padding-bottom: 2px;
 }
-.paragraph-1, .paragraph-2 {
-    margin-top: 0;   
+.paragraph-1,
+.paragraph-2 {
+  margin-top: 0;
 }
 .paragraph-1 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .paragraph-2 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .underline {
   text-decoration: underline;
@@ -41,10 +42,10 @@ section {
   color: #ffffff;
 }
 footer {
-    margin-top: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-footer.background-black > p{
-    margin: 0;
+footer.background-black > p {
+  margin: 0;
 }
