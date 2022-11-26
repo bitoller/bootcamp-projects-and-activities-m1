@@ -3,8 +3,8 @@ I'll be posting here all the activities and projects I had to code during my Ful
 
 <hr />
 
-The `S` stands for `SPRINT` <strong>e.g.</strong> `S1` means `SPRINT 1`.
-The numbers are the class numbers. Every class had a name and a number.
+The `S` stands for `SPRINT` <strong>e.g.</strong> `S1` means `SPRINT 1`.<br />
+The numbers are the class numbers. Every class had a name and a number.<br />
 The `M` stands for `Modules` <strong>e.g.</strong> `M1` means `Module 1`. That's how the bootcamp curriculum is separated.
 
 <hr />
