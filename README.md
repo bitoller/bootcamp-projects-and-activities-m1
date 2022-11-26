@@ -12,3 +12,6 @@ For my third activity I had to code a registration form adding different `input`
 
 ## S1-26-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-1/S1-26-M1.html)"
 For my fourth activity I had to code a simple blog adding 4 favorite articles from Kenzie Academy properly linking the source page using `article`, `a href`, `target blank` and more. I also had to add a Newsletter email `input` and `submit` button.
+
+## S2-07-M1 - "[CSS SELETORES](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-07-M1.html)"
+For my fifth activity I had to clone part of a website using HTML and CSS, adding different properties like `font`, `margin`, `padding` and more.
