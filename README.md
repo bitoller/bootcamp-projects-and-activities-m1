@@ -26,3 +26,6 @@ For my next activity I had to replicate a website from an example that was given
 
 ## S2-11-M1 - "[BARRA DE NAVEGAÇÃO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-11-M1.html)"
 For my next activity I had to replicate the `nav` part from an example that was given using `HTML` and `CSS`, adding `margin`, `padding`, `font` and more.
+
+## S2-13-M1 - "[NEWSLETTER](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-13-M1.html)"
+For my next activity I had to replicate a Newsletter `form` from an example that was given using `HTML` and `CSS`, adding `color`, `margin`, `padding`, `:hover`, `:focus` and more.
