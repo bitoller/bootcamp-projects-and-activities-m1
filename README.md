@@ -21,8 +21,8 @@ For my next activity I had to code a registration form adding different `input` 
 ## S1-26-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-1/S1-26-M1.html)"
 For my next activity I had to code a simple blog adding 4 favorite articles from Kenzie Academy properly linking the source page using `article`, `a href`, `target blank` and more. I also had to add a Newsletter email `input` and `submit button`.
 
-## S2-07-M1 - "[CSS SELETORES](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-07-M1.html)"
+## S2-07-M1 - "[MEU SITE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-07-M1.html)"
 For my next activity I had to replicate a website from an example that was given using `HTML` and `CSS`, adding different properties like `font`, `color`, `text-align` and more.
 
-## S2-11-M1 - "[MARGIN E PADDING](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-11-M1.html)"
+## S2-11-M1 - "[BARRA DE NAVEGAÇÃO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-11-M1.html)"
 For my next activity I had to replicate the `nav` part from an example that was given using `HTML` and `CSS`, adding `margin`, `padding`, `font` and more.
