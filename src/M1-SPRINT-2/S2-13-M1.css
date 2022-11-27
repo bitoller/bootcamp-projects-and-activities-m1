@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap");
+body {
+  text-align: center;
+  margin-top: 60px;
+}
+.section {
+  font-family: "Barlow";
+  width: 250px;
+  border: solid;
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: #e9ecef;
+  background-color: #f8f9fa;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}
+h3 {
+  margin-bottom: 40px;
+}
+label {
+  display: block;
+  text-align: left;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+input#email {
+  font-family: "Barlow";
+  background-color: #e9ecef;
+  border: none;
+  font-size: 12px;
+  width: 230px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+input#email:hover {
+  background-color: #dee2e6;
+}
+input#email:focus {
+  background-color: #ffffff;
+  outline-color: #000000;
+}
+input#button {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  background-color: #1971c2;
+  border: none;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input#button:hover {
+  background-color: #1864ab;
+}
+input#button:focus {
+  outline: solid;
+  outline-width: 2px;
+  outline-color: #000000;
+}
