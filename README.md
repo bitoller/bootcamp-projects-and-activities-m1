@@ -1,5 +1,5 @@
 # BOOTCAMP PROJECTS AND ACTIVITIES
-I'll be posting here all the activities and projects I had to code during my Fullstack bootcamp at Kenzie Academy so I can show my progress from zero all the way to a Fullstack Developer.
+I'll be posting here all the activities and projects I had to code during my Full Stack bootcamp at Kenzie Academy so I can show my progress from No Stack all the way to a Full Stack Developer.
 
 <hr />
 
