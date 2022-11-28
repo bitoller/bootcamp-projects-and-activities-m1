@@ -16,10 +16,10 @@ For my first activity I had to replicate part of a website from an example that 
 For my next activity I had to code a profile page with my personal information adding `lists`, `hyperlinks`, `titles`.
 
 ## S1-18-M1 - "[FORMULÁRIO DE CADASTRO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-1/S1-18-M1.html)"
-For my next activity I had to code a registration form adding different `input` tags like `password`, `radio`, `submit button` and more.
+For my next activity I had to code a registration form adding different `input` tags like `password`, `radio`, `input submit` and more.
 
 ## S1-26-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-1/S1-26-M1.html)"
-For my next activity I had to code a simple blog adding 4 favorite articles from Kenzie Academy properly linking the source page using `article`, `a href`, `target blank` and more. I also had to add a Newsletter email `input` and `submit button`.
+For my next activity I had to code a simple blog adding 4 favorite articles from Kenzie Academy properly linking the source page using `article`, `a href`, `target blank` and more. I also had to add a Newsletter `email input` and `input submit`.
 
 ## S2-07-M1 - "[MEU SITE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-07-M1.html)"
 For my next activity I had to replicate a website from an example that was given using `HTML` and `CSS`, adding different properties like `font`, `color`, `text-align` and more.
@@ -28,4 +28,7 @@ For my next activity I had to replicate a website from an example that was given
 For my next activity I had to replicate the `nav` part from an example that was given using `HTML` and `CSS`, adding `margin`, `padding`, `font` and more.
 
 ## S2-13-M1 - "[NEWSLETTER](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-13-M1.html)"
-For my next activity I had to replicate a Newsletter `form` from an example that was given using `HTML` and `CSS`, adding `color`, `margin`, `padding`, `:hover`, `:focus` and more.
+For my next activity I had to replicate a Newsletter `form` from an example that was given using `HTML` and `CSS`, adding `color`, `margin`, `padding`, `hover`, `focus` and more.
+
+## S2-14-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-14-M1.html)"
+For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding `background-image`, `email input`, `button input`, `margin`, `border` and more. I also decided to go one step further and use `parallax` and I changed the `scrollbar` color too.
