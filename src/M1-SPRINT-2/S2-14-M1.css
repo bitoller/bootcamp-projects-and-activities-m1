@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ab76d3;
+}
+::-webkit-scrollbar-track {
+  background: rgba(233, 223, 236, 0.842);
+}
+.card {
+  background-color: rgba(233, 223, 236, 0.842);
+  color: #ab76d3;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 700px;
+  min-height: 200px;
+  padding: 10px;
+  border: dotted;
+  border-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px #ab76d342;
+}
+.parallax {
+  background-image: url("img/pinkbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -3;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+  color: #9a51d3;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.email-card {
+  min-height: 100px;
+}
+.email-card > p {
+  margin-bottom: 2px;
+}
+input#email {
+  background-color: #e9ecef;
+  cursor: pointer;
+  border: none;
+  font-size: 12px;
+  border-style: dotted;
+  border-radius: 5px;
+  border-color: #ab76d3;
+  padding: 5px;
+}
+input#email:hover {
+  background-color: #e9dfecd7;
+}
+input#email:focus {
+  background-color: #e9ecef;
+  outline-color: #ab76d3;
+}
+input#button {
+  background-color: #ab76d3;
+  color: #e9ecef;
+  cursor: pointer;
+  border: none;
+  font-size: 12px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #ab76d3;
+  padding: 5px;
+}
+input#button:hover {
+  background-color: #9a51d3;
+  border-color: #9a51d3;
+}
+input#button:focus {
+  border-color: #521185;
+}
