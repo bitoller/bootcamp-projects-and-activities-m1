@@ -19,10 +19,7 @@ section {
   background-color: #3662ff;
   color: #ffffff;
   line-height: 30px;
-  padding-top: 2px;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 2px;
+  padding: 2px 7px 2px 7px;
 }
 .paragraph-1,
 .paragraph-2 {
