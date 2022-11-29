@@ -11,10 +11,7 @@ body {
   border-radius: 5px;
   border-color: #e9ecef;
   background-color: #f8f9fa;
-  padding-top: 35px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 35px 30px 50px 30px;
   margin: auto;
 }
 h3 {
