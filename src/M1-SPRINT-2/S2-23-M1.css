@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+
+body {
+  background-color: rgb(18 18 20);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Work Sans", sans-serif;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+.card-title {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.card-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: rgb(156 156 156);
+  max-width: 700px;
+  margin: auto;
+}
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  margin-bottom: 153px;
+  font-weight: 600;
+  padding: 0;
+}
+.user1,
+.user2,
+.user3,
+.user4 {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.img4 {
+  padding: 46px 48px 48px 48px;
+  background-color: rgb(30 30 32);
+}
+li > img {
+  border-radius: 8px;
+}
+li > img:hover {
+  outline: solid;
+  outline-width: 3px;
+  outline-color: rgb(255 255 255);
+  cursor: pointer;
+}
+li:hover {
+  color: rgb(255 255 255);
+}
+.card-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+input#button {
+  background-color: rgb(18 18 20);
+  color: rgb(255 255 255);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 15px 40px 15px 40px;
+}
+input#button:hover {
+  background-color: rgb(255 255 255);
+  color: rgb(18 18 20);
+  cursor: pointer;
+}
