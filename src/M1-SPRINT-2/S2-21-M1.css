@@ -2,7 +2,7 @@
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 header {
   display: flex;
@@ -24,22 +24,59 @@ section {
   display: flex;
   max-width: 780px;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
   padding-top: 50px;
-  gap: 20px;
+  column-gap: 40px;
+  row-gap: 55px;
+}
+figure {
+  margin: 0;
+}
+span {
+  background-color: #f6f6f6;
+  padding: 3px;
 }
 .article1,
 .article2,
 .article3,
 .article4 {
-  max-width: 286px;
+  width: 286px;
+  height: 350px;
 }
 h3 {
   font-size: 16px;
 }
-
+p {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+aside {
+  display: flex;
+  max-width: 430px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding-top: 26px;
+  gap: 20px;
+}
+aside > article {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 290px;
+}
+h4 {
+  font-size: 14px;
+  margin: 0;
+}
 footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1000px;
   color: #f3f4f5;
   background-color: #0d0d0e;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
