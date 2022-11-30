@@ -37,7 +37,7 @@ For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding
 For my next activity I had to replicate a `header` section from an example that was given using `HTML` and `CSS`, utilizing the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more.
 
 ## S2-21-M1 - "[PÁGINA BLOG](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-21-M1.html)"
-Still coding, under construction.
+For my next activity I had to replicate a Blog Post from an example that was given using `HTML` and `CSS`, utilizing the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `gap` and more.
 
 ## S2-23-M1 - "[KENZIEFLIX](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-23-M1.html)"
 For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img` for the profile pictures and logo, `border`, `hover`, `flexbox` concepts and more.
