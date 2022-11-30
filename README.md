@@ -32,3 +32,15 @@ For my next activity I had to replicate a Newsletter `form` from an example that
 
 ## S2-14-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-14-M1.html)"
 For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding `background-image`, `email input`, `button input`, `margin`, `border` and more. I also decided to go one step further and use `parallax` and I changed the `scrollbar` color too.
+
+## S2-20-M1 - "[FLEXBOX MENU](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-20-M1.html)"
+For my next activity I had to replicate a `header` section from an example that was given using `HTML` and `CSS`, utilizing the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more.
+
+## S2-21-M1 - "[PÁGINA BLOG](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-21-M1.html)"
+Still coding, under construction.
+
+## S2-23-M1 - "[KENZIEFLIX](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-23-M1.html)"
+For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img` for the profile pictures and logo, `border`, `hover`, `flexbox` concepts and more.
+
+## S2-24-M1 - "[E-COMMERCE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-24-M1.html)"
+Still coding, under construction.
