@@ -46,10 +46,10 @@ ol {
 figure {
   margin: 0;
 }
-figure > img {
+li > figure > img {
   border-radius: 8px;
 }
-figure > img:hover {
+li > figure > img:hover {
   outline: solid;
   outline-width: 3px;
   outline-color: rgb(255 255 255);
