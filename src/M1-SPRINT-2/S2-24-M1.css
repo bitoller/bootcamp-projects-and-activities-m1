@@ -31,7 +31,7 @@ li > a {
 .list4 {
   padding-left: 40px;
 }
-input#button {
+input.button {
   height: 35px;
   background-color: #4c6ef5;
   color: #ffffff;
@@ -112,6 +112,10 @@ figure > img {
 .margin {
   margin-bottom: 41px;
 }
+h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 p {
   margin-bottom: 28px;
 }
@@ -123,4 +127,7 @@ input.add-to-cart {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+input.hover:hover {
+  background-color: #1864ab;
 }
