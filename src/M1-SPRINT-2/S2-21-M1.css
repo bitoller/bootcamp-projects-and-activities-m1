@@ -45,6 +45,10 @@ span {
 h3 {
   font-size: 16px;
 }
+h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 p {
   font-size: 12px;
   padding-bottom: 15px;
@@ -66,6 +70,10 @@ aside > article {
 h4 {
   font-size: 14px;
   margin: 0;
+}
+h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 footer {
   display: flex;
