@@ -43,4 +43,4 @@ For my next activity I had to replicate a Blog Post from an example that was giv
 For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img` for the profile pictures and logo, `border`, `hover`, `flexbox` concepts and more.
 
 ## S2-24-M1 - "[E-COMMERCE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-24-M1.html)"
-Still coding, under construction.
+For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet), plus `border`, `padding`, `flexbox` concepts and more.
