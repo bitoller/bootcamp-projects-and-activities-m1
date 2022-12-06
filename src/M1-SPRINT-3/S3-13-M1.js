@@ -80,7 +80,7 @@ e a última letra de uma string, a primeira deve ser alertada em caixa alta(Mai�
 e a segunda em caixa baixa(Minúscula).*/
 
 let word2 = prompt(
-  "Digite uma palavra ou frase para a definir qual é a primeira e última letra"
+  "Digite uma palavra ou frase para definir qual é a primeira e última letra"
 );
 let firstLetter = word2.charAt(0).toUpperCase();
 let lastLetter = word2.charAt(word2.length - 1).toLowerCase();
