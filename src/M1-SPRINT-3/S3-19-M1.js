@@ -30,11 +30,9 @@ let age = parseInt(prompt("Digite sua idade"));
 let isAccompanied = prompt("Está acompanhado? Digite s para Sim e n para Não");
 
 if (age < 18) {
-  result = alert(
-    `Entrada não está permitida para ${nameValue}: Menor de Idade!`
-  );
+  alert(`Entrada não está permitida para ${nameValue}: Menor de Idade!`);
 } else if (isAccompanied.toLowerCase() == "s") {
-  result = alert(`Entrada permitida para ${nameValue}: Conceder Desconto`);
+  alert(`Entrada permitida para ${nameValue}: Conceder Desconto`);
 } else {
-  result = alert(`Entrada permitida para ${nameValue}: Valor Integral`);
+  alert(`Entrada permitida para ${nameValue}: Valor Integral`);
 }
