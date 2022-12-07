@@ -30,7 +30,7 @@ For my next activity I had to replicate the `nav` part from an example that was 
 ## S2-13-M1 - "[NEWSLETTER](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-13-M1.html)"
 For my next activity I had to replicate a Newsletter `form` from an example that was given using `HTML` and `CSS`, adding `color`, `margin`, `padding`, `hover`, `focus` and more.
 
-## S2-14-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-14-M1.html)"
+## S2-14-M1 - "[BLOG DA KENZIE 2.0](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-14-M1.html)"
 For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding `background-image`, `email input`, `button input`, `margin`, `border` and more. I also decided to go one step further and use `parallax` and I changed the `scrollbar` color too.
 
 ## S2-20-M1 - "[FLEXBOX MENU](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-20-M1.html)"
