@@ -52,7 +52,7 @@ For my next activity I had to solve equations using `JavaScript` in the form of 
 For my next activity I had to code an algorithm using `JavaScript` that asked for someone's name, age and it had to verify if the person was alone or not. If the person was underage they weren't allowed in, if the person was older than 18 and wasn't alone the algorithm was supposed to print them a discount, if the person was alone they paid full price. The concepts of `if`, `else if`, `else`, `variables`, `booleans`, `prompts`, `alerts` and more were used.
 
 ## S3-23-M1 - "[LISTA DE EXERCÍCIOS ALGORITMOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-23-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `algorithms`, `strings`, `numbers` and more.
 
 ## S3-24-M1 - "[JAVASCRIPT: IF ELSE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-24-M1.html)"
 Still coding.
