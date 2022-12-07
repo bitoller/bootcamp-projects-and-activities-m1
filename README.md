@@ -45,7 +45,7 @@ For my next activity I had to replicate the Choose User Menu from Netflix as `Ke
 ## S2-24-M1 - "[E-COMMERCE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-24-M1.html)"
 For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet), plus `border`, `padding`, `flexbox` concepts and more.
 
-## S3-13-M1 - "[PRATICANDO COM VARIÁVEIS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-13-M1.html)"
+## S3-14-M1 - "[PRATICANDO COM VARIÁVEIS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-14-M1.html)"
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more.
 
 ## S3-19-M1 - "[DESAFIO PORTARIA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-19-M1.html)"
