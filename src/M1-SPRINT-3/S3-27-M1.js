@@ -153,6 +153,8 @@ Desta forma: "O valor ser pago é de: R$ x"*/
 
 let pestType = parseInt(prompt("Digite o tipo de praga de 1 a 4"));
 let acres = parseFloat(prompt("Digite o tamanho da área em acres"));
+let price = 0;
+let finalPrice = 0;
 
 if (pestType == 1) {
   price = acres * 50;
@@ -164,12 +166,12 @@ if (pestType == 1) {
   price = acres * 250;
 }
 if (acres >= 1000) {
-  areaDiscount = price * 0.05;
+  let areaDiscount = price * 0.05;
   finalPrice = price - areaDiscount;
   alert(`O valor a ser pago é de: R$${finalPrice.toFixed(2)}`);
 } else if (price >= 750) {
-  surplusValue = price - 750;
-  priceDiscount = surplusValue * 0.1;
+  let surplusValue = price - 750;
+  let priceDiscount = surplusValue * 0.1;
   finalPrice = price - priceDiscount;
   alert(`O valor a ser pago é de: R$${finalPrice.toFixed(2)}`);
 } else {
