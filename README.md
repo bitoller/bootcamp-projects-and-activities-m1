@@ -54,9 +54,6 @@ For my next activity I had to code an algorithm using `JavaScript` that asked fo
 ## S3-23-M1 - "[LISTA DE EXERCÍCIOS ALGORITMOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-23-M1.html)"
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `algorithms`, `strings`, `numbers` and more.
 
-## S3-24-M1 - "[JAVASCRIPT: IF ELSE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-24-M1.html)"
-Still coding.
-
 ## S3-25-M1 - "[LISTA DE EXERCÍCIOS ALGORITMOS E LÓGICA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-25-M1.html)"
 Still coding.
 
