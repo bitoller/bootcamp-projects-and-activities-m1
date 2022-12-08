@@ -73,7 +73,7 @@ alert(
 e ele imprima o novo saldo, considerando o reajuste de 1%.*/
 
 let value = parseFloat(prompt("Digite o saldo"));
-let newValue = value + (value * 1) / 100;
+let newValue = value + value * 0.1;
 alert(`O valor do novo saldo é ${newValue}`);
 
 /*10- Construir um aplicativo que calcule a área de um losango.
