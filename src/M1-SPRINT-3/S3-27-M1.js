@@ -166,14 +166,14 @@ if (pestType == 1) {
 if (acres >= 1000) {
   areaDiscount = price * 0.05;
   finalPrice = price - areaDiscount;
-  alert(`O valor ser pago é de: R$${finalPrice.toFixed(2)}`);
+  alert(`O valor a ser pago é de: R$${finalPrice.toFixed(2)}`);
 } else if (price >= 750) {
   surplusValue = price - 750;
   priceDiscount = surplusValue * 0.1;
   finalPrice = price - priceDiscount;
-  alert(`O valor ser pago é de: R$${finalPrice.toFixed(2)}`);
+  alert(`O valor a ser pago é de: R$${finalPrice.toFixed(2)}`);
 } else {
-  alert(`O valor ser pago é de: R$${price.toFixed(2)}`);
+  alert(`O valor a ser pago é de: R$${price.toFixed(2)}`);
 }
 
 /*9- Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem,
