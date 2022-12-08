@@ -62,3 +62,6 @@ Still coding.
 
 ## S3-27-M1 - "[JAVASCRIPT: PRIMEIROS PASSOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-27-M1.html)"
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `if`, `else if`, `else` and more.
+
+## S3-32-M1 - "[PRATICANDO COM FUNÇÕES](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-32-M1.html)"
+Still coding.
