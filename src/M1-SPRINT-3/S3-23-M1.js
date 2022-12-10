@@ -20,8 +20,8 @@ let grade2 = parseInt(
   prompt("Qual é a sua nota em Matemática no segundo semestre?")
 );
 let gradeTotal = grade1 + grade2;
-let averageValue = gradeTotal / 2;
-alert(`A média das notas é ${averageValue}`);
+let weightedArith = gradeTotal / 2;
+alert(`A média das notas é ${weightedArith}`);
 
 /*4- Leia um número inteiro e exiba o resto da divisão deste número por 2.*/
 
@@ -42,8 +42,8 @@ let grade3 = parseFloat(prompt("Qual é a sua nota?"));
 let grade4 = parseFloat(prompt("Qual é a sua nota?"));
 let grade5 = parseFloat(prompt("Qual é a sua nota?"));
 let grade6 = parseFloat(prompt("Qual é a sua nota?"));
-let weightArith = (grade3 * 1 + grade4 * 2 + grade5 * 3 + grade6 * 4) / 10;
-alert(`O valor da média ponderada é ${weightArith}`);
+let weightedMean1 = (grade3 * 1 + grade4 * 2 + grade5 * 3 + grade6 * 4) / 10;
+alert(`O valor da média ponderada é ${weightedMean1}`);
 
 /*7- Leia as notas de quatro provas de um concurso: Matemática,
 Português, Conhecimentos Gerais e Informática. 
@@ -53,8 +53,8 @@ let grade7 = parseFloat(prompt("Qual é a sua nota em Matemática?"));
 let grade8 = parseFloat(prompt("Qual é a sua nota em Português?"));
 let grade9 = parseFloat(prompt("Qual é a sua nota em Conhecimentos Gerais?"));
 let grade10 = parseFloat(prompt("Qual é a sua nota em Informática?"));
-let weightArith1 = (grade7 * 2 + grade8 + grade9 + grade10) / 2;
-alert(`O valor da média ponderada é ${weightArith1}`);
+let weightedMean2 = (grade7 * 2 + grade8 + grade9 + grade10) / 2;
+alert(`O valor da média ponderada é ${weightedMean2}`);
 
 /*8- Leia dois números inteiros (dividendo e divisor, respectivamente)
 e exiba a divisão, a divisão inteira e o resto da divisão destes números.*/
