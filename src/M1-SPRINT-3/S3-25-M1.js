@@ -130,6 +130,7 @@ console.log(digit);
 result = result * 10 + digit;
 console.log(result);
 */
+
 /*7- Criar um aplicativo que, dado um número de conta corrente com três dígitos,
 retorne o seu dígito verificador. Para encontrar o dígito verificador,
 siga o exemplo do número 235:
