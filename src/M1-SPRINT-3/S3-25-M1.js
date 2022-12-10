@@ -56,13 +56,23 @@ calcule o valor ganho com multas por mês;
 Sabendo ainda que 2% das fitas se estragam ao longo do ano,
 e um décimo do total é comprado para reposição, exiba a quantidade de fitas que
 a locadora terá no final do ano.*/
-/*
+
 let vhs = parseInt(prompt("Digite quantas fitas"));
 let vhsPrice = parseFloat(prompt("Digite o valor do aluguel da fita"));
-let vhsRented = (vhs / 3) * 12;
-let annualInvoice = (vhsPrice * vhsRented) / vhs;
-alert(`${annualInvoice}`);
-*/
+let vhsRentedMonthly = vhs / 3;
+let vhsRentedYearly = (vhs / 3) * 12;
+let annualInvoice = vhsPrice * vhsRentedYearly;
+let vhsRentedDelayMonthly =
+  (vhsRentedMonthly / 10) * (vhsPrice * 0.1) + vhsPrice;
+let vhsAtTheEnd = vhs - vhs * 0.02 + vhs / 10;
+alert(
+  `Faturamento anual: R$${annualInvoice.toFixed(
+    2
+  )}. Valor ganho com multas por mês: R$${vhsRentedDelayMonthly.toFixed(
+    2
+  )}. Quantidade de fitas que a locadora terá no final do ano: ${vhsAtTheEnd}.`
+);
+
 /*5- Entrar com um número no formato CDU (centena, dezena e unidade)
 e exibi-lo de acordo com a seguinte saída:
 Centenas:
@@ -80,9 +90,9 @@ e imprimi-lo invertido. Por exemplo, 123 sairá 321. O número deverá ser
 armazenado em outra variável antes de ser impresso.*/
 
 let number6 = parseInt(prompt("Digite um número com 3 casas"));
-let hundreds1 = parseInt((number5 / 100) % 10);
-let tens1 = parseInt((number5 / 10) % 10);
-let units1 = parseInt(number5 % 10);
+let hundreds1 = parseInt((number6 / 100) % 10);
+let tens1 = parseInt((number6 / 10) % 10);
+let units1 = parseInt(number6 % 10);
 let invertedN = units * 100 + tens * 10 + hundreds;
 //let invertedN = parseInt(`${units}${tens}${hundreds}`);
 alert(invertedN);

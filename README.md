@@ -55,10 +55,10 @@ For my next activity I had to code an algorithm using `JavaScript` that asked fo
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `algorithms`, `strings`, `numbers` and more.
 
 ## S3-25-M1 - "[LISTA DE EXERCÍCIOS ALGORITMOS E LÓGICA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-25-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `algorithms`, `strings`, `numbers` and more.
 
 ## S3-26-M1 - "[APROVADO OU REPROVADO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-26-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `if`, `else if`, `else` and more.
 
 ## S3-27-M1 - "[JAVASCRIPT: PRIMEIROS PASSOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-27-M1.html)"
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `if`, `else if`, `else` and more.
