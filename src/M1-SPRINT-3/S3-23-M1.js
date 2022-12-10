@@ -20,8 +20,8 @@ let grade2 = parseInt(
   prompt("Qual é a sua nota em Matemática no segundo semestre?")
 );
 let gradeTotal = grade1 + grade2;
-let weightedArith = gradeTotal / 2;
-alert(`A média das notas é ${weightedArith}`);
+let averageGrades = gradeTotal / 2;
+alert(`A média das notas é ${averageGrades}`);
 
 /*4- Leia um número inteiro e exiba o resto da divisão deste número por 2.*/
 

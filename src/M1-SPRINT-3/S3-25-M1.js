@@ -97,40 +97,6 @@ let invertedN = units * 100 + tens * 10 + hundreds;
 //let invertedN = parseInt(`${units}${tens}${hundreds}`);
 alert(invertedN);
 
-/*quando aprender loop ou function
-let htu = parseInt(prompt("numero com 3 casas"));
-let uth = 0;
-let digit = 0;
-let result = 0;
-let aux = htu;
-//0 = 123 % 10 = 3
-digit = htu % 10;
-console.log(digit);
-//0 = 0 * 10 + 3 = 3
-result = result * 10 + digit;
-console.log(result);
-
-//123 = (123 / 10) | 0 = 12
-aux = (aux / 10) | 0;
-console.log(aux);
-//3 = 12 % 10 = 2
-digit = aux % 10;
-console.log(digit);
-//3 = 3 * 10 + 2 = 32
-result = result * 10 + digit;
-console.log(result);
-
-//12 = (12 / 10) | 0 = 1
-aux = (aux / 10) | 0;
-console.log(aux);
-//2 = 1 % 10 = 1
-digit = aux % 10;
-console.log(digit);
-//32 = 32 * 10 + 1 = 321
-result = result * 10 + digit;
-console.log(result);
-*/
-
 /*7- Criar um aplicativo que, dado um número de conta corrente com três dígitos,
 retorne o seu dígito verificador. Para encontrar o dígito verificador,
 siga o exemplo do número 235:
