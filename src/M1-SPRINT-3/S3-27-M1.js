@@ -214,7 +214,7 @@ let rate = parseFloat(prompt("Digite a taxa da prestação"));
 let time2 = parseInt(prompt("Digite o tempo de atraso da prestação"));
 let finalPrice2 = price2 + price2 * (rate / 100) * time2;
 
-if (time2 == 0 || time2 % 1 !== 0) {
+if (time2 == 0 || time2 % 1 != 0) {
   alert("Valor inválido: o tempo de atraso deve ser em dias");
 } else {
   alert(`Valor da prestação: R$${finalPrice2.toFixed(2)}`);
