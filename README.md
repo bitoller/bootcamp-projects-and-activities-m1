@@ -37,13 +37,13 @@ For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding
 For my next activity I had to replicate a `header` section from an example that was given using `HTML` and `CSS`, utilizing the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more.
 
 ## S2-21-M1 - "[PÁGINA BLOG](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-21-M1.html)"
-For my next activity I had to replicate a Blog Post from an example that was given using `HTML` and `CSS`, utilizing the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `gap` and more.
+For my next activity I had to replicate a Blog Page from an example that was given using `HTML` and `CSS`, utilizing the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `gap` and more.
 
 ## S2-23-M1 - "[KENZIEFLIX](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-23-M1.html)"
-For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img` for the profile pictures and logo, `border`, `hover`, `flexbox` concepts and more.
+For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img`, `figure` and `figcaption` for the profile pictures and logo, plus `border`, `hover`, `flexbox` concepts and more.
 
 ## S2-24-M1 - "[E-COMMERCE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-24-M1.html)"
-For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet), plus `border`, `padding`, `flexbox` concepts and more.
+For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet), utilizing `border`, `padding`, `flexbox` concepts and more.
 
 ## S3-14-M1 - "[PRATICANDO COM VARIÁVEIS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-14-M1.html)"
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more.
@@ -58,7 +58,7 @@ For my next activity I had to solve equations using `JavaScript` in the form of 
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `algorithms`, `strings`, `numbers` and more.
 
 ## S3-26-M1 - "[APROVADO OU REPROVADO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-26-M1.html)"
-For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `if`, `else if`, `else` and more.
+For my next activity I had to code an algorithm for school teachers using `JavaScript` that asked for the name, attendance and grades (in multiple subjects) of the students to identify if they were approved or not at school. This algorithm calculates the average of each student's grades and their attendance and if they're both above a certain threshold they were approved, otherwise they failed at school. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `if`, `else if`, `else` and more were used.
 
 ## S3-27-M1 - "[JAVASCRIPT: PRIMEIROS PASSOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-27-M1.html)"
 For my next activity I had to solve equations using `JavaScript` in the form of `prompts` and `alerts`, utilizing the concepts of `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `if`, `else if`, `else` and more.
