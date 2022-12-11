@@ -2,7 +2,7 @@
 números inteiros existentes na faixa de valores de 15 a 200.*/
 
 function toSquare() {
-  for (i = 15; i <= 200; i++) {
+  for (let i = 15; i <= 200; i++) {
     console.log(i * i);
   }
 }
@@ -13,7 +13,7 @@ toSquare();
 
 function toAdd() {
   let sumOfAdd = 0;
-  for (i = 1; i <= 100; i++) {
+  for (let i = 1; i <= 100; i++) {
     sumOfAdd += i;
   }
   console.log(sumOfAdd);
@@ -24,7 +24,7 @@ toAdd();
 que 200 que são divisíveis por 4.*/
 
 function numValueLessthan200DivBy4() {
-  for (i = 0; i < 200; i++) {
+  for (let i = 0; i < 200; i++) {
     if (i % 4 == 0) {
       console.log(i);
     }
@@ -39,7 +39,7 @@ function sumOfAddAndArithmeticAvg() {
   let sum = 0;
   let even = 0;
   let arithmeticAverage = 0;
-  for (i = 50; i <= 70; i++) {
+  for (let i = 50; i <= 70; i++) {
     if (i % 2 == 0) {
       sum += i;
       even++;
@@ -58,7 +58,7 @@ O programa deve apresentar os valores das duas temperaturas.*/
 function celsiusConversion() {
   let celsius = 0;
   let fahrenheit = 0;
-  for (i = 10; i <= 100; i += 10) {
+  for (let i = 10; i <= 100; i += 10) {
     celsius = i;
     fahrenheit = (9 * celsius + 160) / 5;
     console.log(`${celsius}C = ${fahrenheit}F`);

@@ -13,7 +13,7 @@ Quando a função for chamada, os números de 10 a 100, contando de 10 em 10,
 devem ser impressos no console.*/
 
 function tenInTenToAHundred() {
-  for (i = 10; i <= 100; i += 10) {
+  for (let i = 10; i <= 100; i += 10) {
     console.log(i);
   }
 }
@@ -24,7 +24,7 @@ Quando a função for chamada, apresente no console os valores entre 0 e 20
 que forem ímpares.*/
 
 function oddUpToTwenty() {
-  for (i = 0; i <= 20; i++) {
+  for (let i = 0; i <= 20; i++) {
     if (i % 2 != 0) {
       console.log(i);
     }
@@ -37,7 +37,7 @@ Quando a função for chamada, apresente no console os valores entre 0 e 20
 que forem pares.*/
 
 function evenUpToTwenty() {
-  for (i = 0; i <= 20; i++) {
+  for (let i = 0; i <= 20; i++) {
     if (i % 2 == 0) {
       console.log(i);
     }
@@ -49,7 +49,7 @@ evenUpToTwenty();
 Quando a função for chamada, apresente os valores de -10 a 0.*/
 
 function fromNegativeToPositive() {
-  for (i = -10; i <= 0; i++) {
+  for (let i = -10; i <= 0; i++) {
     console.log(i);
   }
 }
@@ -59,7 +59,7 @@ fromNegativeToPositive();
 Quando a função for chamada, apresente valores de 10 a 0 no console.*/
 
 function inDescendingDirection() {
-  for (i = 10; i >= 0; i--) {
+  for (let i = 10; i >= 0; i--) {
     console.log(i);
   }
 }
@@ -69,7 +69,7 @@ inDescendingDirection();
 Quando a função for chamada, apresente o quadrado dos valores da sequência de 1 a 10.*/
 
 function toSquare() {
-  for (i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 10; i++) {
     console.log(i * i);
   }
 }

@@ -14,7 +14,7 @@ function fibonacciNumbers() {
   let currentTerm = 1;
   let previousTerm = 0;
   let nextTerm = 0;
-  for (i = 1; i < 15; i++) {
+  for (let i = 1; i < 15; i++) {
     nextTerm = previousTerm + currentTerm;
     previousTerm = currentTerm;
     currentTerm = nextTerm;
