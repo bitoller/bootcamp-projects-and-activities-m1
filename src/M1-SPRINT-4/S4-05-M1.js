@@ -14,11 +14,11 @@ function fibonacciNumbers() {
   let currentTerm = 1;
   let previousTerm = 0;
   let nextTerm = 0;
-  for (i = 1; i <= 15; i++) {
-    console.log(previousTerm);
+  for (i = 1; i < 15; i++) {
     nextTerm = previousTerm + currentTerm;
     previousTerm = currentTerm;
     currentTerm = nextTerm;
+    console.log(previousTerm);
   }
 }
 fibonacciNumbers();
@@ -33,9 +33,14 @@ Ou seja, no primeiro quadro coloca-se um grão, no segundo quadro colocam-se doi
 (tendo-se então 15 grãos) até o limite de casas que é 64. A quantidade de grãos
 adicionados é sempre o dobro da quantidade anterior.
 Resultado esperado: 18.446.744.073.709.551.615 grãos no tabuleiro.*/
-/*
+
 function chessWheat() {
-  for (i = 1; i <= 64; i++) {}
+  let wheat = 1;
+  let wheatTotal = 1;
+  for (let i = 1; i < 64; i++) {
+    wheat = wheat * 2;
+    wheatTotal += wheat;
+  }
+  console.log(wheatTotal);
 }
 chessWheat();
-*/
