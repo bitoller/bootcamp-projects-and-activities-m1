@@ -53,7 +53,7 @@ let grade7 = parseFloat(prompt("Qual é a sua nota em Matemática?"));
 let grade8 = parseFloat(prompt("Qual é a sua nota em Português?"));
 let grade9 = parseFloat(prompt("Qual é a sua nota em Conhecimentos Gerais?"));
 let grade10 = parseFloat(prompt("Qual é a sua nota em Informática?"));
-let weightedMean2 = (grade7 * 2 + grade8 + grade9 + grade10) / 2;
+let weightedMean2 = (grade7 * 2 + grade8 * 1 + grade9 * 1 + grade10 * 1) / 5;
 alert(`O valor da média ponderada é ${weightedMean2}`);
 
 /*8- Leia dois números inteiros (dividendo e divisor, respectivamente)
