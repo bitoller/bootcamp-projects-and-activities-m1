@@ -27,7 +27,7 @@ Faça um aplicativo que possa receber o valor de um produto e imprima o novo val
 que o desconto foi de 9%.*/
 
 let productValue = parseFloat(prompt("Digite o valor do produto"));
-let newValue = productValue - productValue * 0.9;
+let newValue = productValue - productValue * 0.09;
 alert(`Novo valor: ${newValue}`);
 
 /*3- Receber dois valores do tipo texto (String) e armazenar variáveis A e B.
@@ -94,7 +94,7 @@ let hundreds1 = parseInt((number6 / 100) % 10);
 let tens1 = parseInt((number6 / 10) % 10);
 let units1 = parseInt(number6 % 10);
 let invertedN = units * 100 + tens * 10 + hundreds;
-//let invertedN = parseInt(`${units}${tens}${hundreds}`);
+//let invertedN = parseInt(`${units1}${tens1}${hundreds1}`);
 alert(invertedN);
 
 /*7- Criar um aplicativo que, dado um número de conta corrente com três dígitos,
