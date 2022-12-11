@@ -74,3 +74,15 @@ For my next activity I had to solve equations using `JavaScript`, the concepts o
 
 ## S4-05-M1 - "[LISTA DE LOOP COM FOR 3](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-05-M1.html)"
 Still coding.
+
+## S4-07-M1 - "[LISTA DE LOOP COM WHILE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-07-M1.html)"
+Still coding.
+
+## S4-08-M1 - "[DESENVOLVENDO A MANIPULAÇÃO DE LOOPS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-08-M1.html)"
+Still coding.
+
+## S4-09-M1 - "[CONTANDO CASAS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-09-M1.html)"
+Still coding.
+
+## S4-10-M1 - "[KATAS DE JAVASCRIPT 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-10-M1.html)"
+Still coding.
