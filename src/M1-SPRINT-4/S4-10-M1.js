@@ -2,11 +2,13 @@
 e deve retornar o cubo dos números de 1 a 10.*/
 
 function cube10() {
+  let cube = "";
   for (let i = 1; i <= 10; i++) {
-    console.log(i * i * i);
+    cube += `${i * i * i}, `;
   }
+  return cube;
 }
-cube10();
+console.log(cube10());
 
 /*2- Desenvolva uma função chamada divisiveisPor, que receberá dois parâmetros:
   1. limite, do tipo Number
@@ -15,13 +17,15 @@ cube10();
   apenas os números divisíveis por divisor com resto zero.*/
 
 function divBy(limit, divisor) {
+  let divBy = "";
   for (let i = 1; i <= limit; i++) {
     if (i % divisor == 0) {
-      console.log(i);
+      divBy += `${i},`;
     }
   }
+  return divBy;
 }
-divBy(100, 10);
+console.log(divBy(100, 10));
 
 /*3- Desenvolva uma função chamada posicaoLetra, que receberá dois parâmetros:
   1. palavra, do tipo String
@@ -30,14 +34,13 @@ divBy(100, 10);
   representada pelo parâmetro numero.*/
 
 function letterPosition(word, number) {
-  //let wordSize = word.charAt(number);
   let wordSize = "";
   for (let i = 0; i < word.length; i++) {
     wordSize = word.charAt(number);
   }
-  console.log(wordSize);
+  return wordSize;
 }
-letterPosition("algorítmos", 7);
+console.log(letterPosition("algorítmos", 7));
 
 /*4- Desenvolva uma função chamada palavraRecortada, que receberá dois parâmetros:
   1. palavra, do tipo String
@@ -46,14 +49,13 @@ letterPosition("algorítmos", 7);
   sendo ele do início até a posição indicada pelo parâmetro numero.*/
 
 function clippedWord(word, number) {
-  //let newWord = word2.slice(0, number2);
   let newWord = "";
   for (let i = 0; i < number; i++) {
     newWord += word[i];
   }
-  console.log(newWord);
+  return newWord;
 }
-clippedWord("Algoritmos", 4);
+console.log(clippedWord("Algoritmos", 4));
 
 /*5- Desenvolva uma função chamada palavraResto, que receberá dois parâmetros:​
   1. palavra, do tipo String
@@ -62,14 +64,13 @@ clippedWord("Algoritmos", 4);
   se encontram a partir da posição inicial indicada através do parâmetro numero.*/
 
 function wordRemainder(word, number) {
-  //let newWord2 = word3.slice(number3);
   let newWord = "";
   for (let i = number; i < word.length; i++) {
     newWord += word[i];
   }
-  console.log(newWord);
+  return newWord;
 }
-wordRemainder("Algoritmos", 2);
+console.log(wordRemainder("Algoritmos", 2));
 
 /*6- Desenvolva uma função chamada contaVogais, que receberá um parâmetro:
   1. palavra, do tipo String
@@ -77,7 +78,6 @@ wordRemainder("Algoritmos", 2);
   na palavra recebida por parâmetro.*/
 
 function vowelCount(word) {
-  //let vwelCount = word4.match(/[aeiou]/gi).length;
   let vwelCount = 0;
   for (let i = 0; i < word.length; i++) {
     if (
@@ -90,9 +90,9 @@ function vowelCount(word) {
       vwelCount++;
     }
   }
-  console.log(vwelCount);
+  return vwelCount;
 }
-vowelCount("abacaxi");
+console.log(vowelCount("abacaxi"));
 
 /*7- Desenvolva uma função chamada textoDeTrasParaFrente, que receberá um parâmetro:
   1. texto, do tipo String
@@ -103,9 +103,9 @@ function backwardsWord(word) {
   for (let i = word.length - 1; i >= 0; i--) {
     backwards += word[i];
   }
-  console.log(backwards);
+  return backwards;
 }
-backwardsWord("abacaxi");
+console.log(backwardsWord("abacaxi"));
 
 /*8- Desenvolva uma função chamada removeEspacos, que receberá um parâmetro:
   1. texto, do tipo String
@@ -118,9 +118,9 @@ function removeSpaces(word) {
       noSpace += word[i];
     }
   }
-  console.log(noSpace);
+  return noSpace;
 }
-removeSpaces("Não restará   espaços em branco");
+console.log(removeSpaces("Não restará   espaços em branco"));
 
 /*9- Desenvolva uma função chamada textoCriptografado, que receberá um parâmetro:
   1. texto, do tipo String
@@ -158,6 +158,8 @@ function encryptedText(word) {
       encrypted += word[i];
     }
   }
-  console.log(encrypted);
+  return encrypted;
 }
-encryptedText("Uma frase ultra secreta que precisa ser criptografada.");
+console.log(
+  encryptedText("Uma frase ultra secreta que precisa ser criptografada.")
+);
