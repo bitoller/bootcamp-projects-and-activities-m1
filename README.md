@@ -86,3 +86,27 @@ Still coding.
 
 ## S4-10-M1 - "[KATAS DE JAVASCRIPT 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-10-M1.html)"
 For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+
+## S4-13-M1 - "[LISTA DE ARRAY 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-13-M1.html)"
+Still coding.
+
+## S4-14-M1 - "[FUNÇÕES COM ARRAY 2](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-14-M1.html)"
+Still coding.
+
+## S4-15-M1 - "[FUNÇÕES COM ARRAY 3](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-15-M1.html)"
+Still coding.
+
+## S4-17-M1 - "[LISTA DE ARRAYS AVANÇADO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-17-M1.html)"
+Still coding.
+
+## S4-18-M1 - "[ENIGMA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-18-M1.html)"
+Still coding.
+
+## S4-19-M1 - "[SNAPCRACKLE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-19-M1.html)"
+Still coding.
+
+## S4-22-M1 - "[LISTA DE OBJETOS 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-22-M1.html)"
+Still coding.
+
+## S4-23-M1 - "[LISTA DE OBJETOS 2](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-23-M1.html)"
+Still coding.
