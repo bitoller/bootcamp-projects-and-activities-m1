@@ -73,10 +73,10 @@ For my next activity I had to solve equations using `JavaScript`, the concepts o
 For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-05-M1 - "[LISTA DE LOOP COM FOR 3](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-05-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-07-M1 - "[LISTA DE LOOP COM WHILE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-07-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript`, the concepts of `prompts`, `loops`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-08-M1 - "[DESENVOLVENDO A MANIPULAÇÃO DE LOOPS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-08-M1.html)"
 Still coding.
@@ -85,4 +85,4 @@ Still coding.
 Still coding.
 
 ## S4-10-M1 - "[KATAS DE JAVASCRIPT 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-10-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.

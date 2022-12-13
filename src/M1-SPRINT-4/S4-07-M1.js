@@ -23,7 +23,7 @@ while (password == userName) {
 }
 alert("Senha aceita"); 
 
-/*3- ****Faça um programa que enquanto a entrada for números inteiros positivos,
+/*3- Faça um programa que enquanto a entrada for números inteiros positivos,
 menores que 10, continue somando. Quando um valor negativo ou maior que 10 for
 informado, pare a execução, alerte a soma e a média.*/
 
