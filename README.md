@@ -34,10 +34,10 @@ For my next activity I had to replicate a Newsletter `form` from an example that
 For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding `background-image`, `email input`, `button input`, `margin`, `border` and more. I also decided to go one step further and use `parallax` and I changed the `scrollbar` color too.
 
 ## S2-20-M1 - "[FLEXBOX MENU](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-20-M1.html)"
-For my next activity I had to replicate a `header` section from an example that was given using `HTML` and `CSS`, the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more were used.
+For my next activity I had to replicate a `header` section from an example that was given using `HTML` and `CSS`. The concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more were used.
 
 ## S2-21-M1 - "[PÁGINA BLOG](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-21-M1.html)"
-For my next activity I had to replicate a Blog Page from an example that was given using `HTML` and `CSS`, the concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `gap` and more were used.
+For my next activity I had to replicate a Blog Page from an example that was given using `HTML` and `CSS`. The concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `gap` and more were used.
 
 ## S2-23-M1 - "[KENZIEFLIX](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-2/S2-23-M1.html)"
 For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img`, `figure` and `figcaption` for the profile pictures and logo. The concepts of `border`, `hover`, `flexbox` and more were used.
@@ -46,37 +46,37 @@ For my next activity I had to replicate the Choose User Menu from Netflix as `Ke
 For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet) The concepts of `border`, `padding`, `flexbox` and more were used.
 
 ## S3-14-M1 - "[PRATICANDO COM VARIÁVEIS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-14-M1.html)"
-For my next activity I had to solve equations using `JavaScript` the concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
 
 ## S3-19-M1 - "[DESAFIO PORTARIA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-19-M1.html)"
 For my next activity I had to code an algorithm using `JavaScript` that asked for someone's name, age and it had to verify if the person was alone or not. If the person was underage they weren't allowed in, if the person was older than 18 and wasn't alone the algorithm was supposed to print them a discount, if the person was alone they paid full price. The concepts of `conditionals`, `variables`, `booleans`, `prompts`, `alerts` and more were used.
 
 ## S3-23-M1 - "[LISTA DE EXERCÍCIOS ALGORITMOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-23-M1.html)"
-For my next activity I had to solve equations using `JavaScript` the concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
 
 ## S3-25-M1 - "[LISTA DE EXERCÍCIOS ALGORITMOS E LÓGICA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-25-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
 
 ## S3-26-M1 - "[APROVADO OU REPROVADO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-26-M1.html)"
 For my next activity I had to code an algorithm for school teachers using `JavaScript` that asked for the name, attendance and grades (in multiple subjects) of the students to identify if they were approved or not at school. This algorithm calculates the average of each student's grades and their attendance and if both values are above a certain threshold the student was approved, otherwise they failed at school. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S3-27-M1 - "[JAVASCRIPT: PRIMEIROS PASSOS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-27-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `prompts`, `alerts`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `prompts`, `alerts`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S3-32-M1 - "[PRATICANDO COM FUNÇÕES](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-3/S3-32-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-03-M1 - "[LISTA DE LOOP COM FOR 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-03-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-04-M1 - "[LISTA DE LOOP COM FOR 2](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-04-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-05-M1 - "[LISTA DE LOOP COM FOR 3](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-05-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-07-M1 - "[LISTA DE LOOP COM WHILE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-07-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `prompts`, `loops`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `prompts`, `loops`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-08-M1 - "[DESENVOLVENDO A MANIPULAÇÃO DE LOOPS](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-08-M1.html)"
 Still coding.
@@ -85,7 +85,7 @@ Still coding.
 Still coding.
 
 ## S4-10-M1 - "[KATAS DE JAVASCRIPT 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-10-M1.html)"
-For my next activity I had to solve equations using `JavaScript`, the concepts of `console log`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-13-M1 - "[LISTA DE ARRAY 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-13-M1.html)"
 Still coding.
@@ -103,7 +103,7 @@ Still coding.
 Still coding.
 
 ## S4-19-M1 - "[SNAPCRACKLE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-19-M1.html)"
-Still coding.
+For my next activity I had to code a SnapCrackle loop under certain conditions using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
 
 ## S4-22-M1 - "[LISTA DE OBJETOS 1](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-22-M1.html)"
 Still coding.
