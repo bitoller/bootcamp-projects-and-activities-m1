@@ -77,7 +77,7 @@ da lista e armazenar o valor da soma em uma variável.
 Use a variável para testar se o valor da soma é um múltiplo de 2.
 Se sim, retorne: "A soma é um múltiplo de 2".
 Caso contrário: "A soma não é um múltiplo de 2"*/
-
+/* 
 function numberList(numbers) {
   let sum = 0;
   if (numbers.length >= 2) {
@@ -92,7 +92,7 @@ function numberList(numbers) {
 let numberArray = [1, 4, 6, 9, 11, 8];
 let multiple = numberList(numberArray);
 console.log(multiple);
-
+*/
 /*6- Dado o array de nomes como exemplo:
 ⁠let nomes = ["Pedro", "Rafael", "José", "Carla", "Maria", "Josef", "Raquel"]⁠
 Escreva uma função que recebe como parâmetros a lista de nomes, um nome (string)
@@ -103,6 +103,18 @@ Teste se o nome recebido pela função como parâmetro é o mesmo que o armazena
 Lembre-se de normalizar os dados antes de testar.
 Caso os valores sejam iguais, retorne: "Acertei".
 Caso não sejam, retorne: "Não é quem eu pensava"*/
+
+function list(nameList, name, index) {
+  let namePosition = nameList[index];
+  if (name.toLowerCase() == namePosition.toLowerCase()) {
+    return "Acertei";
+  } else {
+    return "Não é quem eu pensava";
+  }
+}
+let names = ["Pedro", "Rafael", "José", "Carla", "Maria", "Josef", "Raquel"];
+let isCorrectName = list(names, "Guilherme", 3);
+console.log(isCorrectName);
 
 /*7- Dado dois arrays numéricos como exemplo.
 ⁠let numeros = [1,2,3,4,5,6,10]
