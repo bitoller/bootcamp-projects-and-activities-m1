@@ -53,15 +53,22 @@ de caracteres e retornar o nome.
 Teste cada posição usando estrutura de repetição,
 a menos que a lista tenha apenas um valor inserido.
 Use este formato: "O nome x é o maior da lista";*/
-/*
+
 function list(nameList) {
-  let nameList = ["Pedro", "Rafael", "José"];
-  let wordSize = "";
+  let wordSize = nameList[0].length;
+  let biggerName = nameList[0];
   for (let i = 0; i < nameList.length; i++) {
-    wordSize = nameList.length;
+    if (wordSize < nameList[i].length) {
+      biggerName = nameList[i];
+    }
+    wordSize = nameList[i].length;
   }
+  return biggerName;
 }
-*/
+let nameList = ["Pedro", "Rafael", "José"];
+let bigName = list(nameList);
+console.log(`O nome ${bigName} é o maior da lista`);
+
 /*5- Dado o array de números como exemplo:
 ⁠numeros = [1,4,6,9,11,8]
 Escreva uma função que recebe a lista de números como parâmetro.
