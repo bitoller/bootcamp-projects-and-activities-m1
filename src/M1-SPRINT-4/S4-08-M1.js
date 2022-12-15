@@ -90,7 +90,7 @@ console.log(mozillaString, chromeString);
 2. Number, a quantidade de repetição
 Sua função deverá retornar uma nova string que contem o número especificado
 de cópias concatenadas da palavra passada por parâmetro.*/
-
+/* 
 function stringRepeater(word, repetition) {
   let i = 0;
   let string = "";
@@ -102,7 +102,7 @@ function stringRepeater(word, repetition) {
 }
 let happyString = stringRepeater("Because I'm happy. ", 3);
 console.log(happyString);
-
+*/
 /*7- Desenvolva uma função chamada stringCentralizer, que receberá três parâmetros:​
 1. String, que é a palavra
 2. Number, a quantidade da repetição do elemento
@@ -110,3 +110,15 @@ console.log(happyString);
 Sua função deverá retornar uma nova string que contem a palavra passada
 por parâmetro centralizada entre os elementos de repetição com um espaço
 em branco nas laterais e a quantidade exata passada por parâmetro.*/
+
+function stringCentralizer(word, repetition, element) {
+  let i = 0;
+  let string = "";
+  while (i < repetition) {
+    string += element;
+    i++;
+  }
+  return `${string} ${word} ${string}`;
+}
+let equalString = stringCentralizer("JavaScript", 8, "=");
+console.log(equalString);
