@@ -71,7 +71,7 @@ console.log(padKenzie, padKata);
 3. Number, a posição final​
 Sua função deverá retornar parte da string **entre** o início e o fim dos
 indices passadas por parâmetro (não inclui os caracteres dos indices).*/
-
+/* 
 function subString(word, iniPosition, endPosition) {
   let i = iniPosition + 1;
   let string = "";
@@ -84,12 +84,24 @@ function subString(word, iniPosition, endPosition) {
 let mozillaString = subString("Mozilla", 0, 4);
 let chromeString = subString("Chrome", 3, 5);
 console.log(mozillaString, chromeString);
-
+*/
 /*6- Desenvolva uma função chamada stringRepeater, que receberá dois parâmetros:
 1. String, a palavra
 2. Number, a quantidade de repetição
 Sua função deverá retornar uma nova string que contem o número especificado
 de cópias concatenadas da palavra passada por parâmetro.*/
+
+function stringRepeater(word, repetition) {
+  let i = 0;
+  let string = "";
+  while (i < repetition) {
+    string += word;
+    i++;
+  }
+  return string;
+}
+let happyString = stringRepeater("Because I'm happy. ", 3);
+console.log(happyString);
 
 /*7- Desenvolva uma função chamada stringCentralizer, que receberá três parâmetros:​
 1. String, que é a palavra
