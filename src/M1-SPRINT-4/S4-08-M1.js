@@ -34,6 +34,17 @@ Deverá imprimir a palavra usando o console.log de forma que ela vai se
 incrementando ao contrário, começando somente pela última letra,
 depois a última e a penúltimo e assim sucessivamente conforme exemplo.*/
 
+function incrementTextBackwards(string) {
+  let i = string.length - 1;
+  let backwardsWord = "";
+  while (i >= 0) {
+    backwardsWord = string[i] + backwardsWord;
+    console.log(backwardsWord);
+    i--;
+  }
+}
+incrementTextBackwards("Fullstack");
+
 /*4- Desenvolva uma função chamada decrementText, que receberá um parâmetro:
 1. String, que será uma palavra.
 ​Deverá imprimir a palavra usando o console.log de forma que ela vai se decrementando,
