@@ -53,7 +53,7 @@ de caracteres e retornar o nome.
 Teste cada posição usando estrutura de repetição,
 a menos que a lista tenha apenas um valor inserido.
 Use este formato: "O nome x é o maior da lista";*/
-
+/* 
 function list(nameList) {
   let wordSize = nameList[0].length;
   let biggerName = nameList[0];
@@ -68,7 +68,7 @@ function list(nameList) {
 let nameList = ["Pedro", "Rafael", "José"];
 let bigName = list(nameList);
 console.log(`O nome ${bigName} é o maior da lista`);
-
+*/
 /*5- Dado o array de números como exemplo:
 ⁠numeros = [1,4,6,9,11,8]
 Escreva uma função que recebe a lista de números como parâmetro.
@@ -77,6 +77,21 @@ da lista e armazenar o valor da soma em uma variável.
 Use a variável para testar se o valor da soma é um múltiplo de 2.
 Se sim, retorne: "A soma é um múltiplo de 2".
 Caso contrário: "A soma não é um múltiplo de 2"*/
+
+function numberList(numbers) {
+  let sum = 0;
+  if (numbers.length >= 2) {
+    sum = numbers[numbers.length - 1] + numbers[numbers.length - 2];
+  }
+  if (sum % 2 == 0) {
+    return "A soma é um múltiplo de 2";
+  } else {
+    return "A soma não é um múltiplo de 2";
+  }
+}
+let numberArray = [1, 4, 6, 9, 11, 8];
+let multiple = numberList(numberArray);
+console.log(multiple);
 
 /*6- Dado o array de nomes como exemplo:
 ⁠let nomes = ["Pedro", "Rafael", "José", "Carla", "Maria", "Josef", "Raquel"]⁠
