@@ -33,7 +33,7 @@ incrementText("Backend");
 Deverá imprimir a palavra usando o console.log de forma que ela vai se
 incrementando ao contrário, começando somente pela última letra,
 depois a última e a penúltimo e assim sucessivamente conforme exemplo.*/
-
+/* 
 function incrementTextBackwards(string) {
   let i = string.length - 1;
   let backwardsWord = "";
@@ -44,26 +44,26 @@ function incrementTextBackwards(string) {
   }
 }
 incrementTextBackwards("Fullstack");
-
-/*4- Desenvolva uma função chamada decrementText, que receberá um parâmetro:
-1. String, que será uma palavra.
-​Deverá imprimir a palavra usando o console.log de forma que ela vai se decrementando,
-começando com a palavra inteira, depois removendo a última,
-a penúltima e assim sucessivamente conforme exemplo.*/
-
-/*5- Desenvolva uma função chamada incrementTextMiddle, que receberá um parâmetro:
-1. String, que será uma palavra.
-e deverá imprimir a palavra usando o console.log de forma que ela vai se
-incrementando começando somente pela letra do meio, depois a letra da direita e
-a da esquerda e assim sucessivamente conforme o exemplo. _Caso a palavra tenha
-uma quantidade par de letras então deve retornar "Palavra inválida"_.*/
-
-/*6- Desenvolva uma função chamada padEnd, que receberá três parâmetros:
+*/
+/*4- Desenvolva uma função chamada padEnd, que receberá três parâmetros:
 1. String, que será uma palavra.
 2. Number, a quantidade da repetição do caractere.
 3. String, o caractere de repetição.
 Sua função deverá retornar a string preenchida com o caractere de acordo com
 o comprimento passado por parâmetro.*/
+
+function padEnd(word, number, repetitionString) {
+  let string = "";
+  let i = 0;
+  while (i < number) {
+    string += repetitionString;
+    i++;
+  }
+  return word + string;
+}
+let padKenzie = padEnd("Kenzie", 5, "foo");
+let padKata = padEnd("Kata", 8, "*");
+console.log(padKenzie, padKata);
 
 /*7- Desenvolva uma função chamada padStart, que receberá três parâmetros:
 1. String, que é a palavra
