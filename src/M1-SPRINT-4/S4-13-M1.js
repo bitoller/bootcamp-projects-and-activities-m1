@@ -103,7 +103,7 @@ Teste se o nome recebido pela função como parâmetro é o mesmo que o armazena
 Lembre-se de normalizar os dados antes de testar.
 Caso os valores sejam iguais, retorne: "Acertei".
 Caso não sejam, retorne: "Não é quem eu pensava"*/
-
+/* 
 function list(nameList, name, index) {
   let namePosition = nameList[index];
   if (name.toLowerCase() == namePosition.toLowerCase()) {
@@ -115,7 +115,7 @@ function list(nameList, name, index) {
 let names = ["Pedro", "Rafael", "José", "Carla", "Maria", "Josef", "Raquel"];
 let isCorrectName = list(names, "Guilherme", 3);
 console.log(isCorrectName);
-
+*/
 /*7- Dado dois arrays numéricos como exemplo.
 ⁠let numeros = [1,2,3,4,5,6,10]
 ⁠let outrosNumeros = [5,7,9,4,2,3,9]
@@ -123,3 +123,15 @@ Escreva uma função que recebe as duas listas de números como parâmetro.
 A função deve conseguir identificar qual dos dois arrays é o maior.
 Após identificar o maior array, retorne o último elemento do array.
 Use este formato: "A maior lista é a lista cujo último número é: x"*/
+
+function arrayComparison(numberList, moreNumberList) {
+  if (numberList.length > moreNumberList.length) {
+    return numberList[numberList.length - 1];
+  } else {
+    return moreNumberList[moreNumberList.length - 1];
+  }
+}
+let numbers = [1, 2, 3, 4, 5, 6, 10];
+let moreNumbers = [5, 7, 9, 4, 2, 3, 9, 6];
+let lastElement = arrayComparison(numbers, moreNumbers);
+console.log(`A maior lista é a lista cujo último número é: ${lastElement}`);
