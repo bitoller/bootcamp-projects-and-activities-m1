@@ -144,7 +144,7 @@ function realPower() {
 let power = realPower();
 console.log(power);
 
-/*4- *****Escreva uma função chamada inserNewClass. A função deve receber uma string como parâmetro.
+/*4- Escreva uma função chamada inserNewClass. A função deve receber uma string como parâmetro.
 A função realiza a inserção de mais uma classe na lista de classes do objeto.
 Cada objeto pode obter somente 3 classes.
 Antes de inserir uma classe, verifique se o tamanho da lista de classes é maior que 3.
