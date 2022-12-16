@@ -117,7 +117,6 @@ function totalPriceSum(carList) {
     currency: "BRL",
   }).format(aux.toFixed(2));
   return formattedPrice;
-  //retornar soma dos precos dos veiculos
 }
 let totalPrice = totalPriceSum(cars);
 console.log(`A soma do preço de todos veículos é ${totalPrice}`);
@@ -127,10 +126,6 @@ Crie uma função que recebe a lista de carros e a marca procurada como parâmet
 filtre e retorne todos veículos da marca.*/
 
 function filterBrand(carList, brand) {
-  /*  return carList.filter(
-    (car) => car.marca.toLowerCase() == brand.toLowerCase()
-  ); */
-
   let brands = [];
   for (let index = 0; index < carList.length; index++) {
     if (carList[index].marca.toLowerCase() == brand.toLowerCase()) {
