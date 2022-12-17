@@ -100,7 +100,7 @@ For my next activity I had to solve equations using `JavaScript`. The concepts o
 For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S4-18-M1 - "[ENIGMA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-18-M1.html)"
-Still coding.
+For my next activity I had to code an algorithm using `JavaScript` that cracked the pattern of messages sent between two groups and identified how many words there were in the message. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `regex` and more were used.
 
 ## S4-19-M1 - "[SNAPCRACKLE](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-19-M1.html)"
 For my next activity I had to code a SnapCrackle loop under certain conditions using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals` and more were used.
