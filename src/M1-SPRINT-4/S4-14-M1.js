@@ -1,4 +1,4 @@
-const elementsList = [1, 5, 7, 9, 3, "10", "11", "15"];
+let elementsList = [1, 5, 7, 9, 3, "10", "11", "15"];
 
 /*1- Escreva uma função chamada retornaTodosElementos que não recebe nenhum parâmetro.
 Sempre que chamada, a função deverá alertar a lista listaDeElementos em tela.*/
