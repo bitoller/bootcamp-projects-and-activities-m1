@@ -16,3 +16,35 @@ Entrada: sssaasdsSs
 Saída: 2
 Entrada: sssa1asdss
 Saída: 2*/
+
+/*
+o parametro da funcao recebe uma string de ate 250 caracteres 
+o retorno da funcao tem que ser a quantidade de palavras contida no parametro
+text
+tudo que nao for minusculo entre a - z é um separador
+quando for ultimo caso e for espaco n contar palavra
+*/
+function crackers(text) {
+  let wordAux = [];
+  let auxIndex = 0;
+  if (text.length <= 250) {
+    for (let i = 0; i < text.length; i++) {
+      let regexAux = text[i].match(/[a-z]+/);
+      if (regexAux == null) {
+        wordAux.push(text.substring(auxIndex, i));
+        auxIndex = i + 1;
+      }
+    }
+    if (auxIndex < text.length) {
+      wordAux.push(text.substring(auxIndex, text.length));
+    }
+    return wordAux.length;
+  }
+  return 0;
+}
+let crack = crackers("sss.aasd.sss");
+console.log(crack);
+crack = crackers("sssaasdsSs");
+console.log(crack);
+crack = crackers("sssa1asdss");
+console.log(crack);
