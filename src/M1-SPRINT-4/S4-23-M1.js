@@ -90,20 +90,20 @@ const cars = [
 /*1- Quantos veículos temos no estoque ?
 Crie uma função que recebe a lista de carros como parâmetro e retorna a
 quantidade total de veículos.*/
-/* 
+
 function countingVehicles(carList) {
   return carList.length;
 }
 let countedVehicles = countingVehicles(cars);
 console.log(`Total de veículos: ${countedVehicles}`);
- */
+
 /*2- Quanto vale todo meu estoque de veículos?
 Crie uma função que recebe a lista de carros como parâmetro e retorna a soma
 do preço dos veículos.
 Observe que o preço é do tipo string, terá que fazer o tratamento da informação.
 Retorne uma string com o seguinte formato: 'A soma do preço de todos veículos
 é R$ 00000000,00'*/
-/* 
+
 function totalPriceSum(carList) {
   let aux = 0;
   let formattedPrice = "";
@@ -120,11 +120,11 @@ function totalPriceSum(carList) {
 }
 let totalPrice = totalPriceSum(cars);
 console.log(`A soma do preço de todos veículos é ${totalPrice}`);
- */
+
 /*3- Procurando um veículo por marca
 Crie uma função que recebe a lista de carros e a marca procurada como parâmetro,
 filtre e retorne todos veículos da marca.*/
-/* 
+
 function filterBrand(carList, brand) {
   let brands = [];
   for (let index = 0; index < carList.length; index++) {
@@ -136,11 +136,11 @@ function filterBrand(carList, brand) {
 }
 let brandVehicles = filterBrand(cars, "VW");
 console.log(brandVehicles);
- */
+
 /*4- Procurando um veículo por acessório
 Crie uma função que recebe a lista de carros e o acessório procurado como parâmetro,
 filtre e retorne todos veículos que tenham o acessório.*/
-/* 
+
 function filterAccessory(carList, accessory) {
   let accessories = [];
   for (let index = 0; index < carList.length; index++) {
@@ -156,11 +156,11 @@ function filterAccessory(carList, accessory) {
 }
 let accesoriesVehicles = filterAccessory(cars, "trava");
 console.log(accesoriesVehicles);
- */
+
 /*5- Encontrando veículos completos
 Crie uma função que recebe a lista de carros como parâmetro,
 filtre e retorne todos veículos que sejam completos.*/
-/* 
+
 function carAllFeatures(carList) {
   let features = [];
   for (let index = 0; index < carList.length; index++) {
@@ -172,10 +172,10 @@ function carAllFeatures(carList) {
 }
 let allFeatures = carAllFeatures(cars);
 console.log(allFeatures);
- */
+
 /*6- Adicionando mais um carro a concessionária
 Crie uma função para adicionar novos carros a lista. Retorne a lista de carros atualizada.*/
-/* 
+
 const myCar = {
   modelo: "Tucson",
   marca: "Hyundai",
@@ -192,13 +192,13 @@ function addCar(carList, newCar) {
 }
 let newCars = addCar(cars, myCar);
 console.log(newCars);
- */
+
 /*7- Removendo um carro da lista de carros da concessionária
 Crie uma função que recebe como parâmetro a lista de carros e a posição (índice)
 de um veículo.
 Remova o elemento da posição e retorne a lista atualizada.
 Lembre-se de tratar quando a posição for inválida.*/
-/* 
+
 function removingCar(carList, index) {
   if (carList.length > 0 && index >= 0 && index <= carList.length - 1) {
     carList.splice(index, 1);
@@ -208,12 +208,10 @@ function removingCar(carList, index) {
 }
 let carRemoved = removingCar(cars, 0);
 console.log(carRemoved);
- */
+
 /*8- Procurando todos carros novos
 Crie uma função que recebe a lista de carros como parâmetro.
 Retorne a quantidade de carros com menos de 10 anos.*/
-
-//????????????????????????????????????????????????????????????????????
 
 function lessThanTen(carList) {
   let currentYear = 2022;
@@ -222,16 +220,15 @@ function lessThanTen(carList) {
   let yearDiff = 0;
   for (let index = 0; index < carList.length; index++) {
     aux = parseInt(carList[index].ano);
-    console.log(aux);
     yearDiff = currentYear - aux;
-    console.log(yearDiff);
-    /* if (yearDiff < 10) {
-      return carsUnderTen.push(carList[index]);
-    } */
+    if (yearDiff < 10) {
+      carsUnderTen.push(carList[index]);
+    }
   }
+  return carsUnderTen;
 }
-let newCars = lessThanTen(cars);
-console.log(newCars);
+let newCars2 = lessThanTen(cars);
+console.log(newCars2);
 
 /*9- Quem são os donos ?
 Seu chefe percebeu que deixou de incluir um campo importante nos objetos,
@@ -241,3 +238,17 @@ Com isso, desenvolva uma função que recebe como parâmetro a lista de carros,
 uma posição da lista (índice) e um objeto pessoa.
 Sabemos que não existe esta propriedade, então a propriedade donos deverá ser criada.
 Retorne a lista atualizada.*/
+
+const person = {
+  name: "Zoesharzol",
+};
+
+function owner(carList, index, object) {
+  for (let i = 0; i < carList.length; i++) {
+    carList[i].dono = "";
+  }
+  carList[index].dono = object.name;
+  return carList;
+}
+let owners = owner(cars, 0, person);
+console.log(owners);
