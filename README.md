@@ -91,13 +91,13 @@ For my next activity I had to solve equations using `JavaScript`. The concepts o
 For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S4-14-M1 - "[FUNÇÕES COM ARRAY 2](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-14-M1.html)"
-Half coded.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `alerts`, `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S4-15-M1 - "[FUNÇÕES COM ARRAY 3](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-15-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S4-17-M1 - "[LISTA DE ARRAYS AVANÇADO](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-17-M1.html)"
-Still coding.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S4-18-M1 - "[ENIGMA](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-18-M1.html)"
 Still coding.
@@ -109,4 +109,4 @@ For my next activity I had to code a SnapCrackle loop under certain conditions u
 For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
 
 ## S4-23-M1 - "[LISTA DE OBJETOS 2](https://bitoller.github.io/Bootcamp-Projects-and-Activities/src/M1-SPRINT-4/S4-23-M1.html)"
-Half coded.
+For my next activity I had to solve equations using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
