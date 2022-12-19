@@ -12,7 +12,24 @@ não queremos nossos marshmallows com gosto de desinfetante.
 Condições
 Os amigos não podem comprar mais ou menos do que cinco itens, ou seja,
 tem que ser exatamente cinco itens.
-Caso alguém compre mais itens ou menos itens, você deverá retornar uma mensagem.*/
+Caso alguém compre mais itens ou menos itens, você deverá retornar uma mensagem.
+Pensando na solução:
+Crie uma variável do tipo lista chamada caixaDeSuprimentos.
+Crie uma variável para cada seção: higiene, alimentacao, farmacia, lazer.
+Todas devem ser do tipo lista.
+Dentro de cada uma destas variáveis insira itens pertinentes a seção.
+Insira todas seções na variável caixaDeSuprimentos.
+Verifique se a caixa de suprimentos possui o tamanho 4 (4 seções).
+Se sim, acesse as seções e verifique se cada uma delas possui tamanho 5
+(5 itens cada).
+Se sim, retorne: "Podemos ir acampar."
+Se o tamanho for maior que 5, retorne: "Tem itens demais,
+não precisamos de tantos."
+Se o tamanho for menor que 5, retorne: "Precisamos de mais itens desta seção."
+Se o tamanho da caixaDeSuprimentos for menor que 4,
+retorne: "Algum amigo ainda não retornou com os itens."
+Se o tamanho da caixaDeSuprimentos for maior que 4,
+retorne: "Acho que temos um intruso."*/
 
 let hygiene = ["Toothbrush", "Toothpaste", "Deodorant", "Soap", "Toilet Paper"];
 let food = ["Bread", "Chicken", "Marshmellows", "Soda", "Beer"];
