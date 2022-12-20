@@ -12,43 +12,39 @@ A função insereProduto() não faz a inserção como deveria ser feito.
 Além de sempre alterar o produto que estava antes, a lista sempre fica
 com um item vazio.*/
 
-/*
 //Função
+let produtosCotacao = [];
 function insereProduto(produto) {
-  const produtosCotacao = [];
-  produtosCotacao[1] = produto;
+  produtosCotacao.push(produto);
 
   return produtosCotacao;
 }
 
 //Chamada da função
-insereProduto({
+produtosCotacao = insereProduto({
   preco: 100,
   quantidade: 10,
   nome: "Soja 25kg",
 });
-*/
 
 /*O esperado que o produto fosse inserido na última posição da lista,
 mas no momento está retorno está assim: [empty, {…}]
 A função de criar produtos não está funcionando, o produto criado
 não retorna e dá um erro.*/
 
-/*
 //Função⁠
-function criaProduto(preco, quantidade, nome){
-    let produto = {
-        preco = preco,
-        quantidade = quantidade,
-        nome = nome
-    }
-
-    return produto
+function criaProduto(preco, quantidade, nome) {
+  let produto = {
+    preco: preco,
+    quantidade: quantidade,
+    nome: nome,
+  };
+  return produto;
 }
 
 //chamada da função
-criaProduto(200, 150, "Feijão 25kg")
-*/
+let criarProduto = criaProduto(200, 150, "Feijão 25kg");
+console.log(criarProduto);
 
 /*O esperado é que o produto fosse retornado, mas no momento acontece um erro.
 A função renderizaProdutos() a qual é para mostrar os preços no console para teste,
@@ -56,18 +52,15 @@ não está funcionando como deveria.
 O produto é impresso no console, mas com o nome object.
 Deveria imprimir o preço.*/
 
-/*
 //função⁠
-function renderizaProdutos(todosProdutos){
-    for (let i = 0; i <= todosProdutos.length; i++){
-        console.log(todosProdutos[i])
-    }
+function renderizaProdutos(todosProdutos) {
+  for (let i = 0; i < todosProdutos.length; i++) {
+    console.log(todosProdutos[i].preco);
+  }
 }
 //chamada da função
-let todosProdutos = insereProduto(produto)
-
-renderizaProdutos(todosProdutos)
-*/
+let todosProdutos = insereProduto(criarProduto);
+renderizaProdutos(todosProdutos);
 
 /*O esperado é que o preço de cada um dos produtos da lista fossem impressos
 no console.
@@ -76,46 +69,56 @@ com o novo elemento cadastrado. Sempre que um desenvolvedor tenta armazenar
 a lista atualizada após uma inserção, a variável fica com o valor undefined,
 e não com o valor atualizado da lista.*/
 
-/*
 //função⁠
-function cadastraServicos(servico){
-     console.log(listServico.push(servico))
+let listServico = [];
+function cadastraServicos(servico) {
+  listServico.push(servico);
 }
 //chamada da função
-cadastraServicos({servico: "Pulverização", tipo: "Gafanhotos", valor: 50})
-*/
+cadastraServicos({
+  servico: "Pulverização",
+  tipo: "Gafanhotos",
+  valor: 50,
+});
+console.log(listServico);
 
 /*O esperado é que a cada inserção de um objeto serviço a lista de serviços
 fosse retornada de forma atualizada.
 A função calculaValorServico() não funciona, ela recebe uma lista de serviços,
 mas o valor a cobrar nunca é exatamente o valor ser cobrado, quase sempre
-é menor, exceto que o cliente tenha feito apenas um serviço.
+é menor, exceto que o cliente tenha feito apenas um serviço.*/
 
-/*
 //função⁠
-function calculaValorServico(clienteServicos){
-   let valorServico = clienteServicos.servicos[0].preco * clienteServicos.servicos[0].qtd
-
-    return valorServico
+function calculaValorServico(clienteServicos) {
+  let valorServico = 0;
+  for (let index = 0; index < clienteServicos.servico.length; index++) {
+    valorServico +=
+      clienteServicos.servico[index].preco *
+      clienteServicos.servico[index].quantidade;
+  }
+  return valorServico;
 }
 
 //Chamada da função
-calculaValorServico({cliente: "Rafael", servico:[
-    pulverizacao = {
-       preco: 50,
-       quantidade: 10
-    },
-    capina = {
+console.log(
+  calculaValorServico({
+    cliente: "Rafael",
+    servico: [
+      (pulverizacao = {
+        preco: 50,
+        quantidade: 10,
+      }),
+      (capina = {
         preco: 5,
-        quantidade: 10
-    },
-    aragem = {
+        quantidade: 10,
+      }),
+      (aragem = {
         preco: 200,
-        quantidade: 10
-    }
-
-]})
-*/
+        quantidade: 10,
+      }),
+    ],
+  })
+);
 
 /*O esperado aqui é que o valor retornado fosse: R$ 2550,00.
 No momento da erro e quando estava funcionando, retornava apenas R$ 500,00,
