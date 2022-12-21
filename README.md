@@ -127,7 +127,7 @@ For my next activity I had to solve equations reutilizing previous functions usi
 Still coding.
 
 ## S5-13-M1 - "[LISTA DE OBJETOS 3](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-13-M1.html)"
-Still coding.
+For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `objects` and more were used.
 
 ## S5-14-M1 - "[DEBUG 2](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-14-M1.html)"
 For my next activity I had to debug a non-working code using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `arrays`, `objects` and more were used.
@@ -139,7 +139,7 @@ Still coding.
 Still coding.
 
 ## S5-19-M1 - "[KATAS DE JAVASCRIPT 3](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-19-M1.html)"
-Still coding.
+For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S5-20-M1 - "[DADOS ESCOLARES](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-20-M1.html)"
 Still coding.
