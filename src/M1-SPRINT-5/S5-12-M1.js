@@ -70,3 +70,103 @@ Percorra a lista de perguntas (questions).
 As perguntas que não tiverem a propriedade answered como true
 deverão ser inseridas nesta lista.
 Retorne a lista output.*/
+
+let question = {
+  user: "fay",
+  userQuestion: "Why is the apple bitten?",
+  vote: 0,
+};
+let question2 = {
+  user: "fay",
+  userQuestion: "Why is the pear bitten?",
+  vote: 0,
+  answered: true,
+};
+let question3 = {
+  user: "fay",
+  userQuestion: "Why is the mango bitten?",
+  vote: 0,
+  answered: false,
+};
+
+let slenzie = {
+  nameEvent: "",
+  questions: [question, question2, question3],
+};
+
+//1
+function createEvent(object, string) {
+  if (typeof string === "string") {
+    if (string.length >= 5) {
+      object.nameEvent = string;
+      return object;
+    }
+  }
+  return "The input value is invalid";
+}
+console.log(createEvent(slenzie, "Apple"));
+
+//2
+function addQuestion(object, question) {
+  if (question) {
+    if (
+      question.user == "" ||
+      question.user == null ||
+      question.user == undefined
+    ) {
+      return "The user can't be empty";
+    }
+    if (
+      question.userQuestion == "" ||
+      question.userQuestion == null ||
+      question.userQuestion == undefined
+    ) {
+      return "The question can't be empty";
+    }
+    object.questions.push(question);
+    return object;
+  }
+  return "The object 'question' doesn't exist";
+}
+console.log(addQuestion(slenzie, question));
+
+//3
+
+function addVoteToQuestion(object, position) {
+  if (position >= object.questions.length) {
+    return "Question not found";
+  }
+  if (position < 0) {
+    return "The value is not allowed";
+  }
+  object.questions[position].vote += 1;
+  return "Vote registered successfully";
+}
+console.log(addVoteToQuestion(slenzie, 0));
+
+//4
+
+function questionAnswered(object, position) {
+  if (position >= object.questions.length) {
+    return "Question not found";
+  }
+  if (position < 0) {
+    return "The value is not allowed";
+  }
+  object.questions[position].answered = true;
+  return object;
+}
+console.log(questionAnswered(slenzie, 0));
+
+//5
+
+function unansweredQuestions(object) {
+  let output = [];
+  for (let i = 0; i < object.questions.length; i++) {
+    if (object.questions[i].answered != true) {
+      output.push(object.questions[i]);
+    }
+  }
+  return output;
+}
+console.log(unansweredQuestions(slenzie));
