@@ -1,5 +1,5 @@
 # BOOTCAMP PROJECTS AND ACTIVITIES
-I'll be posting here all the activities and projects I had to code during my Full Stack bootcamp at Kenzie Academy so I can show my progress from No Stack all the way to a Full Stack Developer. This repository will have everything I did during the `first module`, or `M1` for short.
+I'll be posting here all the activities and projects I had to code during my Full Stack bootcamp at Kenzie Academy so I can show my progress from No Stack all the way to a Full Stack Developer. This repository will have almost everything I did during the `first module`, or `M1` for short.
 
 <hr />
 
@@ -10,40 +10,40 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M1` means `Module 1`. That's
 <hr />
 
 ## S1-06-M1 - "[MEU WEBSITE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-06-M1.html)"
-For my first activity I had to replicate part of a website from an example that was given adding all the `markups`, `titles` and `hyperlinks`.
+For my first activity I had to replicate part of a Website from an example that was given. The concepts of `markups`, `titles`, `hyperlinks` and more were used.
 
 ## S1-12-M1 - "[PÁGINA DE PERFIL](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-12-M1.html)"
-For my next activity I had to code a profile page with my personal information adding `lists`, `hyperlinks`, `titles`.
+For my next activity I had to code a Profile Page with my personal information. The concepts of `lists`, `hyperlinks`, `titles` and more were used.
 
 ## S1-18-M1 - "[FORMULÁRIO DE CADASTRO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-18-M1.html)"
-For my next activity I had to code a registration form adding different `input` tags like `password`, `radio`, `input submit` and more.
+For my next activity I had to code a Registration Form. The concepts of `input` tags like `password`, `radio`, `input submit` and more were used.
 
 ## S1-26-M1 - "[BLOG DA KENZIE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-26-M1.html)"
-For my next activity I had to code a simple blog adding 4 favorite articles from Kenzie Academy properly linking the source page using `article`, `a href`, `target blank` and more. I also had to add a Newsletter `email input` and `input submit`.
+For my next activity I had to code a simple Blog adding 4 favorite articles from the Kenzie Academy website, properly linking the source page. The concepts of `article`, `a href`, `target blank` and more were used. I also had to add a newsletter `email input` and `input submit`.
 
 ## S2-07-M1 - "[MEU SITE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-07-M1.html)"
-For my next activity I had to replicate a website from an example that was given using `HTML` and `CSS`, adding different properties like `font`, `color`, `text-align` and more.
+For my next activity I had to replicate a Website from an example that was given using `HTML` and `CSS`. The concepts of `font`, `color`, `text-align` and more were used.
 
 ## S2-11-M1 - "[BARRA DE NAVEGAÇÃO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-11-M1.html)"
-For my next activity I had to replicate the `nav` part from an example that was given using `HTML` and `CSS`, adding `margin`, `padding`, `font` and more.
+For my next activity I had to replicate the Navigation part from an example that was given using `HTML` and `CSS`. The concepts of `margin`, `padding`, `font` and more were used.
 
 ## S2-13-M1 - "[NEWSLETTER](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-13-M1.html)"
-For my next activity I had to replicate a Newsletter `form` from an example that was given using `HTML` and `CSS`, adding `color`, `margin`, `padding`, `hover`, `focus` and more.
+For my next activity I had to replicate a Newsletter Form from an example that was given using `HTML` and `CSS`. The concepts of `color`, `margin`, `padding`, `hover`, `focus` and more were used.
 
 ## S2-14-M1 - "[BLOG DA KENZIE 2.0](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-14-M1.html)"
-For my next activity I had to style the blog from `S1-26-M1` using `CSS`, adding `background-image`, `email input`, `button input`, `margin`, `border` and more. I also decided to go one step further and use `parallax` and I changed the `scrollbar` color too.
+For my next activity I had to style the Blog from `S1-26-M1` using `CSS`. The concepts of `background-image`, `email input`, `button input`, `margin`, `border` and more were used. I also decided to go one step further and use `parallax` and I changed the `scrollbar` color too.
 
 ## S2-20-M1 - "[FLEXBOX MENU](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-20-M1.html)"
-For my next activity I had to replicate a `header` section from an example that was given using `HTML` and `CSS`. The concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more were used.
+For my next activity I had to replicate a Header Section from an example that was given using `HTML` and `CSS`. The concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `flex-wrap` and more were used.
 
 ## S2-21-M1 - "[PÁGINA BLOG](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-21-M1.html)"
 For my next activity I had to replicate a Blog Page from an example that was given using `HTML` and `CSS`. The concepts of `flexbox` like `display:flex`, `align-items`, `justify-content`, `gap` and more were used.
 
 ## S2-23-M1 - "[KENZIEFLIX](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-23-M1.html)"
-For my next activity I had to replicate the Choose User Menu from Netflix as `Kenzieflix` using `HTML` and `CSS`, adding `img`, `figure` and `figcaption` for the profile pictures and logo. The concepts of `border`, `hover`, `flexbox` and more were used.
+For my next activity I had to replicate the Choose User Menu from Netflix as Kenzieflix using `HTML` and `CSS`. The concepts of `img`, `figure`, `figcaption`, `border`, `hover`, `flexbox` and more were used.
 
 ## S2-24-M1 - "[E-COMMERCE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-24-M1.html)"
-For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet) The concepts of `border`, `padding`, `flexbox` and more were used.
+For my next activity I had to replicate an E-Commerce Page from an example that was given using `HTML` and `CSS`, adding my own images and prices (found on the internet). The concepts of `border`, `padding`, `flexbox` and more were used.
 
 ## S3-14-M1 - "[PRATICANDO COM VARIÁVEIS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-3/S3-14-M1.html)"
 For my next activity I had to solve exercises using `JavaScript`. The concepts of `prompts`, `alerts`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers` and more were used.
@@ -124,7 +124,7 @@ For my next activity I had to code an algorithm using `JavaScript` to help the o
 For my next activity I had to solve equations reutilizing previous functions using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `numbers` and more were used.
 
 ## S5-12-M1 - "[GESTÃO DE PERGUNTAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-12-M1.html)"
-For my next activity I had to code an algorithm using `JavaScript` to store the questions asked at an online event. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
+For my next activity I had to code an algorithm using `JavaScript` to store the questions asked at an online event and compute votes, it also checked if the question was answered or not. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
 
 ## S5-13-M1 - "[LISTA DE OBJETOS 3](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-13-M1.html)"
 For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `objects` and more were used.
@@ -133,7 +133,7 @@ For my next activity I had to solve exercises using `JavaScript`. The concepts o
 For my next activity I had to debug a non-working code using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `arrays`, `objects` and more were used.
 
 ## S5-15-M1 - "[CAIXA ELETRÔNICO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-15-M1.html)"
-For my next activity I had to code an algorithm using `JavaScript` to act as an ATM. The concepts of `console log`, `prompts`, `alerts`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
+For my next activity I had to code an algorithm using `JavaScript` to act as an ATM, having working withdrawal, deposit and check balance functions. The concepts of `console log`, `prompts`, `alerts`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
 
 ## S5-16-M1 - "[LISTA DE LÓGICA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-16-M1.html)"
 For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `function`, `variables`, `operators`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `objects` and more were used.
