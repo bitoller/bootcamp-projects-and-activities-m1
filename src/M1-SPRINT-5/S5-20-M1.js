@@ -3,18 +3,8 @@ para as consultas referente aos dados dos alunos.
 Com base nos dados de um aluno, você deverá desenvolver
 a lógica para consultar o curso, matérias, situação da matrícula
 e gerar a carteirinha de estudante.
-Dado o objeto:*/
-
-const alunoCurso = {
-  nome: "João",
-  idade: 31,
-  curso: "FullStack",
-  instituicao: "Kenzie Br",
-  materias: ["Html", "Css", "JavaScript", "Python"],
-  situacaoMatricula: true,
-};
-
-/*Desenvolva um algorítimo que recebe recebe via prompt o
+Dado o objeto:
+Desenvolva um algorítimo que recebe recebe via prompt o
 tipo de consulta que sistema deve realizar.
 A entrada deverá ser o número da opção, conforme a ordem a seguir:
 1 - Curso
@@ -69,3 +59,67 @@ Lembre-se de substituir os valores fixados pelas propriedades do objeto,
 para quando o objeto diferir, sua função ainda continue funcionando.
 Retorne a variável cardInformation dentro de um alert*/
 
+const alunoCurso = {
+  nome: "João",
+  idade: 31,
+  curso: "FullStack",
+  instituicao: "Kenzie Br",
+  materias: ["Html", "Css", "JavaScript", "Python"],
+  situacaoMatricula: true,
+};
+
+//1
+
+function getTheCourse(object) {
+  return `You're enrolled in the ${object.curso} course`;
+}
+
+//2***
+
+function getTheSubjects(object) {
+  let subjects = [];
+  for (let i = 0; i < object.materias.length; i++) {
+    subjects.push(object.materias[i]);
+  }
+  return `These are your ${object.curso} course subjects: ${subjects}`;
+}
+
+//3
+
+function enrollmentStatus(object) {
+  if (object.situacaoMatricula == true) {
+    return "Your enrollment is active";
+  }
+  return "Your enrollment is inactive";
+}
+
+//4
+
+function generateStudentCard(object) {
+  let cardInformation = `Name: ${object.nome}, Age: ${object.idade}, Course: ${object.curso}, Institution: ${object.instituicao}`;
+  return cardInformation;
+}
+
+//Prompts & Results
+
+let functions = parseInt(
+  prompt(
+    "Type 1 for Course, 2 for Subject, 3 for Enrollment Status and 4 for Generate Student Card"
+  )
+);
+
+let promptAlert = "";
+
+if (functions == 1) {
+  promptAlert = getTheCourse(alunoCurso);
+} else if (functions == 2) {
+  promptAlert = getTheSubjects(alunoCurso);
+} else if (functions == 3) {
+  promptAlert = enrollmentStatus(alunoCurso);
+} else if (functions == 4) {
+  promptAlert = generateStudentCard(alunoCurso);
+} else {
+  promptAlert = "Error";
+}
+alert(promptAlert);
+console.log(promptAlert);
