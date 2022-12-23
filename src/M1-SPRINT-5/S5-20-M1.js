@@ -77,9 +77,9 @@ function getTheCourse(object) {
 //2***
 
 function getTheSubjects(object) {
-  let subjects = [];
+  let subjects = "";
   for (let i = 0; i < object.materias.length; i++) {
-    subjects.push(object.materias[i]);
+    subjects += object.materias[i] + " ";
   }
   return `These are your ${object.curso} course subjects: ${subjects}`;
 }
