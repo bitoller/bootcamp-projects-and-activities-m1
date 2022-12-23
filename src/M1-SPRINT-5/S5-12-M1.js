@@ -73,18 +73,18 @@ Retorne a lista output.*/
 
 let question = {
   user: "fay",
-  userQuestion: "Why is the apple bitten?",
+  userQuestion: "What's the name of the new game?",
   vote: 0,
 };
 let question2 = {
   user: "fay",
-  userQuestion: "Why is the pear bitten?",
+  userQuestion: "What's the game about?",
   vote: 0,
   answered: true,
 };
 let question3 = {
   user: "fay",
-  userQuestion: "Why is the mango bitten?",
+  userQuestion: "When is the game launching?",
   vote: 0,
   answered: false,
 };
@@ -104,7 +104,7 @@ function createEvent(object, string) {
   }
   return "The input value is invalid";
 }
-console.log(createEvent(slenzie, "Apple"));
+console.log(createEvent(slenzie, "Online Game Event X"));
 
 //2
 function addQuestion(object, question) {
