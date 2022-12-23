@@ -124,7 +124,7 @@ For my next activity I had to code an algorithm using `JavaScript` to help the o
 For my next activity I had to solve equations reutilizing previous functions using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `numbers` and more were used.
 
 ## S5-12-M1 - "[GESTÃO DE PERGUNTAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-12-M1.html)"
-Still coding.
+For my next activity I had to code an algorithm using `JavaScript` to store the questions asked at an online event. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
 
 ## S5-13-M1 - "[LISTA DE OBJETOS 3](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-13-M1.html)"
 For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `objects` and more were used.
@@ -133,13 +133,13 @@ For my next activity I had to solve exercises using `JavaScript`. The concepts o
 For my next activity I had to debug a non-working code using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `arrays`, `objects` and more were used.
 
 ## S5-15-M1 - "[CAIXA ELETRÔNICO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-15-M1.html)"
-Still coding.
+For my next activity I had to code an algorithm using `JavaScript` to act as an ATM. The concepts of `console log`, `prompts`, `alerts`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
 
 ## S5-16-M1 - "[LISTA DE LÓGICA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-16-M1.html)"
-Still coding.
+For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `function`, `variables`, `operators`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `objects` and more were used.
 
 ## S5-19-M1 - "[KATAS DE JAVASCRIPT 3](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-19-M1.html)"
 For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays` and more were used.
 
 ## S5-20-M1 - "[DADOS ESCOLARES](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-20-M1.html)"
-Still coding.
+For my next activity I had to code an algorithm using `JavaScript` to consult students' statuses and data. The concepts of `console log`, `prompts`, `alerts`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
