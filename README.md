@@ -143,3 +143,27 @@ For my next activity I had to solve exercises using `JavaScript`. The concepts o
 
 ## S5-20-M1 - "[DADOS ESCOLARES](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-5/S5-20-M1.html)"
 For my next activity I had to code an algorithm using `JavaScript` to consult students' statuses and data. The concepts of `console log`, `prompts`, `alerts`, `return`, `loops`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
+
+## S6-02-M1 - "[MANIPULANDO OBJETOS E ARRAYS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-02-M1.html)"
+Still coding.
+
+## S6-03-M1 - "[LOTERIA PREMIADA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-03-M1.html)"
+Still coding.
+
+## S6-04-M1 - "[MANIPULANDO OBJETOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-04-M1.html)"
+Still coding.
+
+## S6-07-M1 - "[KATAS DE JAVASCRIPT 4](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-07-M1.html)"
+Still coding.
+
+## S6-10-M1 - "[DOM: SELETORES](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-10-M1.html)"
+Still coding.
+
+## S6-12-M1 - "[DOM: CRIANDO ELEMENTOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-12-M1.html)"
+Still coding.
+
+## S6-13-M1 - "[CATÁLOGO GEEK](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-13-M1.html)"
+Still coding.
+
+## S6-14-M1 - "[LISTA DE FRUTAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-14-M1.html)"
+Still coding.
