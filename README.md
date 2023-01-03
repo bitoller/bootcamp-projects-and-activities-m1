@@ -156,12 +156,6 @@ Still coding.
 ## S6-07-M1 - "[KATAS DE JAVASCRIPT 4](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-07-M1.html)"
 Still coding.
 
-## S6-10-M1 - "[DOM: SELETORES](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-10-M1.html)"
-Still coding.
-
-## S6-12-M1 - "[DOM: CRIANDO ELEMENTOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-12-M1.html)"
-Still coding.
-
 ## S6-13-M1 - "[CATÁLOGO GEEK](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-13-M1.html)"
 Still coding.
 
