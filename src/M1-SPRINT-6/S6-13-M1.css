@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.header {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px;
+}
+header {
+  width: 100vw;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+input.button1 {
+  height: 40px;
+  width: 150px;
+  background-color: rgba(10, 153, 254, 0.1);
+  color: #0a99fe;
+  font-size: 20px;
+  padding: 0 32px;
+  margin-left: 570px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+input.button2 {
+  height: 40px;
+  width: 150px;
+  background-color: rgba(10, 153, 254, 0.1);
+  color: #0a99fe;
+  font-size: 20px;
+  padding: 0 32px;
+  margin-left: 25px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+input.click:active {
+  color: #ffffff;
+  background-color: #0a99fe;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main {
+  text-align: center;
+}
+h4 {
+  color: #1b1b1b;
+  font-size: 20px;
+  text-align: left;
+}
+.paintingsSection {
+  display: inline-flex;
+  list-style: none;
+  overflow-x: auto;
+  max-width: 1200px;
+}
+.figuresSection {
+  display: inline-flex;
+  list-style: none;
+  overflow-x: auto;
+  max-width: 1200px;
+}
+li {
+  width: 207px;
+  height: 275px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+li:hover {
+  cursor: pointer;
+}
+.imgCard {
+  height: 137px;
+  width: 207px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+span {
+  color: #1b1b1b;
+  font-size: 20px;
+  font-weight: medium;
+}
+p {
+  color: #868383;
+  font-size: 16px;
+}
