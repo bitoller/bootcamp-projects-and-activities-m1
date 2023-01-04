@@ -1,55 +1,55 @@
 let items = [
   {
-    image: "./assets/img/actions/animewoman.jpg",
+    image: "./img/animewoman.jpg",
     name: "Anime Woman Figure",
     price: "R$ 200,00",
     type: "figure",
   },
 
   {
-    image: "./assets/img/actions/dragonballpersonagem.jpg",
+    image: "./img/dragonballpersonagem.jpg",
     name: "Dragonball Figure",
     price: "R$ 250,00",
     type: "figure",
   },
 
   {
-    image: "./assets/img/actions/starwarspersonagem.jpg",
+    image: "./img/starwarspersonagem.jpg",
     name: "Star Wars Figure",
     price: "R$ 260,00",
     type: "figure",
   },
 
   {
-    image: "./assets/img/painting/clock.jpg",
+    image: "./img/clock.jpg",
     name: "Apple Watch Painting",
     price: "R$ 120,00",
     type: "frame",
   },
 
   {
-    image: "./assets/img/painting/gamepad.jpg",
+    image: "./img/gamepad.jpg",
     name: "PlayStation Controller Painting",
     price: "R$ 120,00",
     type: "frame",
   },
 
   {
-    image: "./assets/img/painting/personagem.jpg",
+    image: "./img/personagem.jpg",
     name: "Star Wars Painting",
     price: "R$ 120,00",
     type: "frame",
   },
 
   {
-    image: "./assets/img/actions/starwarspersonagem.jpg",
+    image: "./img/starwarspersonagem.jpg",
     name: "Star Wars Figure",
     price: "R$ 260,00",
     type: "figure",
   },
 
   {
-    image: "./assets/img/painting/personagem.jpg",
+    image: "./img/personagem.jpg",
     name: "Star Wars Painting",
     price: "R$ 120,00",
     type: "frame",
