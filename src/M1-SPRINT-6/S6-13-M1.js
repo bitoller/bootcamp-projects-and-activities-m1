@@ -1,21 +1,21 @@
 let items = [
   {
     image: "./img/animewoman.jpg",
-    name: "Anime Woman Figure",
+    name: "Asuka Figure",
     price: "R$ 200,00",
     type: "figure",
   },
 
   {
     image: "./img/dragonballpersonagem.jpg",
-    name: "Dragonball Figure",
+    name: "Sayan Goku Figure",
     price: "R$ 250,00",
     type: "figure",
   },
 
   {
     image: "./img/starwarspersonagem.jpg",
-    name: "Star Wars Figure",
+    name: "Baby Yoda Figure",
     price: "R$ 260,00",
     type: "figure",
   },
@@ -36,7 +36,7 @@ let items = [
 
   {
     image: "./img/personagem.jpg",
-    name: "Star Wars Painting",
+    name: "C3PO Painting",
     price: "R$ 120,00",
     type: "frame",
   },
