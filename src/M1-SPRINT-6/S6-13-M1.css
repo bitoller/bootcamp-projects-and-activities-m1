@@ -28,7 +28,7 @@ input.button1 {
   font-size: 20px;
   font-weight: 400;
   padding: 0 32px;
-  margin-left: 570px;
+  margin-left: 555px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -68,12 +68,14 @@ h4 {
   list-style: none;
   overflow-x: auto;
   max-width: 1200px;
+  padding: 0;
 }
 .figureListUl {
   display: inline-flex;
   list-style: none;
   overflow-x: auto;
   max-width: 1200px;
+  padding: 0;
 }
 li {
   width: 207px;

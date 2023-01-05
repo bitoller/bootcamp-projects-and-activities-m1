@@ -40,20 +40,6 @@ let items = [
     price: "R$ 120,00",
     type: "frame",
   },
-
-  {
-    image: "./img/starwarspersonagem.jpg",
-    name: "Star Wars Figure",
-    price: "R$ 260,00",
-    type: "figure",
-  },
-
-  {
-    image: "./img/personagem.jpg",
-    name: "Star Wars Painting",
-    price: "R$ 120,00",
-    type: "frame",
-  },
 ];
 
 let listFigures = [];
@@ -72,14 +58,11 @@ separateItens(items);
 console.log(listFrames);
 console.log(listFigures);
 
-let listPaintingSection =
-  document.getElementsByClassName("paintingsSection")[0];
-let listFigureSection = document.getElementsByClassName("figuresSection")[0];
-let myFigureUl = listFigureSection.getElementsByClassName("figureListUl")[0];
-let myPaintingUl =
-  listPaintingSection.getElementsByClassName("paintingListUl")[0];
-
 for (let index = 0; index < listFrames.length; index++) {
+  let listPaintingSection =
+    document.getElementsByClassName("paintingsSection")[0];
+  let myPaintingUl =
+    listPaintingSection.getElementsByClassName("paintingListUl")[0];
   let elementList = document.createElement("li");
   let imgCard = document.createElement("img");
   imgCard.src = listFrames[index].image;
@@ -96,6 +79,8 @@ for (let index = 0; index < listFrames.length; index++) {
 }
 
 for (let index = 0; index < listFigures.length; index++) {
+  let listFigureSection = document.getElementsByClassName("figuresSection")[0];
+  let myFigureUl = listFigureSection.getElementsByClassName("figureListUl")[0];
   let elementList = document.createElement("li");
   let imgCard = document.createElement("img");
   imgCard.src = listFigures[index].image;
