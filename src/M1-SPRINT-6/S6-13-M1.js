@@ -75,6 +75,9 @@ console.log(listFigures);
 let listPaintingSection =
   document.getElementsByClassName("paintingsSection")[0];
 let listFigureSection = document.getElementsByClassName("figuresSection")[0];
+let myFigureUl = listFigureSection.getElementsByClassName("figureListUl")[0];
+let myPaintingUl =
+  listPaintingSection.getElementsByClassName("paintingListUl")[0];
 
 for (let index = 0; index < listFrames.length; index++) {
   let elementList = document.createElement("li");
@@ -89,7 +92,7 @@ for (let index = 0; index < listFrames.length; index++) {
   elementList.appendChild(imgCard);
   elementList.appendChild(name);
   elementList.appendChild(p);
-  listPaintingSection.appendChild(elementList);
+  myPaintingUl.appendChild(elementList);
 }
 
 for (let index = 0; index < listFigures.length; index++) {
@@ -105,5 +108,5 @@ for (let index = 0; index < listFigures.length; index++) {
   elementList.appendChild(imgCard);
   elementList.appendChild(name);
   elementList.appendChild(p);
-  listFigureSection.appendChild(elementList);
+  myFigureUl.appendChild(elementList);
 }

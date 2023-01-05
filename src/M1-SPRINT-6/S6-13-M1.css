@@ -60,13 +60,13 @@ h4 {
   font-size: 20px;
   text-align: left;
 }
-.paintingsSection {
+.paintingListUl {
   display: inline-flex;
   list-style: none;
   overflow-x: auto;
   max-width: 1200px;
 }
-.figuresSection {
+.figureListUl {
   display: inline-flex;
   list-style: none;
   overflow-x: auto;
@@ -79,7 +79,6 @@ li {
   background-color: #f8f8f8;
   margin: auto;
   margin-left: 50px;
-  margin-right: 50px;
   text-align: center;
 }
 li:hover {
