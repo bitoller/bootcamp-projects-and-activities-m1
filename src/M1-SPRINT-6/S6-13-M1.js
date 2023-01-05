@@ -45,7 +45,7 @@ let items = [
 let listFigures = [];
 let listFrames = [];
 
-function separateItens(list) {
+function separateItems(list) {
   for (let index = 0; index < list.length; index++) {
     if (list[index].type == "frame") {
       listFrames.push(list[index]);
@@ -54,7 +54,7 @@ function separateItens(list) {
     }
   }
 }
-separateItens(items);
+separateItems(items);
 console.log(listFrames);
 console.log(listFigures);
 
