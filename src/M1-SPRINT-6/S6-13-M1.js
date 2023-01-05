@@ -42,56 +42,35 @@ let items = [
   },
 ];
 
-let listFigures = [];
-let listFrames = [];
+function renderCards(list) {
+  const paintingsList = document.querySelector(".paintingListUl");
+  const figuresList = document.querySelector(".figureListUl");
 
-function separateItems(list) {
-  for (let index = 0; index < list.length; index++) {
-    if (list[index].type == "frame") {
-      listFrames.push(list[index]);
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].type == "frame") {
+      const render = createCards(list[i]);
+      console.log(list[i]);
+      paintingsList.append(render);
     } else {
-      listFigures.push(list[index]);
+      const render = createCards(list[i]);
+      figuresList.append(render);
     }
   }
 }
-separateItems(items);
-console.log(listFrames);
-console.log(listFigures);
 
-for (let index = 0; index < listFrames.length; index++) {
-  let listPaintingSection =
-    document.getElementsByClassName("paintingsSection")[0];
-  let myPaintingUl =
-    listPaintingSection.getElementsByClassName("paintingListUl")[0];
+function createCards(product) {
   let elementList = document.createElement("li");
   let imgCard = document.createElement("img");
-  imgCard.src = listFrames[index].image;
-  imgCard.alt = listFrames[index].name;
+  imgCard.src = product.image;
+  imgCard.alt = product.name;
   imgCard.classList.add("imgCard");
   let name = document.createElement("span");
-  name.innerText = `${listFrames[index].name}`;
+  name.innerText = product.name;
   let p = document.createElement("p");
-  p.innerText = `${listFrames[index].price}`;
-  elementList.appendChild(imgCard);
-  elementList.appendChild(name);
-  elementList.appendChild(p);
-  myPaintingUl.appendChild(elementList);
+  p.innerText = product.price;
+  elementList.append(imgCard, name, p);
+
+  return elementList;
 }
 
-for (let index = 0; index < listFigures.length; index++) {
-  let listFigureSection = document.getElementsByClassName("figuresSection")[0];
-  let myFigureUl = listFigureSection.getElementsByClassName("figureListUl")[0];
-  let elementList = document.createElement("li");
-  let imgCard = document.createElement("img");
-  imgCard.src = listFigures[index].image;
-  imgCard.alt = listFigures[index].name;
-  imgCard.classList.add("imgCard");
-  let name = document.createElement("span");
-  name.innerText = `${listFigures[index].name}`;
-  let p = document.createElement("p");
-  p.innerText = `${listFigures[index].price}`;
-  elementList.appendChild(imgCard);
-  elementList.appendChild(name);
-  elementList.appendChild(p);
-  myFigureUl.appendChild(elementList);
-}
+renderCards(items);
