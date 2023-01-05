@@ -25,11 +25,14 @@ let items = [
   },
 ];
 
-for (let index = 0; index < items.length; index++) {
-  let listFruitsSection = document.getElementsByClassName("fruitUl")[0];
-  let elementList = document.createElement("li");
-  let name = document.createElement("span");
-  name.innerText = `${items[index].name}`;
-  elementList.appendChild(name);
-  listFruitsSection.appendChild(elementList);
+function listItems() {
+  for (let index = 0; index < items.length; index++) {
+    let listFruitsSection = document.getElementsByClassName("fruitUl")[0];
+    let elementList = document.createElement("li");
+    let name = document.createElement("span");
+    name.innerText = `${items[index].name}`;
+    elementList.appendChild(name);
+    listFruitsSection.appendChild(elementList);
+  }
 }
+console.log(listItems());
