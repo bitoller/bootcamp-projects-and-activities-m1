@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -26,6 +26,7 @@ input.button1 {
   background-color: rgba(10, 153, 254, 0.1);
   color: #0a99fe;
   font-size: 20px;
+  font-weight: 400;
   padding: 0 32px;
   margin-left: 570px;
   border-radius: 4px;
@@ -38,6 +39,7 @@ input.button2 {
   background-color: rgba(10, 153, 254, 0.1);
   color: #0a99fe;
   font-size: 20px;
+  font-weight: 400;
   padding: 0 32px;
   margin-left: 25px;
   border-radius: 4px;
@@ -58,6 +60,7 @@ main {
 h4 {
   color: #1b1b1b;
   font-size: 20px;
+  font-weight: 500;
   text-align: left;
 }
 .paintingListUl {
@@ -94,9 +97,10 @@ li:hover {
 span {
   color: #1b1b1b;
   font-size: 20px;
-  font-weight: medium;
+  font-weight: 400;
 }
 p {
   color: #868383;
   font-size: 16px;
+  font-weight: 400;
 }
