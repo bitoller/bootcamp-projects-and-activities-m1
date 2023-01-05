@@ -154,10 +154,10 @@ Still coding.
 Still coding.
 
 ## S6-07-M1 - "[KATAS DE JAVASCRIPT 4](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-07-M1.html)"
-Still coding.
+For my next activity I had to solve exercises using `JavaScript`. The concepts of `console log`, `return`, `function`, `variables`, `operators`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects` and more were used.
 
 ## S6-13-M1 - "[CATÁLOGO GEEK](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-13-M1.html)"
-Still coding.
+For my next activity I had to code an Online Product Catalog using `HTML`, `CSS` and `JavaScript` to list all the products in stock dynamically. The concepts of `input`, `display flex`, `hover`, `active`, `overflow`, `console log`, `loops`, `function`, `variables`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects`, `DOM` and more were used.
 
 ## S6-14-M1 - "[LISTA DE FRUTAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-14-M1.html)"
-Still coding.
+For my next activity I had to code a Website Layout using `HTML`, `CSS` and `JavaScript` to list all the products dynamically. The concepts of `display flex`, `hover`, `console log`, `loops`, `function`, `variables`, `arithmetics`, `data types`, `strings`, `numbers`, `booleans`, `conditionals`, `arrays`, `objects`, `DOM` and more were used.
