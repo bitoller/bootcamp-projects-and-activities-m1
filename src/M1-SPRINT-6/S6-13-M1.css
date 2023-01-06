@@ -20,20 +20,12 @@ header {
   background-color: #ffffff;
   box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
 }
-input.button1 {
-  height: 40px;
-  width: 150px;
-  background-color: rgba(10, 153, 254, 0.1);
-  color: #0a99fe;
-  font-size: 20px;
-  font-weight: 400;
-  padding: 0 32px;
-  margin-left: 555px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
+.buttons {
+display: flex;
+gap: 10px;
+margin-left: 570px;
 }
-input.button2 {
+input {
   height: 40px;
   width: 150px;
   background-color: rgba(10, 153, 254, 0.1);
@@ -41,7 +33,6 @@ input.button2 {
   font-size: 20px;
   font-weight: 400;
   padding: 0 32px;
-  margin-left: 25px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
