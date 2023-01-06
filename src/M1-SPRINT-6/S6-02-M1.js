@@ -110,17 +110,54 @@ o objeto correspondente ao departamento com o nome já atualizado.
 Se o nome do departamento não for encontrado,
 a função deve retornar: "Department not found."*/
 
-function changeDepartmentName(currentName, newName) {}
+function changeDepartmentName(currentName, newName) {
+  for (let i = 0; i < departmentList.length; i++) {
+    if (
+      currentName.charAt(0).toUpperCase() + currentName.slice(1) ==
+      departmentList[i].departmentName
+    ) {
+      departmentList[i].departmentName = newName;
+      return departmentList[i];
+    }
+  }
+  return "Department not found";
+}
+console.log(changeDepartmentName("Capitation", "New Capitation"));
 
 /*3- Desenvolva uma função chamada giveTheDepartmentABreak
 que alterne o valor da variável working, sempre que chamada.
 Em resumo, se working estiver como true, deverá mudar para false,
 e vice-versa. A função deve retornar a propriedade já atualizada.*/
 
+function giveTheDepartmentABreak(object) {
+  for (let i = 0; i < object.length; i++) {
+    object[i].working = !object[i].working;
+  }
+  return object;
+}
+console.log(giveTheDepartmentABreak(departmentList));
+
 /*4- Desenvolva uma função chamada howManyEmployeesInDepartment
 que recebe o nome do departamento como parâmetro e verifica quantos
 funcionários estão naquele departamento. Caso o departamento não
 seja encontrado, retornar: "Departament not found".*/
+
+function howManyEmployeesInDepartment(dpName) {
+  let manyEmployees = 0;
+  for (let i = 0; i < departmentList.length; i++) {
+    if (
+      dpName.charAt(0).toUpperCase() + dpName.slice(1) ==
+      departmentList[i].departmentName
+    ) {
+      for (let j = 0; j < departmentList[i].employees.length; j++) {
+        manyEmployees = departmentList[i].employees.length;
+      }
+      return manyEmployees;
+    }
+  }
+  return "Department not found";
+}
+console.log(howManyEmployeesInDepartment("Expedition"));
 
 /*5- Desenvolva uma função chamada insertNewEmployeeInDepartment
 que consiga adicionar um novo funcionário ao departamento.
@@ -136,3 +173,24 @@ Se não existir, retorne "Department not found".
 Percorra as propriedades do departamento e encontre a propriedade employees.
 Insira o novo funcionário a lista de funcionários.
 Retorne o departamento atualizado.*/
+
+function insertNewEmployeeInDepartment(dpName, object) {
+  for (let i = 0; i < departmentList.length; i++) {
+    if (
+      dpName.charAt(0).toUpperCase() + dpName.slice(1) ==
+      departmentList[i].departmentName
+    ) {
+      departmentList[i].employees.push(object);
+      return departmentList[i];
+    }
+  }
+  return "Department not found";
+}
+console.log(
+  insertNewEmployeeInDepartment("Expedition", {
+    name: "Fay",
+    age: 30,
+    responsibility: "Ruler of the free world",
+    salary: 100000,
+  })
+);
