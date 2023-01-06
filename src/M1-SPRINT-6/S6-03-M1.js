@@ -21,6 +21,17 @@ A função deve retornar uma string: "É ganhador!" ou "Não é ganhador!".
 Desenvolva uma lógica para que o nome sempre tenha a primeira
 letra maiúscula e as restantes minúsculas.*/
 
+function mayHaveWon(name, id) {
+  if (
+    name.charAt(0).toUpperCase() + name.slice(1) == ganhador.nome &&
+    id == ganhador.cpf
+  ) {
+    return "É ganhador!";
+  }
+  return "Não é ganhador!";
+}
+console.log(mayHaveWon("Fay", "000.000.000-00"));
+
 /*2- Quem veio atrás do prêmio?
 O gerente da loteria, pediu para que você guarde as
 informações das pessoas que vieram atrás do prêmio.
@@ -35,3 +46,19 @@ Crie uma função que recebe um objeto.
 Crie um array e insira o objeto passado.
 Retorne uma string contendo o número de pessoas que vieram atrás do prêmio,
 mas não eram ganhadores.*/
+
+let people = {
+  name: "Fay",
+  cpf: "000.000.000-00",
+};
+
+function losersList(object) {
+  let losers = [];
+  let loserCount = "";
+  losers.push(object);
+  for (let i = 0; i < losers.length; i++) {
+    loserCount = `${losers.length}`;
+  }
+  return loserCount;
+}
+console.log(losersList(people));
