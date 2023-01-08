@@ -39,11 +39,39 @@ em cada avaliação realizada no semestre.
 Sua tarefa é determinar em quantas matérias o aluno foi aprovado.
 Se o aluno obteve nota maior ou igual a 6, está aprovado.*/
 
+function app() {
+  let average = 0;
+  let approved = 0;
+  for (let i = 0; i < listaAlunos[0].materias.length; i++) {
+    for (let j = 0; j < listaAlunos[0].materias[i].avaliacoes.length; j++) {
+      average += listaAlunos[0].materias[i].avaliacoes[j];
+    }
+    average = average / listaAlunos[0].materias[i].avaliacoes.length;
+    if (average >= 6) {
+      approved++;
+    }
+  }
+  return approved;
+}
+console.log(app());
+
 /*2- Verificando aprovação no semestre
 Sua tarefa é verificar se o aluno foi aprovado no semestre atual
 e poderá prosseguir para o próximo. Crie uma função chamada
 calculaMedia para saber média total do aluno,
 a partir das notas que ele obteve nas avaliações do semestre.*/
+
+function calculateAverage() {
+  let average = 0;
+  for (let i = 0; i < listaAlunos[0].materias.length; i++) {
+    for (let j = 0; j < listaAlunos[0].materias[i].avaliacoes.length; j++) {
+      average += listaAlunos[0].materias[i].avaliacoes[j];
+    }
+    average = average / listaAlunos[0].materias[i].avaliacoes.length;
+  }
+  return average.toFixed(2);
+}
+console.log(calculateAverage());
 
 /*3- Verificando destino de passageiros
 Dado o seguinte objeto onibus:*/
@@ -103,3 +131,12 @@ Esse método deverá verificar em quais passageiros o destino
 é igual à parada atual do ônibus.
 Em seguida, deve retornar um array com todos os passageiros
 que irão descer na parada atual.*/
+
+function bus(stop) {
+  for (let i = 0; i < onibus[0].paradas.length; i++) {
+    if (stop == onibus[0].paradas[i]) {
+      
+    }
+  }
+}
+console.log(bus("São José dos Campos-SP"));
