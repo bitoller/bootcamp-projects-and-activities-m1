@@ -10,7 +10,8 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M1` means `Module 1`. That's
 <hr />
 
 ## S1-06-M1 - "[MEU WEBSITE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-06-M1.html)"
-For my first activity I had to replicate part of a Website from an example that was given. The concepts of `markups`, `titles`, `hyperlinks` and more were used.
+For my first activity I had to replicate part of a Website from an example that was given.
+`markups` `titles` `hyperlinks`
 
 ## S1-12-M1 - "[PÁGINA DE PERFIL](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-12-M1.html)"
 For my next activity I had to code a Profile Page with my personal information. The concepts of `lists`, `hyperlinks`, `titles` and more were used.
