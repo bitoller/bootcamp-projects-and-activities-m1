@@ -235,13 +235,19 @@ For my next activity I had to code an algorithm using JavaScript to consult stud
 `console log` `prompt` `alert` `return` `loops` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `+`
 
 ## S6-02-M1 - 01/02/23 - "[MANIPULANDO OBJETOS E ARRAYS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-02-M1.html)"
-Still coding.
+For my next activity I had to solve exercises using JavaScript.<br />
+<br />
+`console log` `return` `loops` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `+`
 
 ## S6-03-M1 - 01/02/23 - "[LOTERIA PREMIADA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-03-M1.html)"
-Still coding.
+For my next activity I had to code an algorithm using JavaScript to check if someone won the lottery.<br />
+<br />
+`console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `+`
 
 ## S6-04-M1 - 01/02/23 - "[MANIPULANDO OBJETOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-04-M1.html)"
-Still coding.
+For my next activity I had to solve exercises using JavaScript.<br />
+<br />
+`console log` `return` `loops` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `+`
 
 ## S6-07-M1 - 01/03/23 - "[KATAS DE JAVASCRIPT 4](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-07-M1.html)"
 For my next activity I had to solve exercises using JavaScript.<br />
@@ -259,13 +265,17 @@ For my next activity I had to code a Website Layout using HTML, CSS and JavaScri
 `img src` `flexbox` `hover` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
 
 ## S7-04-M1 - 01/09/23 - "[PRATICANDO OBJETO EVENTO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-04-M1.html)"
-Still coding.
+For my next activity I had to code a Product Card dinamically from an example that was given using HTML, CSS and JavaScript, adding a 30% off event button.<br />
+<br />
+`function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `objects` `DOM` `event listener` `+`
 
 ## S7-06-M1 - 01/10/23 - "[LISTA DE TAREFAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-06-M1.html)"
 Still coding.
 
 ## S7-07-M1 - 01/10/23 - "[ACENDE E APAGA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-07-M1.html)"
-Still coding.
+For my next activity I had to code a Light Bulb using HTML, CSS and JavaScript that could be turned on and off dinamically.<br />
+<br />
+`flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `DOM` `event listener` `+`
 
 ## S7-10-M1 - 01/11/23 - "[LISTA DE COMPRAS COM DOM](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-10-M1.html)"
 Still coding.
