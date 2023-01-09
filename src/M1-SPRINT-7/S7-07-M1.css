@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #303e73;
+}
+#space_lamp {
+  width: 400px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.off {
+  background-image: url("./img/light-bulb-off.svg");
+}
+.on {
+  background-image: url("./img/light-bulb-on.svg");
+}
+#button {
+  width: 400px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: left 82px center;
+  background-size: contain;
+}
+.buttonOff {
+  background-image: url("./img/switch-off.svg");
+}
+.buttonOn {
+  background-image: url("./img/switch-on.svg");
+}
