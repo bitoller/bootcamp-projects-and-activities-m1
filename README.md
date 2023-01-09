@@ -265,7 +265,7 @@ For my next activity I had to code a Website Layout using HTML, CSS and JavaScri
 `img src` `flexbox` `hover` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
 
 ## S7-04-M1 - 01/09/23 - "[PRATICANDO OBJETO EVENTO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-04-M1.html)"
-For my next activity I had to code a Product Card dinamically from an example that was given using HTML, CSS and JavaScript, adding a 30% off event button.<br />
+For my next activity I had to code a Product Card dynamically from an example that was given using HTML, CSS and JavaScript, adding a 30% off event button.<br />
 <br />
 `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `objects` `DOM` `event listener` `+`
 
@@ -273,7 +273,7 @@ For my next activity I had to code a Product Card dinamically from an example th
 Still coding.
 
 ## S7-07-M1 - 01/10/23 - "[ACENDE E APAGA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-07-M1.html)"
-For my next activity I had to code a Light Bulb using HTML, CSS and JavaScript that could be turned on and off dinamically.<br />
+For my next activity I had to code a Light Bulb using HTML, CSS and JavaScript that could be turned on and off dynamically.<br />
 <br />
 `flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `DOM` `event listener` `+`
 
