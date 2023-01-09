@@ -47,12 +47,14 @@ console.log(app());
 
 function calculateAverage() {
   let average = 0;
+  let average2 = 0;
   for (let i = 0; i < listaAlunos[0].materias.length; i++) {
+    average2 += listaAlunos[0].materias[i].avaliacoes.length;
     for (let j = 0; j < listaAlunos[0].materias[i].avaliacoes.length; j++) {
       average += listaAlunos[0].materias[i].avaliacoes[j];
     }
-    average = average / listaAlunos[0].materias[i].avaliacoes.length;
   }
+  average = average / average2;
   return average.toFixed(2);
 }
 console.log(calculateAverage());
@@ -92,9 +94,19 @@ const onibus = {
 };
 
 function bus(stop) {
-  for (let i = 0; i < onibus[0].paradas.length; i++) {
-    if (stop == onibus[0].paradas[i]) {
+  let passStop = [];
+  for (let i = 0; i < onibus.paradas.length; i++) {
+    if (stop.toLowerCase() == onibus.paradas[i].toLowerCase()) {
+      for (let j = 0; j < onibus.passageiros.length; j++) {
+        if (
+          stop.toLowerCase() ==
+          onibus.passageiros[j].bilhete.destino.toLowerCase()
+        ) {
+          passStop.push(onibus.passageiros[j]);
+        }
+      }
     }
   }
+  return passStop;
 }
 console.log(bus("São José dos Campos-SP"));

@@ -94,11 +94,7 @@ let departmentList = [
 //1
 
 function howManyDepartments() {
-  let departments = 0;
-  for (let index = 0; index < departmentList.length; index++) {
-    departments = departmentList.length;
-  }
-  return departments;
+  return departmentList.length;
 }
 console.log(howManyDepartments());
 
@@ -107,8 +103,8 @@ console.log(howManyDepartments());
 function changeDepartmentName(currentName, newName) {
   for (let i = 0; i < departmentList.length; i++) {
     if (
-      currentName.charAt(0).toUpperCase() + currentName.slice(1) ==
-      departmentList[i].departmentName
+      currentName.toUpperCase() ==
+      departmentList[i].departmentName.toUpperCase()
     ) {
       departmentList[i].departmentName = newName;
       return departmentList[i];
@@ -131,16 +127,11 @@ console.log(giveTheDepartmentABreak(departmentList));
 //4
 
 function howManyEmployeesInDepartment(dpName) {
-  let manyEmployees = 0;
   for (let i = 0; i < departmentList.length; i++) {
     if (
-      dpName.charAt(0).toUpperCase() + dpName.slice(1) ==
-      departmentList[i].departmentName
+      dpName.toUpperCase() == departmentList[i].departmentName.toUpperCase()
     ) {
-      for (let j = 0; j < departmentList[i].employees.length; j++) {
-        manyEmployees = departmentList[i].employees.length;
-      }
-      return manyEmployees;
+      return departmentList[i].employees.length;
     }
   }
   return "Department not found";
@@ -152,8 +143,7 @@ console.log(howManyEmployeesInDepartment("Expedition"));
 function insertNewEmployeeInDepartment(dpName, object) {
   for (let i = 0; i < departmentList.length; i++) {
     if (
-      dpName.charAt(0).toUpperCase() + dpName.slice(1) ==
-      departmentList[i].departmentName
+      dpName.toUpperCase() == departmentList[i].departmentName.toUpperCase()
     ) {
       departmentList[i].employees.push(object);
       return departmentList[i];
