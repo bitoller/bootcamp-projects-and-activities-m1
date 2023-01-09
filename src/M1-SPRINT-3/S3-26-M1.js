@@ -1,20 +1,3 @@
-/*Você foi contratado para desenvolver um algoritmo que consiga
-identificar se um aluno foi ou não aprovado.
-Para o aluno ser aprovado, a média da nota total deve estar acima de 8
-e a presença deve estar acima de 6.
-Desenvolva um algoritmo que leia:
-matéria, nome, nota e a presença de um aluno.
-As notas de cada matéria varia de 0 a 10. Armazene cada informação em uma variável,
-nome e presença serão solicitados somente uma vez.
-Nota e matéria serão solicitados ao usuário mais de uma vez,
-então você deverá receber estes valores em variáveis diferentes, ou seja,
-uma variável para cada matéria e uma variável para cada nota.
-Some todas notas e atribua a uma variável somaNota.
-Tire a média das notas e atribua a variável uma mediaNota.
-Verifique se a média está acima ou abaixo de 8.
-Nota e presença não podem ser 0
-Nome deve ter no mínimo 5 carácteres*/
-
 let nameValue = prompt("Digite nome do aluno");
 let schoolAttendance = parseInt(prompt("Digite a presença do aluno"));
 let math = "Matemática";

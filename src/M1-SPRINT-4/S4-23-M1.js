@@ -1,8 +1,3 @@
-/*Contexto
-Seu chefe precisa de dados da concessionária e de algumas alterações
-cadastrais de seus veículos.
-Dada a lista de veículos:*/
-
 const cars = [
   {
     modelo: "Ka",
@@ -87,9 +82,7 @@ const cars = [
   },
 ];
 
-/*1- Quantos veículos temos no estoque ?
-Crie uma função que recebe a lista de carros como parâmetro e retorna a
-quantidade total de veículos.*/
+//1
 
 function countingVehicles(carList) {
   return carList.length;
@@ -97,12 +90,7 @@ function countingVehicles(carList) {
 let countedVehicles = countingVehicles(cars);
 console.log(`Total de veículos: ${countedVehicles}`);
 
-/*2- Quanto vale todo meu estoque de veículos?
-Crie uma função que recebe a lista de carros como parâmetro e retorna a soma
-do preço dos veículos.
-Observe que o preço é do tipo string, terá que fazer o tratamento da informação.
-Retorne uma string com o seguinte formato: 'A soma do preço de todos veículos
-é R$ 00000000,00'*/
+//2
 
 function totalPriceSum(carList) {
   let aux = 0;
@@ -121,9 +109,7 @@ function totalPriceSum(carList) {
 let totalPrice = totalPriceSum(cars);
 console.log(`A soma do preço de todos veículos é ${totalPrice}`);
 
-/*3- Procurando um veículo por marca
-Crie uma função que recebe a lista de carros e a marca procurada como parâmetro,
-filtre e retorne todos veículos da marca.*/
+//3
 
 function filterBrand(carList, brand) {
   let brands = [];
@@ -137,9 +123,7 @@ function filterBrand(carList, brand) {
 let brandVehicles = filterBrand(cars, "VW");
 console.log(brandVehicles);
 
-/*4- Procurando um veículo por acessório
-Crie uma função que recebe a lista de carros e o acessório procurado como parâmetro,
-filtre e retorne todos veículos que tenham o acessório.*/
+//4
 
 function filterAccessory(carList, accessory) {
   let accessories = [];
@@ -157,9 +141,7 @@ function filterAccessory(carList, accessory) {
 let accesoriesVehicles = filterAccessory(cars, "trava");
 console.log(accesoriesVehicles);
 
-/*5- Encontrando veículos completos
-Crie uma função que recebe a lista de carros como parâmetro,
-filtre e retorne todos veículos que sejam completos.*/
+//5
 
 function carAllFeatures(carList) {
   let features = [];
@@ -173,8 +155,7 @@ function carAllFeatures(carList) {
 let allFeatures = carAllFeatures(cars);
 console.log(allFeatures);
 
-/*6- Adicionando mais um carro a concessionária
-Crie uma função para adicionar novos carros a lista. Retorne a lista de carros atualizada.*/
+//6
 
 const myCar = {
   modelo: "Tucson",
@@ -193,11 +174,7 @@ function addCar(carList, newCar) {
 let newCars = addCar(cars, myCar);
 console.log(newCars);
 
-/*7- Removendo um carro da lista de carros da concessionária
-Crie uma função que recebe como parâmetro a lista de carros e a posição (índice)
-de um veículo.
-Remova o elemento da posição e retorne a lista atualizada.
-Lembre-se de tratar quando a posição for inválida.*/
+//7
 
 function removingCar(carList, index) {
   if (carList.length > 0 && index >= 0 && index <= carList.length - 1) {
@@ -209,9 +186,7 @@ function removingCar(carList, index) {
 let carRemoved = removingCar(cars, 0);
 console.log(carRemoved);
 
-/*8- Procurando todos carros novos
-Crie uma função que recebe a lista de carros como parâmetro.
-Retorne a quantidade de carros com menos de 10 anos.*/
+//8
 
 function lessThanTen(carList) {
   let currentYear = 2022;
@@ -230,14 +205,7 @@ function lessThanTen(carList) {
 let newCars2 = lessThanTen(cars);
 console.log(newCars2);
 
-/*9- Quem são os donos ?
-Seu chefe percebeu que deixou de incluir um campo importante nos objetos,
-que é o campo de: 'donos'.
-Todos os carros da concessionária são de segunda mão.
-Com isso, desenvolva uma função que recebe como parâmetro a lista de carros,
-uma posição da lista (índice) e um objeto pessoa.
-Sabemos que não existe esta propriedade, então a propriedade donos deverá ser criada.
-Retorne a lista atualizada.*/
+//9
 
 const person = {
   name: "Zoesharzol",

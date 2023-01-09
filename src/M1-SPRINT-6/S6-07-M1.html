@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bianca Toller" />
-    <script src="./S6-07-M1.js"></script>
+    <script src="./S6-07-M1.js" defer></script>
     <title>Katas de JavaScript 4</title>
   </head>
-  <body></body>
+  <body>
+    <p>
+      1- Desenvolva uma função que recebe como parâmetro o objeto pessoa e
+      atualiza as propriedades nome e nomeDeUsuario da seguinte forma: nome :
+      deve ter apenas a primeira letra em maiúsculo. nomeDeUsuario : deve estar
+      todo em letra minúscula. Retorne o objeto pessoa atualizado.
+    </p>
+    <p>
+      2- Desenvolva uma função que recebe como parâmetro o objeto pessoa. Essa
+      função irá armazenar o objeto pessoa em uma lista de usuários. Não é
+      permitido que os usuários da lista sejam menores de idade, então verifique
+      primeiro a idade da pessoa (como não estaremos tratando o dia e o mês de
+      nascimento, use apenas o ano atual e o ano de nascimento como base para
+      calcular). Caso a pessoa seja maior de idade, insira o objeto na lista de
+      usuários e retorne a lista.
+    </p>
+    <p>
+      3- Desenvolva uma função que recebe como parâmetro o objeto pessoa. Esta
+      função deverá primeiro verificar se a propriedade temCarro é true ou
+      false; caso seja verdadeiro a pessoa deverá ter a propriedade
+      valeCombustivel alterada. Para realizar o cálculo do vale use a seguinte
+      fórmula: valeCombustivel = ( distanciaDoTrabalho * valorDoLitro ) * 0,7
+      Caso a pessoa more a mais de 100km de distância do trabalho, adicione R$15
+      reais ao vale transporte. Você deverá tratar a propriedade
+      distanciaDoTrabalho, pois ela é uma string - use apenas o valor numérico.
+      Considere o valor do litro como R$6,99. Retorne o valor do vale
+      combustível em reais (string no formato R$ 0,00).
+    </p>
+    <p>
+      4- Desenvolva uma função que recebe como parâmetro um tipo de endereço
+      (casa ou apartamento) e o Estado correspondente à cidade já presente no
+      objeto. Insira o tipo na propriedade tipo e crie uma nova propriedade
+      estado para armazenar o Estado recebido. Retorne o objeto endereco
+      atualizado.
+    </p>
+    <p>
+      5- Desenvolva uma função que recebe como parâmetro o objeto pessoa e o
+      objeto endereco. A função deve inserir o objeto endereco na propriedade
+      endereco do objeto pessoa. Retorne o objeto pessoa atualizado.
+    </p>
+  </body>
 </html>

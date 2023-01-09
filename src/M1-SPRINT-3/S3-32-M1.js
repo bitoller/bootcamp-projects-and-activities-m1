@@ -1,4 +1,4 @@
-/*1- Escreva uma função que leia um número inteiro e imprima-o na saída.*/
+//1
 
 function nmbrInt() {
   let numberInt = parseInt(prompt("digite um número"));
@@ -6,8 +6,7 @@ function nmbrInt() {
 }
 nmbrInt();
 
-/*2- Escreva uma função que recebe três números inteiros
-e exiba a soma destes números.*/
+//2
 
 function nmbrsAdd() {
   let numberInt1 = parseInt(prompt("digite um número"));
@@ -18,10 +17,7 @@ function nmbrsAdd() {
 }
 nmbrsAdd();
 
-/*3- Escreva uma função recebe duas notas semestrais inteiras e exiba a média anual,
-dada em 12 meses.
-Realize a soma das duas notas, e a divisão por 12 para obter o resultado.
-Use o método toFixed() para tratar a informação.*/
+//3
 
 function semGrades() {
   let semesterGrades1 = parseInt(prompt("digite a nota semestral"));
@@ -31,10 +27,7 @@ function semGrades() {
 }
 semGrades();
 
-/*4- Escreva uma função que receba dois números inteiros e
-exiba o resto da divisão do primeiro pelo segundo.
-Caso não haja resto, alerte: "Esta é uma divisão exata".
-Caso haja, alerte: "Esta é uma divisão inexata e o resto é x"*/
+//4
 
 function nmbrsRemainder() {
   let numberInt3 = parseInt(prompt("digite um número"));
@@ -49,8 +42,7 @@ function nmbrsRemainder() {
 }
 nmbrsRemainder();
 
-/*5- Escreva uma função que recebe um número inteiro e alerte o seu quadrado.
-Desta forma: "O quadrado de x é xx"*/
+//5
 
 function nmbrSquare() {
   let numberInt5 = parseInt(prompt("digite um número"));
@@ -59,10 +51,7 @@ function nmbrSquare() {
 }
 nmbrSquare();
 
-/*6- Escreva uma função que recebe quatro números e alerte a média ponderada,
-sabendo-se que os pesos são respectivamente: 1, 2, 3 e 4.
-Cálculo do peso: PESO X NOTA
-Alerte a média, desta forma: "A média ponderada, é: x"*/
+//6
 
 function weightedMean() {
   let grade1 = parseFloat(prompt("Qual é a sua nota?"));
@@ -74,11 +63,7 @@ function weightedMean() {
 }
 weightedMean();
 
-/*7- Escreva uma função que recebe as notas de quatro provas de um concurso:
-Matemática, Português, Conhecimentos Gerais e Informática.
-Calcule e exiba a média ponderada tendo Matemática como peso 2,
-para as demais notas considere 1 como peso.
-Alerte a média com o seguinte formato: "A média ponderada é de: x"*/
+//7
 
 function weightedMean2() {
   let gradeMath = parseFloat(prompt("Qual é a sua nota em Matemática?"));
@@ -97,9 +82,7 @@ function weightedMean2() {
 }
 weightedMean2();
 
-/*8- Escreva uma função que recebe o saldo de uma aplicação e alerte o novo saldo,
-considerando o reajuste de 3%.
-Alerte o valor reajustado da seguinte forma: "O novo salário é de: x"*/
+//8
 
 function readjustment() {
   let appBalance = parseFloat(prompt("Qual é o valor do saldo"));
@@ -108,11 +91,7 @@ function readjustment() {
 }
 readjustment();
 
-/*9- Escreva uma função que calcule a área de um triângulo.
-Data a função: A = (b . h)/2.
-Onde Área é A, b é base h é a altura.
-Solicite, estes dados ao usuário.
-Alerte a área calculada, desta forma: "A área do triângulo é: x"*/
+//9
 
 function triangleArea() {
   let triangleBase = parseFloat(prompt("Qual é o valor da Base do triângulo"));
