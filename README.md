@@ -10,7 +10,7 @@ The `M` stands for `Modules` <strong>e.g.</strong> `M1` means `Module 1`. That's
 <hr />
 
 ## S1-06-M1 - 11/21/22 - "[MEU WEBSITE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-1/S1-06-M1.html)"
-For my first activity I had to replicate part of a Website from an example that was given using HTML.<br />
+For my first activity I had to code part of a Website based on an example that was given using HTML.<br />
 <br />
 `markup` `title` `hyperlink` `+`
 
@@ -30,17 +30,17 @@ For my next activity I had to code a simple Blog adding 4 favorite articles from
 `article` `hyperlink` `target blank` `input email` `input submit` `+`
 
 ## S2-07-M1 - 11/28/22 - "[MEU SITE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-07-M1.html)"
-For my next activity I had to replicate a Website from an example that was given using HTML and CSS.<br />
+For my next activity I had to code a Website based on an example that was given using HTML and CSS.<br />
 <br />
 `hyperlink` `font` `color` `text align` `margin` `padding` `text decoration` `+`
 
 ## S2-11-M1 - 11/29/22 - "[BARRA DE NAVEGAÇÃO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-11-M1.html)"
-For my next activity I had to replicate the Navigation part from an example that was given using HTML and CSS.<br />
+For my next activity I had to code the Navigation part based on an example that was given using HTML and CSS.<br />
 <br />
 `hyperlink` `margin` `padding` `font` `box shadow` `text align` `text transform` `+`
 
 ## S2-13-M1 - 11/29/22 - "[NEWSLETTER](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-13-M1.html)"
-For my next activity I had to replicate a Newsletter Form from an example that was given using HTML and CSS.<br />
+For my next activity I had to code a Newsletter Form based on an example that was given using HTML and CSS.<br />
 <br />
 `input email` `input submit` `color` `margin` `padding` `hover` `focus` `border radius` `background color` `+`
 
@@ -50,22 +50,22 @@ For my next activity I had to style the Blog from S1-26-M1 using CSS.<br />
 `hyperlink` `email input` `input submit` `background image` `margin` `border radius` `border style` `parallax` `scrollbar color` `scrollbar thumb` `scrollbar track` `+`
 
 ## S2-20-M1 - 12/01/22 - "[FLEXBOX MENU](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-20-M1.html)"
-For my next activity I had to replicate a Header Section from an example that was given using HTML and CSS.<br />
+For my next activity I had to code a Header Section based on an example that was given using HTML and CSS.<br />
 <br />
 `hyperlink` `flexbox` `flex wrap` `align items` `justify content` `+`
 
 ## S2-21-M1 - 12/01/22 - "[PÁGINA BLOG](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-21-M1.html)"
-For my next activity I had to replicate a Blog Page from an example that was given using HTML and CSS.<br />
+For my next activity I had to code a Blog Page based on an example that was given using HTML and CSS.<br />
 <br />
 `img src` `hyperlink` `flexbox` `flex wrap` `cursor pointer` `hover` `align items` `justify content` `gap` `+`
 
 ## S2-23-M1 - 12/01/22 - "[KENZIEFLIX](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-23-M1.html)"
-For my next activity I had to replicate the Choose User Menu from Netflix as Kenzieflix using HTML and CSS.<br />
+For my next activity I had to code the Choose User Menu from Netflix as Kenzieflix based on an example that was given using HTML and CSS.<br />
 <br />
 `img src` `figcaption` `input submit` `border radius` `hover` `flexbox` `+`
 
 ## S2-24-M1 - 12/02/22 - "[E-COMMERCE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-2/S2-24-M1.html)"
-For my next activity I had to replicate an E-Commerce Page from an example that was given using HTML and CSS, adding my own items, images and prices (found on the internet).<br />
+For my next activity I had to code an E-Commerce Page based on an example that was given using HTML and CSS, adding my own items, images and prices (found on the internet).<br />
 <br />
 `hyperlink` `input button` `img src` `flexbox` `border radius` `padding` `+`
 
@@ -255,17 +255,17 @@ For my next activity I had to solve exercises using JavaScript.<br />
 `console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `+`
 
 ## S6-13-M1 - 01/05/23 - "[CATÁLOGO GEEK](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-13-M1.html)"
-For my next activity I had to code an Online Product Catalog using HTML, CSS and JavaScript to list all the products in stock dynamically.<br />
+For my next activity I had to code an Online Product Catalog based on an example that was given using HTML, CSS and JavaScript to list all the products in stock dynamically.<br />
 <br />
 `input button` `img src` `flexbox` `hover` `active` `overflow` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
 
 ## S6-14-M1 - 01/06/23 - "[LISTA DE FRUTAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-14-M1.html)"
-For my next activity I had to code a Website Layout using HTML, CSS and JavaScript to list all the products dynamically.<br />
+For my next activity I had to code a Website Layout based on an example that was given using HTML, CSS and JavaScript to list all the products dynamically.<br />
 <br />
 `img src` `flexbox` `hover` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
 
 ## S7-04-M1 - 01/09/23 - "[PRATICANDO OBJETO EVENTO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-04-M1.html)"
-For my next activity I had to code a Product Card dynamically from an example that was given using HTML, CSS and JavaScript, adding a 30% off event button.<br />
+For my next activity I had to code a Product Card dynamically based on an example that was given using HTML, CSS and JavaScript, adding a 30% off event button.<br />
 <br />
 `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `objects` `DOM` `event listener` `+`
 
