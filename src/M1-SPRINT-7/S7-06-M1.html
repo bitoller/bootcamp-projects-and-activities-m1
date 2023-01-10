@@ -14,7 +14,7 @@
       <nav>
         <div class="header">
           <figure>
-            <img src="./img/Cleaning PC_Outline.png" alt="logo" />
+            <img src="./img/clean-house.png" alt="logo" />
           </figure>
           <div class="searchBar">
             <input
@@ -28,19 +28,39 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section class="addChoresCard">
-        <div class="insideCard">
-          <h2>Add Chores</h2>
-          <!-- add chore title field, add select type field, add add chore to list field -->
+    <div class="parallax">
+      <main>
+        <div class="container">
+          <section class="addChoresCard cards">
+            <h2>Add Chores</h2>
+            <form>
+              <input
+                type="text"
+                class="inputText"
+                name="text"
+                value
+                placeholder="Type the chore here"
+              />
+              <select class="select">
+                <option value="">Choose the type</option>
+                <option value="urgent">Urgent</option>
+                <option value="priority">Priority</option>
+                <option value="normal">Normal</option>
+              </select>
+              <input
+                type="submit"
+                class="submit"
+                value="Add chore to the list"
+              />
+            </form>
+            <!-- add chore title field, add select type field, add add chore to list field -->
+          </section>
+          <section class="choresCard cards">
+            <h2>Chores List</h2>
+            <ul class="choresList"></ul>
+          </section>
         </div>
-      </section>
-      <section class="choresCard">
-        <div class="insideCard">
-          <h2>Chores List</h2>
-          <ul class="choresList"></ul>
-        </div>
-      </section>
-    </main>
+      </main>
+    </div>
   </body>
 </html>

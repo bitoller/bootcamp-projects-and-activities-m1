@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   background-color: #ffffff;
   min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ab76d3;
+}
+::-webkit-scrollbar-track {
+  background: rgba(233, 223, 236, 0.842);
 }
 .header {
   max-width: 1200px;
@@ -16,9 +28,11 @@ body {
   justify-content: flex-start;
 }
 header {
-  width: 100vw;
+  width: 100%;
   background-color: #ffffff;
-  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  border-bottom: solid;
+  border-color: #e8dffc;
+  border-width: 1px;
 }
 figure {
   margin: 0;
@@ -28,9 +42,9 @@ img {
   width: 100px;
 }
 .searchBar {
-  margin-left: 700px;
+  margin-left: auto;
 }
-input {
+.search {
   height: 50px;
   width: 400px;
   background-color: #f1f3f5;
@@ -42,29 +56,82 @@ input {
   border: none;
   cursor: pointer;
 }
-main {
+.parallax {
+  background-image: url("img/pattern.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
-.addChoresCard {
+.cards {
   display: inline-block;
-  background-color: red;
   border-radius: 10px;
-  width: 1200px;
-  height: 300px;
-  padding: 0;
-  margin-top: 50px;
-  margin-bottom: 35px;
+  width: 100%;
+  min-height: 300px;
+  margin-bottom: 25px;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.1);
 }
-.choresCard {
-  display: inline-block;
-  background-color: green;
-  border-radius: 10px;
-  width: 1200px;
-  height: 500px;
-  padding: 0;
+h2 {
   margin-bottom: 50px;
 }
-.insideCard {
-  margin: 50px;
+.choresList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.circle {
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.urgent {
+  background-color: rgb(218, 63, 63);
+}
+.priority {
+  background-color: rgb(219, 160, 49);
+}
+.normal {
+  background-color: rgb(111, 235, 111);
+}
+li {
+  width: 1100px;
+  padding: 25px;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: #f1f3f5;
+  margin: auto;
+  text-align: start;
+  display: inline-flex;
+  gap: 10px;
+}
+li > span {
+  flex-grow: 1;
+}
+.trash {
+  width: auto;
+  height: 19px;
+  pointer-events: none;
+}
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  pointer-events: auto;
 }
