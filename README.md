@@ -284,4 +284,6 @@ Still coding.
 Still coding.
 
 ## S7-15-M1 - 01/12/23 - "[CARRINHO DE COMPRAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-15-M1.html)"
-Still coding.
+For my next activity I had to code a Cart Checkout List based on an example that was given using HTML, CSS and JavaScript to list all the products dynamically and the total price. The challenge was to create the whole HTML part with DOM.<br />
+<br />
+`flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
