@@ -1,11 +1,11 @@
-const chores = [
+let chores = [
   { title: "Pick up after the dog", type: "urgent" },
   { title: "Do the dishes", type: "urgent" },
   { title: "Vacuum around", type: "priority" },
   { title: "Dust the shelves off", type: "normal" },
 ];
 
-function createCards(chores) {
+function createCards(chores, id) {
   let elementList = document.createElement("li");
   let name = document.createElement("span");
   name.innerText = chores.title;
@@ -13,6 +13,8 @@ function createCards(chores) {
   type.classList.add("circle");
   type.classList.add(chores.type);
   let button = document.createElement("button");
+  button.setAttribute("id", `trash-${id}`);
+  button.setAttribute("onclick", `deleteItem(${id})`);
   let imgCard = document.createElement("img");
   imgCard.src = "./img/trash.svg";
   imgCard.classList.add("trash");
@@ -23,10 +25,11 @@ function createCards(chores) {
 }
 
 function renderCards(chores) {
-  const choreList = document.querySelector(".choresList");
+  let choreList = document.querySelector(".choresList");
+  choreList.innerHTML = "";
   let filteredChores = filterByType(chores);
   for (let i = 0; i < filteredChores.length; i++) {
-    const render = createCards(filteredChores[i]);
+    const render = createCards(filteredChores[i], i);
     choreList.append(render);
   }
 }
@@ -48,14 +51,40 @@ function filterByType(chores) {
 
   return filteredChores;
 }
-
 renderCards(chores);
 
 function receiveInput() {
-  const inputResult = document.querySelector(".inputText").value;
-  const selectResult = document.querySelector(".select").value;
-  let results = filterByType(inputResult, selectResult);
-  const button = document.querySelector(".submit").addEventListener("click", function() {
-    
+  const button = document.querySelector(".submit");
+  button.addEventListener("click", function (event) {
+    event.preventDefault();
+    const inputResult = document.querySelector(".inputText").value;
+    const selectResult = document.querySelector(".select").value;
+    if (inputResult != "") {
+      if (selectResult.toLowerCase() != "choose the type") {
+        chores.push({ title: inputResult, type: selectResult });
+        renderCards(chores);
+      }
+    }
   });
 }
+receiveInput();
+
+function deleteItem(id) {
+  chores.splice(id, 1);
+  renderCards(chores);
+}
+//filter no chores
+//input = receive input
+//chamar render card no chores
+
+function search() {
+  const button = document.querySelector("#search");
+  button.addEventListener("click", function () {
+    const searchResult = document.querySelector(".search").value;
+    let filteredChores = chores.filter(function (element) {
+      return element.title.toLowerCase().includes(searchResult.toLowerCase());
+    });
+    renderCards(filteredChores);
+  });
+}
+search();
