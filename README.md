@@ -277,9 +277,6 @@ For my next activity I had to code a Light Bulb using HTML, CSS and JavaScript t
 <br />
 `flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `DOM` `event listener` `+`
 
-## S7-10-M1 - 01/11/23 - "[LISTA DE COMPRAS COM DOM](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-10-M1.html)"
-Still coding.
-
 ## S7-13-M1 - 01/12/23 - "[MANIPULANDO ATRIBUTOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-13-M1.html)"
 Still coding.
 
