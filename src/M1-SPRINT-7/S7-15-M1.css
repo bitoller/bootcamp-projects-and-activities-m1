@@ -1,63 +1,62 @@
 * {
-    box-sizing: border-box;
-  }
-  body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    min-height: 100vh;
-    max-width: 1200px;
-    background: fixed;
-  }
-  .topCard,
-  li,
-  .bottomCard {
-    border-radius: 10px;
-    background-color: #dadde05c;
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  .titleCard {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  h2 {
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  .topCard {
-    background-color: #212529;
-    color: #ffffff;
-  }
-  .bottomCard {
-    background-color: #e9ecef;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 16px;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  button {
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    background-color: #20c997;
-    border: none;
-    padding: 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  p {
-    margin: 0;
-  }
-  
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  min-height: 100vh;
+  max-width: 1200px;
+  background: fixed;
+}
+.topCard,
+li,
+.bottomCard {
+  border-radius: 10px;
+  background-color: #dadde05c;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.titleCard {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.topCard {
+  background-color: #212529;
+  color: #ffffff;
+}
+.bottomCard {
+  background-color: #e9ecef;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 16px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+button {
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: #20c997;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+p {
+  margin: 0;
+}
