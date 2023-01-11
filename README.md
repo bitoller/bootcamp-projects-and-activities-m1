@@ -270,7 +270,7 @@ For my next activity I had to code a Product Card dynamically based on an exampl
 `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `objects` `DOM` `event listener` `+`
 
 ## S7-06-M1 - 01/10/23 - "[LISTA DE TAREFAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-06-M1.html)"
-Part 1/3 done. Still coding the rest.
+Parts 3/3 done. Still coding css.
 
 ## S7-07-M1 - 01/10/23 - "[ACENDE E APAGA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-07-M1.html)"
 For my next activity I had to code a Light Bulb using HTML, CSS and JavaScript that could be turned on and off dynamically.<br />
