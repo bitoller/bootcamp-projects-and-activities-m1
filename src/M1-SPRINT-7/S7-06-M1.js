@@ -73,9 +73,6 @@ function deleteItem(id) {
   chores.splice(id, 1);
   renderCards(chores);
 }
-//filter no chores
-//input = receive input
-//chamar render card no chores
 
 function search() {
   const button = document.querySelector("#search");
