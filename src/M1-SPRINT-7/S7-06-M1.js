@@ -51,7 +51,11 @@ function filterByType(chores) {
 
 renderCards(chores);
 
-function receiveInput(text, select) {
+function receiveInput() {
   const inputResult = document.querySelector(".inputText").value;
   const selectResult = document.querySelector(".select").value;
+  let results = filterByType(inputResult, selectResult);
+  const button = document.querySelector(".submit").addEventListener("click", function() {
+    
+  });
 }
