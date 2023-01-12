@@ -257,30 +257,34 @@ For my next activity I had to solve exercises using JavaScript.<br />
 ## S6-13-M1 - 01/05/23 - "[CATÁLOGO GEEK](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-13-M1.html)"
 For my next activity I had to code an Online Product Catalog based on an example that was given using HTML, CSS and JavaScript to list all the products in stock dynamically.<br />
 <br />
-`input button` `img src` `flexbox` `hover` `active` `overflow` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
+`input button` `img src` `flexbox` `hover` `active` `overflow` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
 ## S6-14-M1 - 01/06/23 - "[LISTA DE FRUTAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-6/S6-14-M1.html)"
 For my next activity I had to code a Website Layout based on an example that was given using HTML, CSS and JavaScript to list all the products dynamically.<br />
 <br />
-`img src` `flexbox` `hover` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
+`img src` `flexbox` `hover` `console log` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
 ## S7-04-M1 - 01/09/23 - "[PRATICANDO OBJETO EVENTO](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-04-M1.html)"
 For my next activity I had to code a Product Card dynamically based on an example that was given using HTML, CSS and JavaScript, adding a 30% off event button.<br />
 <br />
-`function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `objects` `DOM` `event listener` `+`
+`function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `objects` `DOM` `event listener` `+`
 
 ## S7-06-M1 - 01/10/23 - "[LISTA DE TAREFAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-06-M1.html)"
-Parts 3/3 done. Still coding css.
+For my next activity I had to code a Chores List based on an example that was given using HTML, CSS and JavaScript to list all the chores dynamically, filtering them by priority. For the second part I had to code an option to add the chores manually using a form and a submit button, filtering the priority. For the third part I had to code a search bar to search for the chores in the list and a trash button to manually delete the chores from the list.<br />
+<br />
+`img src` `input` `select` `parallax` `scrollbar webkit` `input search webkit` `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `event listener` `+`
 
 ## S7-07-M1 - 01/10/23 - "[ACENDE E APAGA](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-07-M1.html)"
 For my next activity I had to code a Light Bulb using HTML, CSS and JavaScript that could be turned on and off dynamically.<br />
 <br />
-`flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `DOM` `event listener` `+`
+`flexbox` `backgroung image` `function` `variables` `arithmetics` `data type` `string` `boolean` `conditionals` `methods` `DOM` `event listener` `+`
 
 ## S7-13-M1 - 01/12/23 - "[MANIPULANDO ATRIBUTOS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-13-M1.html)"
-Still coding.
+For my next activity I had to code a User List using HTML, CSS and JavaScript to dynamically list all the users that had access to a website based on their profile and sector, giving them different colors.<br />
+<br />
+`flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
 ## S7-15-M1 - 01/12/23 - "[CARRINHO DE COMPRAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-15-M1.html)"
 For my next activity I had to code a Cart Checkout List based on an example that was given using HTML, CSS and JavaScript to list all the products dynamically and the total price. The challenge was to create the whole HTML part with DOM.<br />
 <br />
-`flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `arrays` `objects` `DOM` `+`
+`flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
