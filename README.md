@@ -288,3 +288,6 @@ For my next activity I had to code a User List using HTML, CSS and JavaScript to
 For my next activity I had to code a Cart Checkout List based on an example that was given using HTML, CSS and JavaScript to list all the products dynamically and the total price. The challenge was to create the whole HTML part with DOM.<br />
 <br />
 `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
+
+## S8-01-M1 - 01/18/23 - "[PROJETO FRONT END: E-COMMERCE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-8/S8-01-M1.html)"
+Still coding.
