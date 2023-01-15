@@ -270,7 +270,7 @@ For my next activity I had to code a Product Card dynamically based on an exampl
 `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `objects` `DOM` `event listener` `+`
 
 ## S7-06-M1 - 01/10/23 - "[LISTA DE TAREFAS](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-7/S7-06-M1.html)"
-For my next activity I had to code a Chores List based on an example that was given using HTML, CSS and JavaScript to list all the chores dynamically, filtering them by priority. For the second part I had to code an option to add the chores manually using a form and a submit button, filtering the priority. For the third part I had to code a search bar to search for the chores in the list and a trash button to manually delete the chores from the list.<br />
+For my next activity I had to code a To-do List based on an example that was given using HTML, CSS and JavaScript to list all the chores dynamically, filtering them by priority. For the second part I had to code an option to add the chores manually using a form and a submit button, filtering the priority. For the third part I had to code a search bar to search for the chores in the list and a trash button to manually delete the chores from the list.<br />
 <br />
 `img src` `input` `select` `parallax` `scrollbar webkit` `input search webkit` `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `event listener` `+`
 
