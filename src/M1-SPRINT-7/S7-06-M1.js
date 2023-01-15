@@ -5,6 +5,8 @@ let chores = [
   { title: "Dust the shelves off", type: "normal" },
 ];
 
+let form = document.getElementById("form1");
+
 function createCards(chores, id) {
   let elementList = document.createElement("li");
   let name = document.createElement("span");
@@ -14,7 +16,7 @@ function createCards(chores, id) {
   type.classList.add(chores.type);
   let button = document.createElement("button");
   button.setAttribute("id", `trash-${id}`);
-  button.setAttribute("onclick", `deleteItem(${id})`);
+  button.setAttribute("onclick", `deleteItem("${chores.title}")`);
   let imgCard = document.createElement("img");
   imgCard.src = "./img/trash.svg";
   imgCard.classList.add("trash");
@@ -57,11 +59,12 @@ function receiveInput() {
   const button = document.querySelector(".submit");
   button.addEventListener("click", function (event) {
     event.preventDefault();
-    const inputResult = document.querySelector(".inputText").value;
-    const selectResult = document.querySelector(".select").value;
-    if (inputResult != "") {
-      if (selectResult.toLowerCase() != "choose the type") {
-        chores.push({ title: inputResult, type: selectResult });
+    const inputResult = document.querySelector(".inputText");
+    const selectResult = document.querySelector(".select");
+    if (inputResult.value != "") {
+      if (selectResult.value.toLowerCase() != "choose the type") {
+        chores.push({ title: inputResult.value, type: selectResult.value });
+        form.reset();
         renderCards(chores);
       }
     }
@@ -69,9 +72,14 @@ function receiveInput() {
 }
 receiveInput();
 
-function deleteItem(id) {
-  chores.splice(id, 1);
-  renderCards(chores);
+function deleteItem(item) {
+  let id = chores.findIndex(function (chore) {
+    return chore.title.toLowerCase() == item.toLowerCase();
+  });
+  if (id != -1) {
+    chores.splice(id, 1);
+    renderCards(chores);
+  }
 }
 
 function search() {
@@ -81,6 +89,8 @@ function search() {
     let filteredChores = chores.filter(function (element) {
       return element.title.toLowerCase().includes(searchResult.toLowerCase());
     });
+    let search = document.getElementById("search-header");
+    search.value = "";
     renderCards(filteredChores);
   });
 }
