@@ -290,4 +290,4 @@ For my next activity I had to code a Cart Checkout List based on an example that
 `flexbox` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `+`
 
 ## S8-01-M1 - 01/18/23 - "[PROJETO FINAL M1: E-COMMERCE](https://bitoller.github.io/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1/src/M1-SPRINT-8/S8-01-M1.html)"
-Still coding.
+The project was finished on the 15th, but due to high traffic and cloning on this repository the commit will only happen after the project's presentation is done on the 18th/19th.
