@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bianca Toller" />
+    <link rel="icon" type="image/x-icon" href="./img/paw.svg" />
     <link rel="stylesheet" href="S8-01-M1.css" />
     <script src="./S8-01-M1.js" defer></script>
-    <title>Projeto Front End: E-commerce</title>
+    <title>Projeto Final M1: E-Commerce</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <figure>
+            <img src="./img/dog-cosmos.svg" alt="logo" class="img-logo" />
+          </figure>
+          <h1>Naughty Dogs</h1>
+        </div>
+        <div>
+          <button onclick="filter('All')" class="button-header">All</button>
+          <button onclick="filter('Accessories')" class="button-header">
+            Accessories
+          </button>
+          <button onclick="filter('Toys')" class="button-header">Toys</button>
+          <button onclick="filter('Beds')" class="button-header">Beds</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="items-card">
+        <ul class="items-list"></ul>
+      </section>
+      <aside>
+        <div class="search-area">
+          <input
+            type="search"
+            id="search-input"
+            class="search-input click-search"
+            name="search"
+            value
+            placeholder="Search here"
+          />
+          <button class="search-button" onclick="search()">Search</button>
+        </div>
+        <div class="checkout-area">
+          <h3>Shopping Cart</h3>
+          <div class="checkout-body"></div>
+        </div>
+      </aside>
+    </main>
+  </body>
 </html>
