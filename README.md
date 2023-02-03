@@ -3,7 +3,7 @@ I'll be posting here all the activities and projects I had to code during my Ful
 <br />
 <a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1" target="_blank"> ![Repo](https://img.shields.io/badge/M1_Repository-000?style=for-the-badge&color=7f3ace) </a> <a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2" target="_blank"> ![Repo](https://img.shields.io/badge/M2_Repository-000?style=for-the-badge&color=7f3ace) </a><br />
 
-[![Generic badge](https://img.shields.io/badge/COMPLETED?-YES-7f3ace.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/COMPLETED?-YES-7f3ace.svg)]
 
 <hr />
 
