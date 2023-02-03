@@ -294,3 +294,8 @@ For my next activity I had to code a Cart Checkout List based on an example that
 For the module's final project I had to code an E-Commerce Page based on an example that was given using HTML, CSS and JavaScript. I decided to change the theme from a clothing store to a pet supplies store. The product list and shopping cart were created using DOM. You can add and remove items to and from the cart, you can filter items by category using the buttons at the top of the page and you can search items by their name using the search bar. Most of the images, descriptions and prices were taken from [Chewy](https://www.chewy.com/). All rights reserved.<br />
 <br />
 `favicon` `button` `input search` `flexbox` `webkit scrollbar` `box shadow` `webkit box` `webkit search` `overflow` `float` `loops` `function` `variables` `arithmetics` `data type` `string` `number` `boolean` `conditionals` `methods` `arrays` `objects` `DOM` `onclick` `+`
+
+<hr />
+
+<b>Do not copy any code, content or structure from this repository without my permission. | Não copie nenhum código, conteúdo ou estrutura desse repositório sem a minha permissão.</b><br />
+Copyright © 2023 bitoller
