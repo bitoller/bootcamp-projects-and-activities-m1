@@ -20,35 +20,35 @@ userQuestion - Esta é uma propriedade do tipo string e irá armazenar a pergunt
 vote - Esta é uma propriedade do tipo number e deve armazenar obrigatoriamente um inteiro positivo. Inicialmente seu valor é zero.
 
 <h4>Funcionalidades</h4>
-Desenvolva uma função chamada createEvent.
+<h3>Desenvolva uma função chamada createEvent.</h3>
 
 Esta função recebe como parâmetro um objeto do tipo slenzie e uma string. Acesse a propriedade nameEvent do objeto slenzie e atribua a ela o valor da string recebida.
 
-O que deve ser verificado
+<h4>O que deve ser verificado</h4>
 
 - Verifique se o valor recebido realmente é uma string.
 - Verifique se o valor recebido como parâmetro tem no mínimo 5 caracteres.
 - Se os testes forem bem sucedidos retorne o objeto slenzie atualizado.
 - Se não, retorne: "The input value is invalid".
 
-Desenvolva uma função chamada addQuestion.
+<h3>Desenvolva uma função chamada addQuestion.</h3>
 
 Esta função recebe um objeto do tipo slenzie e um objeto do tipo question como parâmetro.
 
 A pergunta (question) deve ser armazenada na lista de perguntas (questions) do objeto slenzie.
 
-O que deve ser verificado
+<h4>O que deve ser verificado</h4>
 
 Verifique se o objeto do tipo question não possui propriedades vazias; é obrigatório que as propriedades possuam valor.
 
 Se a propriedade user estiver vazia, retorne: "The user can't be empty".  
 Se a propriedade userQuestion estiver vazia, retorne: "The question can't be null".
 
-Desenvolva uma função chamada addVoteToQuestion.
+<h3>Desenvolva uma função chamada addVoteToQuestion.</h3>
 
 Esta função deve receber um valor inteiro como parâmetro e o objeto slenzie. Acesse a lista de perguntas (questions) do objeto slenzie e incremente a propriedade vote do elemento da lista na posição recebida como parâmetro.
 
-O que deve ser verificado
+<h4>O que deve ser verificado</h4>
 
 - Verifique se o valor passado está dentro dos limites do tamanho da lista
 - Se o valor não estiver dentro dos limites da lista, retorne: "Question not found."
@@ -57,7 +57,7 @@ O que deve ser verificado
 - Se tudo estiver dentro dos padrões verificados nos passos anteriores retorne:
 "Vote registered successfully" .
 
-Desenvolva uma função chamada questionAnswered.
+<h3>Desenvolva uma função chamada questionAnswered.</h3>
 
 Esta função deve receber um valor inteiro e o objeto slenzie como parâmetro.
 
@@ -65,14 +65,14 @@ Acesse a lista de perguntas (questions) e adicione a propriedade answered na per
 
 Defina o valor true para a propriedade answered .
 
-O que deve ser verificado
+<h4>O que deve ser verificado</h4>
 
 - Verifique se o valor passado está dentro dos limites do tamanho da lista
 - Se o valor não estiver dentro dos limites da lista, retorne: "Question not found."
 - Verifique se o valor passado é neutro ou um inteiro positivo.
 - Se os valores não estiverem dentro dos padrões retorne: "The value is not allowed"
 
-Desenvolva uma função chamada unansweredQuestions.
+<h3>Desenvolva uma função chamada unansweredQuestions.</h3>
 
 Esta função recebe o objeto do tipo slenzie como parâmetro e retorna todas as perguntas que ainda não foram respondidas.
 
