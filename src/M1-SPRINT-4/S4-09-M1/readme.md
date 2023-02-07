@@ -1,6 +1,6 @@
-Desafio | JavaScript - Acerte o número.
+<h1>Desafio | JavaScript - Acerte o número.</h1>
 
-Introdução
+<h3>Introdução</h3>
 Você foi convidado para desenvolver uma aplicação que consiste em gerar um número aleatório e cada participante tentar adivinhar.
 
 Você deverá desenvolver as funcionalidades desta aplicação seguindo alguns passos.
@@ -28,3 +28,7 @@ Desenvolva uma variável chamada numeroAleatorio para armazenar o retorno da fun
 Desenvolva uma variável para armazenar o palpite do usuário. Use o prompt, como de costume, pegando somente inteiros positivos.
 
 Chame a função verificarPalpite() passando o numeroAleatorio e o palpite.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
