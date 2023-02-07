@@ -70,7 +70,7 @@ img {
   width: 50%;
 }
 .parallax {
-  background-image: url("img/pattern.jpg");
+  background-image: url("./assets/pattern.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

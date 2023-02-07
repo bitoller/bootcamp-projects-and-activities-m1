@@ -18,7 +18,7 @@ function createCards(chores, id) {
   button.setAttribute("id", `trash-${id}`);
   button.setAttribute("onclick", `deleteItem("${chores.title}")`);
   let imgCard = document.createElement("img");
-  imgCard.src = "./img/trash.svg";
+  imgCard.src = "./assets/trash.svg";
   imgCard.classList.add("trash");
   button.append(imgCard);
   elementList.append(type, name, button);

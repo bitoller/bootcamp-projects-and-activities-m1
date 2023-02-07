@@ -12,10 +12,10 @@ body {
   background-size: contain;
 }
 .off {
-  background-image: url("./img/light-bulb-off.svg");
+  background-image: url("./assets/light-bulb-off.svg");
 }
 .on {
-  background-image: url("./img/light-bulb-on.svg");
+  background-image: url("./assets/light-bulb-on.svg");
 }
 #button {
   width: 400px;
@@ -25,8 +25,8 @@ body {
   background-size: contain;
 }
 .buttonOff {
-  background-image: url("./img/switch-off.svg");
+  background-image: url("./assets/switch-off.svg");
 }
 .buttonOn {
-  background-image: url("./img/switch-on.svg");
+  background-image: url("./assets/switch-on.svg");
 }
