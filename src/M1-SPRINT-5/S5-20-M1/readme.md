@@ -21,8 +21,8 @@ O valor de entrada deve ser obrigatoriamente um número de 1 a 4.
 
 Valide a entrada de dados para determinar o valor recebido. Se for 1:
 
-Chame a Função getTheCurse passando o objeto alunoCurso.  
-Ao receber um objeto do tipo aluno como parâmetro acesse a propriedade curso e retorne seu valor em um alert
+- Chame a Função getTheCurse passando o objeto alunoCurso.  
+- Ao receber um objeto do tipo aluno como parâmetro acesse a propriedade curso e retorne seu valor em um alert
 
 <h3>Matéria - Desenvolva uma função chamada getTheSubjects . Esta função recebe como parâmetro um objeto do tipo aluno, deve acessar a propriedade materias e retornar por meio de um alert a lista de materias do aluno.</h3>
 
@@ -30,8 +30,8 @@ Ao receber um objeto do tipo aluno como parâmetro acesse a propriedade curso e 
 
 Valide a entrada de dados para determinar o valor recebido. Se for 2:
 
-Chame a função getTheSubjects passando como parâmetro um objeto do tipo aluno.  
-Ao receber o objeto do tipo aluno como parâmetro, acesse a propriedade materias e retorne seu valor em um alert.
+- Chame a função getTheSubjects passando como parâmetro um objeto do tipo aluno.  
+- Ao receber o objeto do tipo aluno como parâmetro, acesse a propriedade materias e retorne seu valor em um alert.
 
 <h3>Situação de Matrícula - Desenvolva uma função chamada resgistrationStatus. Esta função recebe como parâmetro um objeto do tipo aluno. Deve acessar a propriedade situacaoMatricula, tratar o valor contido, sendo true = Ativo e false = inativo. Retorna o valor tratado em um alert.</h3>
 
@@ -39,12 +39,12 @@ Ao receber o objeto do tipo aluno como parâmetro, acesse a propriedade materias
 
 Valide a entrada de dados para determinar o valor recebido. Se for 3:
 
-Chame a função resgistrationStatus passando como parâmetro um objeto do tipo aluno.  
-Acesse a propriedade situacaoMatricula.  
-Se o valor de situacaoMatricula for igual a true.  
-Retorne em um alert "Ativo"  
-Se a propriedade situacaoMatricula for igual a false.  
-Retorne em um alert "Inativo"  
+- Chame a função resgistrationStatus passando como parâmetro um objeto do tipo aluno.  
+- Acesse a propriedade situacaoMatricula.  
+- Se o valor de situacaoMatricula for igual a true.  
+- Retorne em um alert "Ativo"  
+- Se a propriedade situacaoMatricula for igual a false.  
+- Retorne em um alert "Inativo"  
 
 <h3>Gerar Carteira - Desenvolva uma função chamada generateStudentCard. Esta função recebe como parâmetro um objeto do tipo aluno. A função deve retornar uma string, contendo as propriedades: nome, idade, curso e instituição.</h3>
 
@@ -54,11 +54,11 @@ Valide a entrada de dados para determinar o valor recebido. Se for 4:
 
 Chame a função generateStudentCard passando como parâmetro um objeto do tipo aluno.
 
-Crie uma variável cardInformation  
-Armazene nesta variável uma string com o seguinte formato:  
-name: "Joe", idade: "31", curso: "FullStack", instituição: "Kenzie Br"  
-Lembre-se de substituir os valores fixados pelas propriedades do objeto, para quando o objeto diferir, sua função ainda continue funcionando.  
-Retorne a variável cardInformation dentro de um alert  
+- Crie uma variável cardInformation  
+- Armazene nesta variável uma string com o seguinte formato: name: "Joe", idade: "31", curso: "FullStack", instituição: "Kenzie Br"  
+- Lembre-se de substituir os valores fixados pelas propriedades do objeto, para quando o objeto diferir, sua função ainda continue funcionando.  
+- Retorne a variável cardInformation dentro de um alert  
+
 O exemplo acima é fictício, representa somente o formato com que o seu resultado deve se parecer. O valores devem ser acessados por meio das propriedades do objeto fornecido.  
 <br>
 <br>
