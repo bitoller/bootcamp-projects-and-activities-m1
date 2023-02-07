@@ -40,35 +40,36 @@ Função entrar.
 
 Esta função tem como objetivo aumentar o número de ocupantes dentro do elevador. Ela recebe um objeto do tipo elevador como parâmetro.
 
-Acesse a propriedade ocupacaoAtual do objeto elevador.  
-Incremente a propriedade sempre em mais 1.  
-Verifique se ao incrementar o elevador não atingiu sua capacidade máxima.  
-Se sim, retorne: "Elevador lotado".  
-Se não, retorne: "Ocupação atual em: {ocupacaoAtual}".  
-Função sair.
+- Acesse a propriedade ocupacaoAtual do objeto elevador.  
+- Incremente a propriedade sempre em mais 1.  
+- Verifique se ao incrementar o elevador não atingiu sua capacidade máxima.  
+- Se sim, retorne: "Elevador lotado".  
+- Se não, retorne: "Ocupação atual em: {ocupacaoAtual}".  
+- Função sair.
 
 Esta função tem como objetivo diminuir o número de ocupantes dentro do elevador. Ela recebe um objeto do tipo elevador como parâmetro.
 
-Acesse a propriedade ocupacaoAtual do objeto elevador.  
-Decremente a propriedade sempre em menos 1.  
-Retorne: "Ocupação atual em: {ocupacaoAtual}"  
-Função subir.
+- Acesse a propriedade ocupacaoAtual do objeto elevador.  
+- Decremente a propriedade sempre em menos 1.  
+- Retorne: "Ocupação atual em: {ocupacaoAtual}"  
+- Função subir.
 
 Esta função tem como objetivo alterar o andar em uma unidade. Ela recebe como parâmetro um objeto do tipo elevador.
 
-Acesse a propriedade andarAtual do objeto elevador.  
-Incremente a propriedade sempre em mais 1.  
-Verifique se ao incremetar, o elevador não atingiu o limite.  
-Se sim, retorne: "O elevador já se encontra no último andar".  
-Se não, retorne: "Estamos no andar: {andarAtual}".  
-Função descer.
+- Acesse a propriedade andarAtual do objeto elevador.  
+- Incremente a propriedade sempre em mais 1.  
+- Verifique se ao incremetar, o elevador não atingiu o limite.  
+- Se sim, retorne: "O elevador já se encontra no último andar".  
+- Se não, retorne: "Estamos no andar: {andarAtual}".  
+- Função descer.
 
-Esta função tem como objetivo alterar o andar em uma unidade. Ela recebe como parâmetro um objeto do tipo elevador.
-Acesse a propriedade andarAtual do objeto elevador.  
-Decremente a propriedade sempre em menos 1.  
-Verifique se ao decrementar, o elevador não atingiu o térreo.  
-Se sim, retorne: "O elevador já se encontra no térreo".  
-Se não, retorne: "Estamos no andar: {andarAtual}"  
+Esta função tem como objetivo alterar o andar em uma unidade. Ela recebe como parâmetro um objeto do tipo elevador.  
+
+- Acesse a propriedade andarAtual do objeto elevador.  
+- Decremente a propriedade sempre em menos 1.  
+- Verifique se ao decrementar, o elevador não atingiu o térreo.  
+- Se sim, retorne: "O elevador já se encontra no térreo".  
+- Se não, retorne: "Estamos no andar: {andarAtual}"  
 
 <h3>3- Televisão - Modele um objeto Televisão. Este objeto terá os seguintes atributos:</h3>
 
@@ -79,35 +80,35 @@ Em seguida, crie as seguintes funções:
 
 Desenvolva uma função chamada aumentarVolume. Esta função recebe como parâmetro um objeto do tipo televisão. Sempre que esta função for chamada ela deve conseguir atualizar o volume do objeto televisão recebido.
 
-Acesse a propriedade valume do objeto televisão.  
-Incremente o volume em 1.  
-O volume máximo é 10.  
-Se o volume já estiver no máximo ou chegar ao máximo, retorne: "Volume no máximo".  
-Se não, retone: "Volume esta em: {volume}".  
+- Acesse a propriedade valume do objeto televisão.  
+- Incremente o volume em 1.  
+- O volume máximo é 10.  
+- Se o volume já estiver no máximo ou chegar ao máximo, retorne: "Volume no máximo".  
+- Se não, retone: "Volume esta em: {volume}".  
 
 Desenvolva uma função chamada diminuirVolume. Esta função recebe como parâmetro um objeto do tipo televisão. Sempre que esta função for chamada ela deve conseguir atualizar o volume do objeto televisão recebido.
 
-Acesse a propriedade valume do objeto televisão.  
-Incremente o volume em 1.  
-O volume mínimo é 0.  
-Se o volume já estiver no mínimo ou chegar ao mínimo, retorne: "Volume no mínimo".  
-Se não, retone: "Volume esta em: {volume}".
+- Acesse a propriedade valume do objeto televisão.  
+- Incremente o volume em 1.  
+- O volume mínimo é 0.  
+- Se o volume já estiver no mínimo ou chegar ao mínimo, retorne: "Volume no mínimo".  
+- Se não, retone: "Volume esta em: {volume}".
 
 Desenvolva uma função chamada mudarCanalParaCima. Esta função recebe como parâmetro um objeto do tipo televisão. Sempre que esta função for chamada ela deve conseguir atualizar o canal do objeto televisão recebido.
 
-Acesse a propriedade canal do objeto televisão.  
-Incremente o canal em 1.  
-O canal máximo é o 100.  
-Se o canal já estiver no máximo ou chegar ao máximo, retorne: "Este já é o último canal".  
-Se não, retone: "O canal atual é: {canal}".
+- Acesse a propriedade canal do objeto televisão.  
+- Incremente o canal em 1.  
+- O canal máximo é o 100.  
+- Se o canal já estiver no máximo ou chegar ao máximo, retorne: "Este já é o último canal".  
+- Se não, retone: "O canal atual é: {canal}".
 
 Desenvolva uma função chamada mudarCanalParaBaixo. Esta função recebe como parâmetro um objeto do tipo televisão. Sempre que esta função for chamada ela deve conseguir atualizar o canal do objeto televisão recebido.
 
-Acesse a propriedade canal do objeto televisão.  
-Decremente o canal em 1.  
-O canal mínimo é o 0.  
-Se o canal já estiver no mínimo ou chegar ao mínimo, retorne: "Este é o primeiro canal".  
-Se não, retone: "O canal atual é: {canal}".
+- Acesse a propriedade canal do objeto televisão.  
+- Decremente o canal em 1.  
+- O canal mínimo é o 0.  
+- Se o canal já estiver no mínimo ou chegar ao mínimo, retorne: "Este é o primeiro canal".  
+- Se não, retone: "O canal atual é: {canal}".
 
 Desenvolva uma função chamada consultarCanal.
 
