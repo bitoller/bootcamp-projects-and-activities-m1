@@ -1,21 +1,21 @@
-JavaScript: Lista de Arrays - Avançado
+<h1>JavaScript: Lista de Arrays - Avançado</h1>
 
-Exercícios⁠
+<h3>Exercícios⁠</h3>
 
-1- Escreva uma função que receba uma lista A de dimensão 30 composta apenas por números inteiros.
+<h3>1- Escreva uma função que receba uma lista A de dimensão 30 composta apenas por números inteiros.</h3>
 
 A função deve retornar a quantidade de valores pares e ímpares existentes na lista recebida.
 
-Exemplos de saída:
+Exemplos de saída:  
 A lista recebida possui x elementos pares e y elementos ímpares.
 
-2- Escreva uma função que recebe uma lista A de tamanho 10, composta por números inteiros.
+<h3>2- Escreva uma função que recebe uma lista A de tamanho 10, composta por números inteiros.</h3>
 
 Retorne o total de elementos ímpares existentes na matriz e também o percentual do valor total de números ímpares em relação à quantidade total de elementos armazenados na matriz.
 
 Retorne o seguinte texto: "O total de valores ímpares é x e corresponde a y% da lista"
 
-3- Escreva uma função que receba como parâmetro duas listas A e B, cada uma com dez elementos.
+<h3>3- Escreva uma função que receba como parâmetro duas listas A e B, cada uma com dez elementos.</h3>
 
 A função deve realizar a validação do tamanho da lista. Caso sejam maiores ou menores que 10, retorne: "Lista fora dos padrões necessários".
 
@@ -26,3 +26,7 @@ A composição das listas deve ser validada pela função. Caso a composição n
 Construir uma lista C que seja o resultado da junção das listas A e B, de modo que contenha 20 elementos.
 
 Retorne a lista C resultante.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
