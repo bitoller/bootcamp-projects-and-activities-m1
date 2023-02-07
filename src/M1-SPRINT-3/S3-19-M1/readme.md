@@ -1,6 +1,6 @@
-Atividade - JavaScript: Desafio portaria
+<h1>Atividade - JavaScript: Desafio portaria</h1>
 
-Desafio
+<h3>Desafio</h3>
 Esta atividade é um desafio, você deverá pensar em cada etapa da resolução.
 Nesta atividade você irá utilizar os conceitos de variáveis e condicional.
 
@@ -16,9 +16,13 @@ estaAcompanhado é uma variável do tipo boolean, mas o usuário não vai digita
 
 Se o usuário digitar "n" a variável estaAcompanhado recebe false, caso contrário ela recebe true.
 
-Teste se a idade é igual ou acima de 18, caso não seja, deve alertar:
+- Teste se a idade é igual ou acima de 18, caso não seja, deve alertar:
 entrada não está permitida para nome : Menor de idade,
-Caso contrário, deve verificar se está acompanhado, se sim deve alertar:
+- Caso contrário, deve verificar se está acompanhado, se sim deve alertar:
 Entrada permitida para nome: Conceder desconto
-Se não estiver acompanhado deve alertar:
+- Se não estiver acompanhado deve alertar:
 Entrada permitida para nome: Valor integral.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
