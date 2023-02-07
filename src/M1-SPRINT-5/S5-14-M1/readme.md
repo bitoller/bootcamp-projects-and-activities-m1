@@ -1,6 +1,6 @@
-Atividades - Lista de JavaScript - Debug II
+<h1>Atividades - Lista de JavaScript - Debug II</h1>
 
-Introdução
+<h3>Introdução</h3>
 Esta é uma atividade de debug, os códigos estão parcialmente criados, ou totalmente criados, mas funcionando incorretamente.
 
 Investigue o código, teste e corrija o que achar necessário.
@@ -11,44 +11,12 @@ Uma equipe de desenvolvedores, começaram a desenvolver uma solução para o cá
 
 O problema é que grande parte das funcionalidades desenvolvidas não faz exatamente o que está sendo proposto, quando não fazem nada.
 
-A função insereProduto() não faz a inserção como deveria ser feito.
+A função insereProduto() não faz a inserção como deveria ser feito.  
 Além de sempre alterar o produto que estava antes, a lista sempre fica com um item vazio.
-
-//Função⁠
-⁠
-<!-- function insereProduto(produto){
-    const produtosCotacao = []
-    produtosCotacao[1] = produto
-
-    return produtosCotacao 
-}
-⁠
-
-//Chamada da função
-insereProduto({
-    preco: 100,
-    quantidade: 10, 
-    nome: "Soja 25kg"
-}) -->
 
 O esperado que o produto fosse inserido na última posição da lista, mas no momento está retorno está assim: [empty, {…}]
 
 A função de criar produtos não está funcionando, o produto criado não retorna e dá um erro.
-
-//Função⁠
-
-<!-- function criaProduto(preco, quantidade, nome){
-    let produto = {
-        preco = preco,
-        quantidade = quantidade,
-        nome = nome
-    }
-
-    return produto
-}
-
-//chamada da função
-criaProduto(200, 150, "Feijão 25kg") -->
 
 O esperado é que o produto fosse retornado, mas no momento acontece um erro.
 
@@ -58,57 +26,16 @@ O produto é impresso no console, mas com o nome object.
 
 Deveria imprimir o preço.
 
-//função⁠
-
-<!-- function renderizaProdutos(todosProdutos){
-    for (let i = 0; i <= todosProdutos.length; i++){
-        console.log(todosProdutos[i])
-    }
-}
-//chamada da função
-let todosProdutos = insereProduto(produto)
-
-renderizaProdutos(todosProdutos) -->
-
 O esperado é que o preço de cada um dos produtos da lista fossem impressos no console.
 
 A função cadastraServicos() não atualiza a lista corretamente, com o novo elemento cadastrado. Sempre que um desenvolvedor tenta armazenar a lista atualizada após uma inserção, a variável fica com o valor undefined, e não com o valor atualizado da lista.
-
-//função⁠
-
-<!-- function cadastraServicos(servico){
-     console.log(listServico.push(servico))
-}
-//chamada da função
-cadastraServicos({servico: "Pulverização", tipo: "Gafanhotos", valor: 50}) -->
 
 O esperado é que a cada inserção de um objeto serviço a lista de serviços fosse retornada de forma atualizada.
 
 A função calculaValorServico() não funciona, ela recebe uma lista de serviços, mas o valor a cobrar nunca é exatamente o valor ser cobrado, quase sempre é menor, exceto que o cliente tenha feito apenas um serviço.
 
-//função⁠
-
-<!-- function calculaValorServico(clienteServicos){
-   let valorServico = clienteServicos.servicos[0].preco * clienteServicos.servicos[0].qtd
-
-    return valorServico
-}
-
-//Chamada da função
-calculaValorServico({cliente: "Rafael", servico:[
-    pulverizacao = {
-       preco: 50,
-       quantidade: 10
-    },
-    capina = {
-        preco: 5,
-        quantidade: 10
-    },
-    aragem = {
-        preco: 200,
-        quantidade: 10
-    }
-
-]}) -->
-
 O esperado aqui é que o valor retornado fosse: R$ 2550,00. No momento da erro e quando estava funcionando, retornava apenas R$ 500,00, para este caso.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
