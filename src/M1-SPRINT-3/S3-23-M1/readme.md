@@ -34,8 +34,6 @@ Você pode restringir o número de casas decimais usando o toFixed(), deixando a
 
 <h3>Exercício 10 - Construir um aplicativo que calcule a área de um losango. Identificar quais serão as entradas necessárias.</h3>
 <br>
-<b>The results are on the console</b>
-<br>
 <br>
 
 <p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
