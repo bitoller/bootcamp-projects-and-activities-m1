@@ -1,41 +1,41 @@
 let items = [
   {
-    image: "./img/animewoman.jpg",
+    image: "./assets/animewoman.jpg",
     name: "Asuka Figure",
     price: "R$ 200,00",
     type: "figure",
   },
 
   {
-    image: "./img/dragonballpersonagem.jpg",
+    image: "./assets/dragonballpersonagem.jpg",
     name: "Sayan Goku Figure",
     price: "R$ 250,00",
     type: "figure",
   },
 
   {
-    image: "./img/starwarspersonagem.jpg",
+    image: "./assets/starwarspersonagem.jpg",
     name: "Baby Yoda Figure",
     price: "R$ 260,00",
     type: "figure",
   },
 
   {
-    image: "./img/clock.jpg",
+    image: "./assets/clock.jpg",
     name: "Apple Watch Painting",
     price: "R$ 120,00",
     type: "frame",
   },
 
   {
-    image: "./img/gamepad.jpg",
+    image: "./assets/gamepad.jpg",
     name: "PlayStation Controller Painting",
     price: "R$ 120,00",
     type: "frame",
   },
 
   {
-    image: "./img/personagem.jpg",
+    image: "./assets/personagem.jpg",
     name: "C3PO Painting",
     price: "R$ 120,00",
     type: "frame",
