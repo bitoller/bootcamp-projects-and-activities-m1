@@ -1,6 +1,6 @@
-Desafio | JavaScript - Enigma
+<h1>Desafio | JavaScript - Enigma</h1>
 
-Introdução
+<h3>Introdução</h3>
 Enigma
 
 Você trabalha na inteligência de um time da polícia. Foi identificada a troca de mensagens entre dois grupos de Cracker's.
@@ -13,14 +13,18 @@ O programa deverá receber um texto com até 250 caracteres e deverá dar como s
 
 Você descobriu que na escrita não é utilizado espaço nem mesmo para separar palavras, ao invés disto conseguiu notar que qualquer caractere que não seja uma letra minúscula entre a e z será considerado separador de palavra.
 
-Entrada:⁠sss.aasd.sss
+Entrada:⁠sss.aasd.sss  
 Saída: 3
 
-Entrada: sssaasdsSs
+Entrada: sssaasdsSs  
 Saída: 2
 
-Entrada: sssa1asdss
+Entrada: sssa1asdss  
 Saída: 2
 
 
 ⁠Tente elaborar um algoritmo funcional.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
