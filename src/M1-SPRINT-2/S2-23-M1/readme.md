@@ -1,17 +1,22 @@
-Entrega - CSS: Desenvolvendo Interface KenzieFlix
+<h1>Entrega - CSS: Desenvolvendo Interface KenzieFlix</h1>
 
 Nessa entrega vamos criar um projeto para concretizar nossos conhecimentos de CSS até agora.
 
-Vamos para prática:
-Utilize o conceito de Flexbox para posicionar cada box de usuário
-160px de largura para cada box de usuário
-700px de largura máxima para o box que envolve todos os usuários
-Hover:
-Utilize os efeitos de hover para os cards dos usuários
-Utilize os efeitos de hover para o botão "Gerenciar Perfis"
+<h3>Vamos para prática:</h3>
 
-O resultado esperado
+- Utilize o conceito de Flexbox para posicionar cada box de usuário
+- 160px de largura para cada box de usuário
+- 700px de largura máxima para o box que envolve todos os usuários
+
+<h4>Hover:</h4>
+
+- Utilize os efeitos de hover para os cards dos usuários
+- Utilize os efeitos de hover para o botão "Gerenciar Perfis"
+
+O resultado esperado:
 
 <img src="./assets/example-1.gif" alt="example 1" />
+<br>
+<br>
 
-Segue o layout: Acessar Layout
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
