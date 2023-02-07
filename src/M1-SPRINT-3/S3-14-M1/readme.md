@@ -138,8 +138,6 @@ Saída: "nome: GERALDO LUIZ - idade: 32 - Setor: Produção"
 
 Crie um aquivo html, incorpore um aquivo javascript a ele. Todos os exercícios deverão ser realizadas no mesmo arquivo javascript.
 Para que um algoritmo não atrapalhe o outro, basta comentar o anterior.
-
-<b>The results are on the console</b>
 <br>
 <br>
 
