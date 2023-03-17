@@ -1,7 +1,7 @@
 # BOOTCAMP PROJECTS AND ACTIVITIES
 I'll be posting here all the activities and projects I had to code during my Full Stack bootcamp at Kenzie Academy so I can show my progress from No Stack all the way to a Full Stack Developer. This repository will have almost everything I did during the `first module`, or `M1` for short.<br />
 <br />
-<a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1" target="_blank"> ![Repo](https://img.shields.io/badge/M1_Repository-000?style=for-the-badge&color=7f3ace) </a> <a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2" target="_blank"> ![Repo](https://img.shields.io/badge/M2_Repository-000?style=for-the-badge&color=7f3ace) </a>
+<a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M1" target="_blank"> ![Repo](https://img.shields.io/badge/M1_Repository-000?style=for-the-badge&color=7f3ace) </a> <a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2" target="_blank"> ![Repo](https://img.shields.io/badge/M2_Repository-000?style=for-the-badge&color=7f3ace) </a> <a href="https://github.com/bitoller/BOOTCAMP-PROJECTS-AND-ACTIVITIES-M3" target="_blank"> ![Repo](https://img.shields.io/badge/M3_Repository-000?style=for-the-badge&color=7f3ace) </a>
 
 <hr />
 
