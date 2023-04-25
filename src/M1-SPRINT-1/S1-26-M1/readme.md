@@ -1,4 +1,4 @@
-<h1>Entrega: Blog Kenzie HTML</h1>
+<h1>Blog Kenzie HTML</h1>
 
 <h3>Introdução</h3>
 Nessa entrega vamos criar estrutura de um blog com HTML e utilizar o blog da Kenzie como referência para criar os posts.
