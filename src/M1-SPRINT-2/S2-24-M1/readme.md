@@ -1,4 +1,4 @@
-<h1>Desafio - CSS: E-commerce com FlexBox</h1>
+<h1>CSS: E-commerce com FlexBox</h1>
 
 <h3>Introdução</h3>
 Neste desafio aplicaremos os conceitos vistos sobre flexbox.
