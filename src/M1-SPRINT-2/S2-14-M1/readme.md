@@ -1,4 +1,4 @@
-<h1>Entrega - Estilizando Blog Kenzie</h1>
+<h1>Estilizando Blog Kenzie</h1>
 
 <h3>Introdução</h3>
 Você já criou o blog na semana anterior apenas com HTML. Agora daremos um pouco de estilo ao nosso projeto.
