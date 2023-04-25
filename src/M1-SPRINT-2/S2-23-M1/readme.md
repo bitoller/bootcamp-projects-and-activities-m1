@@ -1,4 +1,4 @@
-<h1>Entrega - CSS: Desenvolvendo Interface KenzieFlix</h1>
+<h1>CSS: Desenvolvendo Interface KenzieFlix</h1>
 
 Nessa entrega vamos criar um projeto para concretizar nossos conhecimentos de CSS até agora.
 
