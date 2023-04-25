@@ -1,4 +1,4 @@
-<h1>Entrega - Página de Perfil</h1>
+<h1>Página de Perfil</h1>
 
 <h3>Introdução</h3>
 O exercício a seguir está dividido em duas partes. Você deverá criar seu projeto de maneira organizada e completar o código abaixo com informações sobre você.
