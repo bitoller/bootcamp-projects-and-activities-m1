@@ -1,4 +1,4 @@
-<h1>Atividade HTML: Criando formulário de cadastro</h1>
+<h1>HTML: Criando formulário de cadastro</h1>
 
 <h3>Instruções</h3>
 Nesta atividade vamos criar um modelo básico de formulário, seguindo as instruções abaixo.<br>
