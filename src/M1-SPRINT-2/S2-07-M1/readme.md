@@ -1,4 +1,4 @@
-<h1>Atividade CSS - Utilizando os Seletores CSS</h1>
+<h1>Utilizando os Seletores CSS</h1>
 
 <h3>Visão Geral</h3>
 Nos conteúdos anteriores você aprendeu a utilizar alguns seletores. Hora de praticar!
