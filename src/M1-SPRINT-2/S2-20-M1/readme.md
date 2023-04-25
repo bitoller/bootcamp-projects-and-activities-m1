@@ -1,4 +1,4 @@
-<h1>Atividade CSS - Utilizando Flexbox no meu Menu</h1>
+<h1>Utilizando Flexbox no meu Menu</h1>
 
 Nessa atividade vamos praticar um pouco mais sobre os conceitos de Flexbox.
 
