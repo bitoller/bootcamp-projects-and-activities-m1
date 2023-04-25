@@ -1,4 +1,4 @@
-<h1>Atividade - HTML: Marcando textos</h1>  
+<h1>HTML: Marcando textos</h1>  
 
 Nesta atividade você irá treinar os conhecimentos sobre tags e atributos adquiridos até o momento. A intenção desta atividade é fazer com que você possa identificar em uma página web os elementos HTML de marcação de texto.  
 
