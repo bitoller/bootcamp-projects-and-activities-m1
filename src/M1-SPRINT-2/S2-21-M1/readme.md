@@ -1,4 +1,4 @@
-<h1>Atividade - CSS: Página Blog - Flexbox</h1>
+<h1>CSS: Página Blog - Flexbox</h1>
 
 Nessa atividade vamos exercitar nosso conhecimento em CSS utilizando o Flexbox.
 
