@@ -1,4 +1,4 @@
-<h1>Atividade - Criando seção interativa</h1>
+<h1>Criando seção interativa</h1>
 
 Nas últimas aulas você aprendeu usar diversas propriedades, agora chegou a hora de treinar.
 
