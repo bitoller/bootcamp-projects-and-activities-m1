@@ -1,4 +1,4 @@
-<h1>Atividade CSS: Aplicando conceitos de margin e padding</h1>
+<h1>Aplicando conceitos de margin e padding</h1>
 
 Nesta atividade vamos praticar um pouco sobre os conceitos de margin e padding.
 
