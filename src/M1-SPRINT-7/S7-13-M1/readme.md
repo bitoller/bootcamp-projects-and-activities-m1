@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: DOM Manipulando Atributos</h1>
+<h1>JavaScript: DOM Manipulando Atributos</h1>
 
 Você aprendeu a manipular atributos. Ao pensar em uma forma de uso que seria interessante, você acredita que identificar os usuários de um site com base em seu perfil de acesso, utilizando cores diferentes seria legal.
 
