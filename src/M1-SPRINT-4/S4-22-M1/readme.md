@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: Lista de Objetos - I</h1>
+<h1>JavaScript: Lista de Objetos - I</h1>
 
 1 ª Parte: Modelagem
 
