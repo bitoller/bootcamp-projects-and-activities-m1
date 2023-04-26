@@ -1,4 +1,4 @@
-<h1>Lista de Atividades - JavaScript: Manipulando Objetos</h1>
+<h1>JavaScript: Manipulando Objetos</h1>
 
 <h3>Introdução</h3>
 Nesta lista de atividades iremos praticar manipulação de objetos. Você irá acessar, editar, validar e criar propriedades de objetos.
