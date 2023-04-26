@@ -1,4 +1,4 @@
-<h1>Atividade - Loteria Premiada</h1>
+<h1>Loteria Premiada</h1>
 
 <h3>Introdução</h3>
 Nessa atividade vamos treinar nossos conhecimentos a respeito de sintaxe e lógica com Javascript.
