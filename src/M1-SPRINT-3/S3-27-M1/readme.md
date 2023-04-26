@@ -1,4 +1,4 @@
-<h1>Entrega - Lista de JavaScript : Primeiros Passos?</h1>
+<h1>Lista de JavaScript : Primeiros Passos</h1>
 
 
 <h3>1- Escreva um programa que, receba dois números inteiros.</h3>
