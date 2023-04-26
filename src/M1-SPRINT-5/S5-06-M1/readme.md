@@ -1,4 +1,4 @@
-<h1>Atividades - Lista de JavaScript - Debug I</h1>
+<h1>Lista de JavaScript - Debug I</h1>
 
 <h3>Introdução</h3>
 Esta é uma atividade de debug, os códigos estão parcialmente criados, ou totalmente criados, mas funcionando incorretamente.
