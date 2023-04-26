@@ -1,4 +1,4 @@
-<h1>Atividade - Lista de frutas</h1>
+<h1>Lista de frutas</h1>
 
 <h3>Introdução</h3>
 Nesta atividade você irá exercitar partes dos conceitos adquiridos até agora sobre HTML, CSS e DOM.
