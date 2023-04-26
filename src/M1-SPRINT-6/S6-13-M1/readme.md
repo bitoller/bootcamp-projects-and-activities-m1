@@ -1,4 +1,4 @@
-<h1>JavaScript | Entrega - Catálogo Geek</h1>
+<h1>Catálogo Geek</h1>
 
 <h3>Introdução</h3>
 Você foi convidado para ajudar alguns desenvolvedores a criar uma página Geek.
