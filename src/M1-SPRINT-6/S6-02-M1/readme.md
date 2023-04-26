@@ -1,4 +1,4 @@
-<h1>Lista de atividades - Manipulando objetos e arrays</h1>
+<h1>Manipulando objetos e arrays</h1>
 
 <h3>Introdução</h3>
 Os exercícios a seguir tem como propósito incentivar seu raciocinio lógico e técnico. Aqui você vai desenvolver ainda mais suas habilidades em funções, arrays, condicionais, loops e objetos.
