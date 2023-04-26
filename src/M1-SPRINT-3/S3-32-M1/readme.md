@@ -1,4 +1,4 @@
-<h1>Atividade | Lista de Atividades - Funções: Praticando com funções</h1>
+<h1>Funções: Praticando com funções</h1>
 
 <h3>Introdução</h3>
 Nesta lista, você desenvolvera seus conhecimentos sobre funções. Aqui definiremos pequenas rotinas e funcionalidades.
