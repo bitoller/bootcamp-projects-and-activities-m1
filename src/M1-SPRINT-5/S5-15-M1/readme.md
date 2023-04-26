@@ -1,4 +1,4 @@
-<h1>Desafio - JavaScript : Caixa Eletrônico</h1>
+<h1>JavaScript : Caixa Eletrônico</h1>
 
 Nesta atividade vamos desenvolver as funcionalidades de um caixa eletrônico, a partir das informações de um cliente.
 
