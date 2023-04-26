@@ -1,4 +1,4 @@
-<h1>Lista de atividades: Manipulando objetos e arrays</h1>
+<h1>Manipulando objetos e arrays</h1>
 
 <h3>Importante</h3>
 Nestes exercícios nós pedimos que defina funções independentes. Na maior parte dos casos você deve passar o objeto e um segundo ou terceiro parâmetro.
