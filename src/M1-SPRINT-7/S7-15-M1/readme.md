@@ -1,4 +1,4 @@
-<h1>Entrega: Carrinho de Compras</h1>
+<h1>Carrinho de Compras</h1>
 
 <h3>Introdução</h3>
 Você possui uma lista de produtos e deseja treinar seus conhecimentos em DOM para criar uma página dinâmica com a seção de produtos e carrinho de compras. Para tornar seu conhecimento mais desafiador, decidiu que nada do resultado final poderá vir do HTML puro.
