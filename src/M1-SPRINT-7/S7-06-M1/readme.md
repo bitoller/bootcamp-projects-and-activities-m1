@@ -1,4 +1,4 @@
-<h1>Atividade - Lista de Tarefas</h1>
+<h1>Lista de Tarefas</h1>
 
 As tarefas domésticas estão cada dia mais difíceis de serem organizadas. Você então decidiu fazer uma aplicação para ter mais controle.
 
