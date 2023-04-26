@@ -1,4 +1,4 @@
-<h1>Atividade Algoritmos e Lógica - Lista de Exercícios</h1>
+<h1>Algoritmos e Lógica - Lista de Exercícios</h1>
 
 Para concluir os exercícios a seguir, você deverá fazer uso do prompt() e do alert() para receber os valores e exibir os resultados, respectivamente.
 
