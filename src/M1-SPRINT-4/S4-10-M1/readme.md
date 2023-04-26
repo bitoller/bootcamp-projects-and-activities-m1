@@ -1,4 +1,4 @@
-<h1>Entrega - Katas de JavaScript 1</h1>
+<h1>Katas de JavaScript 1</h1>
 
 <h3>Introdução</h3>
 Um kata é um exercício individual onde você pratica uma habilidade de programação repetidamente. Hoje você irá praticar o uso de loops, condicionais, e expressões JavaScript por uma série de katas.
