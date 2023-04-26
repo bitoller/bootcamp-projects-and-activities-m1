@@ -1,4 +1,4 @@
-<h1>Projeto - Projeto Front End.</h1>
+<h1>Projeto Front End</h1>
 
 <h3>Introdução</h3>
 Nesta entrega construiremos o layout de um e-commerce. Seguiremos um style guide, usaremos HTML e CSS. Vamos ao desafio?
