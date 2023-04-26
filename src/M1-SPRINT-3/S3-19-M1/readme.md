@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: Desafio portaria</h1>
+<h1>Portaria</h1>
 
 <h3>Desafio</h3>
 Esta atividade é um desafio, você deverá pensar em cada etapa da resolução.
