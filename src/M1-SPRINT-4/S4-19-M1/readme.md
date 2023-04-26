@@ -1,4 +1,4 @@
-<h1>Entrega - Javascript: SnapCrackle</h1>
+<h1>Javascript: SnapCrackle</h1>
 
 <h3>Introdução</h3>
 Nesta entrega você utilizará os conhecimentos que aprendeu até o momento sobre arrays, loops, condicionais e strings.
