@@ -1,4 +1,4 @@
-<h1>Desafio - JavaScript: Dados Escolares</h1>
+<h1>JavaScript: Dados Escolares</h1>
 
 Você foi contratado para desenvolver uma solução, para as consultas referente aos dados dos alunos.
 
