@@ -1,4 +1,4 @@
-<h1>Atividade - Praticando Objeto Evento</h1>
+<h1>Praticando Objeto Evento</h1>
 
 Crie um elemento com base no objeto produto.
 
