@@ -1,4 +1,4 @@
-<h1>Entrega - Javascript: Katas de JavaScript 2</h1>
+<h1>Javascript: Katas de JavaScript 2</h1>
 
 <h3>Introdução</h3>
 O objetivo desta entrega é reutilzar funções dentro de outras funções. Usaremos a palavra-chave return para obter o resultado dentro do escopo da função.
