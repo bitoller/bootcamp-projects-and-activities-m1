@@ -1,4 +1,4 @@
-<h1>Atividade: Lista de atividades lógica</h1>
+<h1>Lista de atividades lógica</h1>
 
 A lista a seguir tem como proposito incentivar seu raciocinio lógico e técnico.
 
