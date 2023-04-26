@@ -1,4 +1,4 @@
-<h1>Entrega: Praticando com variáveis</h1>
+<h1>Praticando com variáveis</h1>
 
 <h3>Exercício resolvido.</h3>
 Para te ajudar a começar a desenvolver suas resoluções, temos um exercício resolvido.
