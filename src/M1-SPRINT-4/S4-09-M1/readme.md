@@ -1,4 +1,4 @@
-<h1>Desafio | JavaScript - Acerte o número.</h1>
+<h1>JavaScript - Acerte o número.</h1>
 
 <h3>Introdução</h3>
 Você foi convidado para desenvolver uma aplicação que consiste em gerar um número aleatório e cada participante tentar adivinhar.
