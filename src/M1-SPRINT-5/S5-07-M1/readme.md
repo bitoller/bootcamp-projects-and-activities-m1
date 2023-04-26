@@ -1,4 +1,4 @@
-<h1>Atividade | Javascript: Barbearia Web</h1>
+<h1>Javascript: Barbearia Web</h1>
 
 <h3>Introdução</h3>
 Aqui vamos colocar em prática todo nosso conhecimento de manipulação de objetos por meio do uso de funções.
