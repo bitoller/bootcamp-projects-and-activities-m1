@@ -1,4 +1,4 @@
-<h1>Atividade- ClassList - Passo a passo</h1>
+<h1>ClassList</h1>
 
 Nesta atividade você irá treinar os conceitos vistos na aula anterior sobre classList
 
