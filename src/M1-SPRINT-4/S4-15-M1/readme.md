@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: Funções com Array - III</h1>
+<h1>JavaScript: Funções com Array - III</h1>
 
 <h3>Exercícios</h3>
 
