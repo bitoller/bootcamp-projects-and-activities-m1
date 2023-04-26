@@ -1,4 +1,4 @@
-<h1>Atividade | JavaScript: Lista de Objetos - II</h1>
+<h1>JavaScript: Lista de Objetos - II</h1>
 
 <h3>Contexto</h3>
 Seu chefe precisa de dados da concessionária e de algumas alterações cadastrais de seus veículos.
