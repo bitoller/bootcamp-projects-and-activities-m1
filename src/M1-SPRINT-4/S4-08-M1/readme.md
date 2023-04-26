@@ -1,4 +1,4 @@
-<h1>Atividade | JavaScript - Desenvolvendo a manipulação de loops</h1>
+<h1>JavaScript - Desenvolvendo a manipulação de loops</h1>
 
 <h3>Introdução</h3>
 
