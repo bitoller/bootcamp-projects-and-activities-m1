@@ -1,4 +1,4 @@
-<h1>Entrega - Javascript: Katas de JavaScript 4</h1>
+<h1>Javascript: Katas de JavaScript 4</h1>
 
 <h3>Introdução</h3>
 O objetivo desta entrega é aprofundar nosso conhecimento em manipulação de objetos por meio de funções.
