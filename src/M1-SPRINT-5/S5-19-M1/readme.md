@@ -1,4 +1,4 @@
-<h1>Entrega | Javascript: Katas de JavaScript 3</h1>
+<h1>Javascript: Katas de JavaScript 3</h1>
 
 <h3>Introdução</h3>
 Desenvolva as funções que estão sendo pedidas e retorne os resultados.
