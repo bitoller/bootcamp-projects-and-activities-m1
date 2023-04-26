@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: Lista de Array - I</h1>
+<h1>JavaScript: Lista de Array - I</h1>
 
 <h3>Exercícios</h3>
 
