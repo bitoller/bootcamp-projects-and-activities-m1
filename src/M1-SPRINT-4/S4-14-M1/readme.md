@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: Funções com Array - II</h1>
+<h1>JavaScript: Funções com Array - II</h1>
 
 <h3>Exercícios</h3>
 Todos exercícios a seguir são baseados na lista a seguir:
