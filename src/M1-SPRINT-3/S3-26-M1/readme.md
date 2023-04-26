@@ -1,4 +1,4 @@
-<h1>Desafio: Aprovado reprovado</h1>
+<h1>Aprovado reprovado</h1>
 
 Você foi contratado para desenvolver um algoritmo que consiga identificar se um aluno foi ou não aprovado.
 
