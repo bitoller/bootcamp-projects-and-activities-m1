@@ -1,4 +1,4 @@
-<h1>Atividade | JavaScript - Lista de Loop com For - |||</h1>
+<h1>JavaScript - Lista de Loop com For - |||</h1>
 
 <h3>Introdução</h3>
 Nesta lista de exercícios você desenvolverá suas habilidades usando os conceitos aprendidos sobre a estrutura de repetição for.
