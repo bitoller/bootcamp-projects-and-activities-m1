@@ -1,4 +1,4 @@
-<h1>Atividade - JavaScript: Lista de Loop com While</h1>
+<h1>JavaScript: Lista de Loop com While</h1>
 
 <h3>Introdução</h3>
 
