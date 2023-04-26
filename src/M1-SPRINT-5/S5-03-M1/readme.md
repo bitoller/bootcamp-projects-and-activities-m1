@@ -1,4 +1,4 @@
-<h1>Atividade - Arrays: Arrays aninhados</h1>
+<h1>Arrays: Arrays aninhados</h1>
 
 Nessa atividade vamos treinar nossos conhecimentos em Arrays aninhados.
 
