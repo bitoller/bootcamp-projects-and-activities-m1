@@ -1,4 +1,4 @@
-<h1>Desafio | JavaScript - Enigma</h1>
+<h1>JavaScript - Enigma</h1>
 
 <h3>Introdução</h3>
 Enigma
