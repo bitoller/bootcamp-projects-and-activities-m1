@@ -23,10 +23,10 @@ alert(`O valor ${fahrenheit2}ºF em Celsius é ${celsius2}`);
 
 //4
 
-let lenght = parseFloat(prompt("Qual é o comprimento da caixa em metros?"));
+let length = parseFloat(prompt("Qual é o comprimento da caixa em metros?"));
 let width = parseFloat(prompt("Qual é a largura da caixa em metros?"));
 let height = parseFloat(prompt("Qual é a altura da caixa em metros?"));
-let volume = lenght * width * height;
+let volume = length * width * height;
 alert(`O volume da caixa é de: ${volume}m³`);
 
 //5
